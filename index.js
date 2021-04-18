@@ -4,6 +4,7 @@ const puppeteer = require('puppeteer');
 const AdmZip = require('adm-zip');
 
 const projects = require("./projects")
+const configs = require("./configs")
 
 const config = {
   args: [],
@@ -23,14 +24,17 @@ const uploadImagesUrl = `${builderDomain}upload/images`;
 const downloadUrl = `${builderDomain}download/zip`;
 const builderUrl = `${builderDomain}`;
 
-const createProjectUlr = `${apiDomain}projects/create`
-const editProjectUlr = `${apiDomain}projects/edit`
-const removeProjectUlr = `${apiDomain}projects/remove`
-const listProjectsUlr = `${apiDomain}projects/list`
+const createProject = `${apiDomain}projects/create`
+const editProject = `${apiDomain}projects/edit`
+const removeProject = `${apiDomain}projects/remove`
+const listProjects = `${apiDomain}projects/list`
+
+const saveProjectConfig = `${apiDomain}projects/config/save`
+const fetchProjectConfig = `${apiDomain}projects/config/fetch`
 
 const getDir = (application) => `./node_modules/pagesandbox-${application}/dist/`
 
-function handleFileRequest({ request, application, url, domain, onError }) {
+function handleFileRequest({ application, url, domain, onError }) {
   const requestedFile = url.substring(domain.length) || 'index.html'
   const contentType = mime.getType(requestedFile)
 
@@ -73,21 +77,25 @@ function handleFileRequest({ request, application, url, domain, onError }) {
 
     const postData = request.postData()
 
-    if (url.startsWith(listProjectsUlr)) {
+    if (url.startsWith(listProjects)) {
+      // LIST
       data = await projects.list();
-
-    } else if (url.startsWith(editProjectUlr)) {
-
+    } else if (url.startsWith(editProject)) {
+      // EDIT
       data = await projects.edit(JSON.parse(postData));
-
-    } else if (url.startsWith(removeProjectUlr)) {
-
+    } else if (url.startsWith(removeProject)) {
+      // REMOVE
       data = await projects.remove(JSON.parse(postData));
-
-    } else if (url.startsWith(createProjectUlr)) {
-
+    } else if (url.startsWith(createProject)) {
+      // CREATE
       data = await projects.create(JSON.parse(postData));
-
+    } else if (url.startsWith(saveProjectConfig)) {
+      // SAVE CONFIG
+      data = await configs.save(JSON.parse(postData))
+    } else if (url.startsWith(fetchProjectConfig)) {
+      // FETCH CONFIG
+      const id = url.substring(fetchProjectConfig.length)
+      data = await configs.fetch({ id })
     } else if (url.startsWith(builderDomain)) {
 
       data = handleFileRequest({ url, request, application: "builder", domain: builderDomain, onError })
@@ -97,7 +105,7 @@ function handleFileRequest({ request, application, url, domain, onError }) {
       data = handleFileRequest({ url, request, application: "template", domain: templateDomain, onError })
 
     } else if (url.startsWith(downloadUrl)) {
-      
+
       const file = new AdmZip(`${getDir("builder")}dist.zip`);
 
     } else if (url.startsWith(uploadImagesUrl)) {
@@ -119,5 +127,4 @@ function handleFileRequest({ request, application, url, domain, onError }) {
 
   await page.goto(devDomain).catch(e => console.error(e));
 
-  // await browser.close();
 })();

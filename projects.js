@@ -11,7 +11,6 @@ const readFile = (filePath, encoding = 'utf-8') => {
     }
 }
 
-
 const create = async (payload) => {
     try {
         const id = uuidv4();
@@ -32,12 +31,14 @@ const create = async (payload) => {
 
     } catch (error) {
         console.error(error);
-        return JSON.stringify({
-            success: false,
-            error: error.message
-        })
-    }
 
+        return {
+            body: JSON.stringify({
+                success: false,
+                error: error.message
+            })
+        }
+    }
 }
 
 const edit = async (payload) => {
@@ -59,10 +60,13 @@ const edit = async (payload) => {
 
     } catch (error) {
         console.error(error);
-        return JSON.stringify({
-            success: false,
-            error: error.message
-        })
+
+        return {
+            body: JSON.stringify({
+                success: false,
+                error: error.message
+            })
+        }
     }
 }
 
