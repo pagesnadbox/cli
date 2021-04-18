@@ -34,7 +34,7 @@ const create = async (payload) => {
     } catch (error) {
         return JSON.stringify({
             success: false,
-            error
+            error: error.message
         })
     }
 
