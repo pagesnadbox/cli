@@ -2,7 +2,6 @@ const appConfig = require("./appConfig");
 const { v4: uuidv4 } = require("uuid");
 
 const fs = require("fs").promises;
-const { rmdir } = require("fs");
 
 const readFile = (filePath, encoding = 'utf-8') => {
     try {
@@ -32,6 +31,7 @@ const create = async (payload) => {
         }
 
     } catch (error) {
+        console.error(error);
         return JSON.stringify({
             success: false,
             error: error.message
@@ -58,6 +58,7 @@ const edit = async (payload) => {
         }
 
     } catch (error) {
+        console.error(error);
         return JSON.stringify({
             success: false,
             error: error.message
@@ -65,13 +66,19 @@ const edit = async (payload) => {
     }
 }
 
-const list = async (payload) => {
+const list = async () => {
     try {
         const projects = {};
 
         const content = await fs.readdir("./projects")
 
         for (const projectId of content) {
+            const pathStats = await fs.lstat(`./projects/${projectId}`)
+
+            if (!pathStats.isDirectory()) {
+                continue;
+            }
+
             if (!projects[projectId]) {
                 projects[projectId] = {}
             }
@@ -91,6 +98,7 @@ const list = async (payload) => {
         }
 
     } catch (error) {
+        console.error(error);
         return {
             body: JSON.stringify({
                 success: false,
@@ -115,6 +123,7 @@ const remove = async (payload) => {
         }
 
     } catch (error) {
+        console.error(error);
         return {
             body: JSON.stringify({
                 success: false,
