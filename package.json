@@ -1,0 +1,19 @@
+{
+  "name": "pagesandbox-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "mime": "^2.5.2",
+    "pagesandbox-builder": "^0.0.11",
+    "pagesandbox-template": "^0.0.2",
+    "puppeteer": "^8.0.0",
+    "uuid": "^8.3.2"
+  }
+}
