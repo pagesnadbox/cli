@@ -25,22 +25,17 @@ const save = async (payload) => {
         await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(config));
 
         return {
-            body: JSON.stringify({
-                id,
-                config,
-                success: true,
-            })
+            id,
+            config,
+            success: true,
         }
 
     } catch (error) {
         console.error(error);
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
-
     }
 }
 
@@ -52,22 +47,17 @@ const fetch = async (payload) => {
         config = JSON.parse(config);
 
         return {
-            body: JSON.stringify({
-                id,
-                config,
-                success: true,
-            })
+            id,
+            config,
+            success: true,
         }
 
     } catch (error) {
         console.error(error);
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
-
     }
 }
 

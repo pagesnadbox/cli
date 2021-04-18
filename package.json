@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start-sandbox": "node index.js",
+    "serve": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mime": "^2.5.2",
     "pagesandbox-builder": "^0.0.11",

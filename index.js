@@ -16,7 +16,7 @@ const config = {
 
 const devDomain = `http://localhost:8081/`;
 const builderDomain = `http://pagesandox_builder.dev/`;
-const apiDomain = `${devDomain}pagesandbox/api/v1/`;
+const apiDomain = `http://localhost:3000/pagesandbox/api/v1/`;
 
 const templateDomain = `http://localhost:8080/`;
 
@@ -80,22 +80,40 @@ function handleFileRequest({ application, url, domain, onError }) {
     if (url.startsWith(listProjects)) {
       // LIST
       data = await projects.list();
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(editProject)) {
       // EDIT
       data = await projects.edit(JSON.parse(postData));
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(removeProject)) {
       // REMOVE
       data = await projects.remove(JSON.parse(postData));
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(createProject)) {
       // CREATE
       data = await projects.create(JSON.parse(postData));
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(saveProjectConfig)) {
       // SAVE CONFIG
       data = await configs.save(JSON.parse(postData))
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(fetchProjectConfig)) {
       // FETCH CONFIG
       const id = url.substring(fetchProjectConfig.length)
       data = await configs.fetch({ id })
+      data = {
+        body: JSON.stringify(data)
+      }
     } else if (url.startsWith(builderDomain)) {
 
       data = handleFileRequest({ url, request, application: "builder", domain: builderDomain, onError })

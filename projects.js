@@ -23,20 +23,16 @@ const create = async (payload) => {
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 
         return {
-            body: JSON.stringify({
-                success: true,
-                ...project
-            })
+            success: true,
+            ...project
         }
 
     } catch (error) {
         console.error(error);
 
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
     }
 }
@@ -50,22 +46,18 @@ const edit = async (payload) => {
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify({ id, title, description }));
 
         return {
-            body: JSON.stringify({
-                id,
-                title,
-                description,
-                success: true,
-            })
+            id,
+            title,
+            description,
+            success: true,
         }
 
     } catch (error) {
         console.error(error);
 
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
     }
 }
@@ -95,19 +87,15 @@ const list = async () => {
         }
 
         return {
-            body: JSON.stringify({
-                success: true,
-                projects
-            })
+            success: true,
+            projects
         }
 
     } catch (error) {
         console.error(error);
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
     }
 }
@@ -120,19 +108,15 @@ const remove = async (payload) => {
         await fs.rmdir(dir, { recursive: true });
 
         return {
-            body: JSON.stringify({
-                success: true,
-                id
-            })
+            success: true,
+            id
         }
 
     } catch (error) {
         console.error(error);
         return {
-            body: JSON.stringify({
-                success: false,
-                error: error.message
-            })
+            success: false,
+            error: error.message
         }
     }
 }
