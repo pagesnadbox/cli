@@ -64,6 +64,8 @@ module.exports = {
                 },
             ],
         },
+        dark: true,
+        primary: "#42A5F6"
     },
 
     themeFeatures: {
@@ -118,7 +120,7 @@ module.exports = {
                     text: `Accessibility features are meant to make the use of technology less challenging for those with disabilities.`,
                 },
                 {
-                    color: 'primary',
+                    color: 'primary_pagesandbox',
                     dark: true,
                     title: 'Responsive Web Design',
                     componentName: 'BaseAvatarCard',
@@ -222,7 +224,7 @@ module.exports = {
                         blockOnMobile: true,
                         id: "submit",
                         text: 'subscribe',
-                        color: 'primary',
+                        color: 'primary_pagesandbox',
                         target: true,
                         size: 'x-large',
                     }
@@ -237,14 +239,14 @@ module.exports = {
                     text: 'Discover More',
                     depressed: true,
                     tile: true,
-                    color: 'primary',
+                    color: 'primary_pagesandbox',
                     target: true,
                     size: 'x-large',
                 },
                 secondary: {
                     id: "secondary",
                     tile: true,
-                    color: 'primary',
+                    color: 'primary_pagesandbox',
                     text: 'Get Started Now',
                     textOnly: true,
                     target: true,
@@ -417,7 +419,7 @@ module.exports = {
                 text: 'Discover More',
                 depressed: true,
                 tile: true,
-                color: 'primary',
+                color: 'primary_pagesandbox',
                 target: true,
             },
         },

@@ -5,7 +5,11 @@ const port = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors())
+app.use(cors({
+    origin: ["http://192.168.1.10:8080", "http://localhost:8081", "https://nocodevue.gitlab.io", "https://dobfrontend.gitlab.io"],
+    credentials: false
+})
+);
 
 const projects = require("./projects")
 const configs = require("./configs")
@@ -21,7 +25,6 @@ app.post(`${apiUrl}/projects/create`, async (req, res) => {
 })
 
 app.post(`${apiUrl}/projects/edit`, async (req, res) => {
-    console.log(req.body)
     const data = await projects.edit(req.body);
 
     res.send(data);
@@ -49,7 +52,6 @@ app.post(`${apiUrl}/projects/config/save`, async (req, res) => {
 
 app.get(`${apiUrl}/projects/config/fetch/:id`, async (req, res) => {
     const data = await configs.fetch({ id: req.params.id })
-    console.error(data)
 
     res.send(data);
 })
