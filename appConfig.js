@@ -1,17 +1,24 @@
 module.exports = {
     app: {
+        componentName: "BaseApp",
+        id: "app",
         bar: {
+            componentName: "BaseAppBar",
+            id: "app-bar",
             hideOnScroll: true,
             visible: true,
             height: '80',
             dark: false,
             logo: {
+                componentName: "BaseImage",
+                id: "app-bar-logo",
                 mobileHeight: '50',
                 height: '50',
                 maxWidth: "50",
                 src: '/assets/pagesandbox_logo.png',
             },
             heading: {
+                componentName: "BaseHeading",
                 size: "text-h6",
                 mobileSize: "text-h6",
                 weight: "medium",
@@ -21,6 +28,7 @@ module.exports = {
             }
         },
         footer: {
+            id: "app-footer",
             visible: true,
         },
         list: {
@@ -69,9 +77,13 @@ module.exports = {
     },
 
     themeFeatures: {
+        id: "themeFeatures",
+        componentName: "BaseSection",
         color: '#00000000',
         space: '100',
         heading: {
+            componentName: "BaseHeading",
+            id: "themeFeatures-heading",
             space: "0",
             outlined: true,
             title: 'What it offers',
@@ -81,6 +93,7 @@ module.exports = {
             editableProps: false,
         },
         list: {
+            componentName: "BaseList",
             cols: '1',
             md: '2',
             id: 'themeFeatures-list',
@@ -157,6 +170,8 @@ module.exports = {
     },
 
     hero: {
+        componentName: "BaseHero",
+        id: "hero",
         aggregations: [
             "img", "heroContainer"
         ],
@@ -213,14 +228,17 @@ module.exports = {
                 emailFormAction: false,
                 linkAction: false,
                 emailForm: {
+                    componentName: "BaseEmailForm",
                     id: "emailForm",
                     input: {
+                        componentName: "BaseInput",
                         id: "input",
                         solo: true,
                         name: "email",
                         minWidth: "400",
                     },
                     submit: {
+                        componentName: "BaseBtn",
                         blockOnMobile: true,
                         id: "submit",
                         text: 'subscribe',
@@ -230,11 +248,13 @@ module.exports = {
                     }
                 },
                 link: {
+                    componentName: "BaseLink",
                     href: 'https://vuetifyjs.com',
                     openInNewTab: true,
                     id: 'link',
                 },
                 main: {
+                    componentName: "BaseBtn",
                     id: "main",
                     text: 'Discover More',
                     depressed: true,
@@ -244,6 +264,7 @@ module.exports = {
                     size: 'x-large',
                 },
                 secondary: {
+                    componentName: "BaseBtn",
                     id: "secondary",
                     tile: true,
                     color: 'primary_pagesandbox',
@@ -264,9 +285,11 @@ module.exports = {
 
     features: {
         color: '#050B1F',
+        componentName: "BaseSection",
         space: '100',
         dark: true,
         heading: {
+            componentName: "BaseSectionHeading",
             space: "4",
             outlined: true,
             color: '#00000000',
@@ -277,6 +300,7 @@ module.exports = {
             editableProps: false,
         },
         list: {
+            componentName: "BaseList",
             id: "features-list",
             cols: '1',
             md: '4',
@@ -323,15 +347,18 @@ module.exports = {
     },
 
     affiliates: {
+        componentName: "BaseSection",
         color: '#00000000',
         space: '50',
         heading: {
+            componentName: "BaseSectionHeading",
             space: "4",
             title: "Who's using Zero?",
             editableProps: false,
             color: '#00000000',
         },
         list: {
+            componentName: "BaseList",
             id: "affiliates-list",
             editable: true,
             items: [
@@ -383,10 +410,12 @@ module.exports = {
     },
 
     social: {
+        componentName: "BaseSection",
         color: '#204165',
         space: '50',
         dark: true,
         heading: {
+            componentName: "BaseSectionHeading",
             space: "4",
             editableProps: false,
             color: '#00000000',
@@ -395,17 +424,20 @@ module.exports = {
             text: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.`,
         },
         actions: {
+            componentName: "BaseActions",
             id: "social-actions",
             mainAction: true,
             secondaryAction: false,
             horizontal: false,
             linkAction: true,
             link: {
+                componentName: "BaseLink",
                 href: 'https://vuetifyjs.com',
                 openInNewTab: true,
                 id: 'social-actions-link',
             },
             main: {
+                componentName: "BaseBtn",
                 color: "primary",
                 id: "main",
                 text: 'Follow Us',
@@ -415,6 +447,7 @@ module.exports = {
                 minWidth: '168',
             },
             secondary: {
+                componentName: "BaseBtn",
                 id: "secondary",
                 text: 'Discover More',
                 depressed: true,
@@ -425,6 +458,7 @@ module.exports = {
         },
 
         list: {
+            componentName: "BaseSlideList",
             editable: true,
             id: "social-list",
             items: [
@@ -464,6 +498,7 @@ module.exports = {
 
     footer: {
         body: {
+            componentName: "BaseBody",
             html: 'Copyright &copy; 2021 Launch Page, LLC',
         },
     },
