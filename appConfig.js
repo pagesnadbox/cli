@@ -10,7 +10,7 @@ module.exports = {
             height: '80',
             dark: false,
             logo: {
-                componentName: "BaseImage",
+                componentName: "BaseVuetifyImg",
                 id: "app-bar-logo",
                 mobileHeight: '50',
                 height: '50',
@@ -189,13 +189,7 @@ module.exports = {
             id: "hero-heroContainer",
             cols: "1",
             md: "1",
-            aggregations: ['img', 'subheading', 'heading', 'body', 'actions'],
-            img: {
-                id: 'hero-heroContainer-img',
-                height: '',
-                componentName: "BaseImage",
-                src: '/assets/office_bg.jpg',
-            },
+            aggregations: ['subheading', 'heading', 'body', 'actions'],
             subheading: {
                 id: 'hero-heroContainer-subheading',
                 componentName: "BaseTitle",
