@@ -1,18 +1,22 @@
 const cors = require('cors');
 const express = require('express');
+const logger = require("morgan");
+
 const app = express();
 const port = 3000;
 
+app.use(logger("dev"));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     origin: ["http://192.168.1.10:8080", "http://localhost:8081", "https://nocodevue.gitlab.io", "https://dobfrontend.gitlab.io"],
     credentials: false
 })
 );
 
-const projects = require("./projects")
-const configs = require("./configs")
+const projects = require("./models/projects/projects")
+const configs = require("./models/configs/configs")
+const images = require("./models/images/images")
 
 const apiUrl = '/pagesandbox/api/v1'
 
@@ -52,6 +56,14 @@ app.post(`${apiUrl}/projects/config/save`, async (req, res) => {
 
 app.get(`${apiUrl}/projects/config/fetch/:id`, async (req, res) => {
     const data = await configs.fetch({ id: req.params.id })
+
+    res.send(data);
+})
+
+// images
+
+app.post(`${apiUrl}/projects/:id/images/`, async (req, res) => {
+    const data = await images.upload({ id: req.params.id, files: req.files })
 
     res.send(data);
 })

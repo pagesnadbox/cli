@@ -1,20 +1,18 @@
-const appConfig = require("./appConfig");
+const fs = require("fs").promises;
 const { v4: uuidv4 } = require("uuid");
 
-const fs = require("fs").promises;
+const appConfig = require("../../appConfig");
+const { readFile, getProjectDir: getDir } = require("../utils");
 
-const readFile = (filePath, encoding = 'utf-8') => {
-    try {
-        return fs.readFile(filePath, encoding);
-    } catch (error) {
-        console.error(`Got an error trying to read the file: ${error.message}`);
-    }
-}
-
+/**
+ * 
+ * @param {*} payload 
+ * @returns 
+ */
 const create = async (payload) => {
     try {
         const id = uuidv4();
-        const dir = `projects/${id}`
+        const dir = getDir(id);
 
         const project = { ...payload, id }
 
@@ -37,11 +35,16 @@ const create = async (payload) => {
     }
 }
 
+/**
+ * 
+ * @param {*} payload 
+ * @returns 
+ */
 const edit = async (payload) => {
     try {
         const { id, title, description } = payload;
 
-        const dir = `projects/${id}`
+        const dir = getDir(id);
 
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify({ id, title, description }));
 
@@ -62,14 +65,20 @@ const edit = async (payload) => {
     }
 }
 
+/**
+ * 
+ * @returns 
+ */
 const list = async () => {
     try {
         const projects = {};
 
-        const content = await fs.readdir("./projects")
+        const content = await fs.readdir(getDir());
 
         for (const projectId of content) {
-            const pathStats = await fs.lstat(`./projects/${projectId}`)
+            const dir = getDir(projectId);
+
+            const pathStats = await fs.lstat(dir)
 
             if (!pathStats.isDirectory()) {
                 continue;
@@ -79,10 +88,11 @@ const list = async () => {
                 projects[projectId] = {}
             }
 
-            const projectConfig = await readFile(`./projects/${projectId}/projectConfig.json`);
+            const projectConfig = await readFile(`${dir}/projectConfig.json`);
+            console.error(dir)
             projects[projectId].projectConfig = JSON.parse(projectConfig);
 
-            const appConfig = await readFile(`./projects/${projectId}/appConfig.json`);
+            const appConfig = await readFile(`${dir}/appConfig.json`);
             projects[projectId].appConfig = JSON.parse(appConfig);
         }
 
@@ -100,11 +110,16 @@ const list = async () => {
     }
 }
 
+/**
+ * 
+ * @param {*} payload 
+ * @returns 
+ */
 const remove = async (payload) => {
     try {
         const { id } = payload;
 
-        const dir = `projects/${id}`
+        const dir = getDir(id);
         await fs.rmdir(dir, { recursive: true });
 
         return {

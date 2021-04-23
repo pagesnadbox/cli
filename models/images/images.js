@@ -1,32 +1,37 @@
 const fs = require("fs").promises
 
-const readFile = (filePath, encoding = 'utf-8') => {
-    try {
-        return fs.readFile(filePath, encoding);
-    } catch (error) {
-        console.error(`Got an error trying to read the file: ${error.message}`);
-    }
-}
+const { readFile } = require("../utils");
+const ImageService = require("./multer")
 
-const save = async (payload) => {
+/**
+ * 
+ * @param {*} payload 
+ * @returns 
+ */
+const upload = async (payload) => {
     try {
-        const { id, config } = payload;
+        const { id, files } = payload;
 
         if (!id) {
             throw new Error("parameter id is required")
         }
 
-        if (!config) {
-            throw new Error("parameter config is required")
+        if (!files || (files && !files.length)) {
+            throw new Error("parameter files is required and should not be empty")
         }
 
-        const dir = `projects/${id}`
+        const dir = `projects/${id}/images`
 
-        await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(config));
+        await ImageService.upload({
+            dir,
+            files
+        }, (error) => {
+            throw new Error(error.message)
+        });
 
         return {
-            id,
-            config,
+            dir,
+            files,
             success: true,
         }
 
@@ -39,6 +44,11 @@ const save = async (payload) => {
     }
 }
 
+/**
+ * 
+ * @param {*} payload 
+ * @returns 
+ */
 const fetch = async (payload) => {
     try {
         const { id } = payload;
@@ -62,6 +72,6 @@ const fetch = async (payload) => {
 }
 
 module.exports = {
-    save,
+    upload,
     fetch,
 }
