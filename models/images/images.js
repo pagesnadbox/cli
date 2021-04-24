@@ -1,4 +1,3 @@
-const fs = require("fs").promises
 
 const { readFile } = require("../utils");
 const ImageService = require("./multer")

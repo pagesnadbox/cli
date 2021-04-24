@@ -4,6 +4,28 @@ const { v4: uuidv4 } = require("uuid");
 const appConfig = require("../../appConfig");
 const { readFile, getProjectDir: getDir } = require("../utils");
 
+const getProject = async (id) => {
+    if (!id) {
+        throw new Error("parameter id is required")
+    }
+
+    const dir = getDir(id);
+
+    let projectConfig = await readFile(`${dir}/projectConfig.json`);
+
+    return JSON.parse(projectConfig)
+}
+
+const setProject = async (project) => {
+    if (!project.id) {
+        throw new Error("parameter id is required")
+    }
+
+    const dir = getDir(project.id);
+
+    await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
+}
+
 /**
  * 
  * @param {*} payload 
@@ -13,7 +35,8 @@ const create = async (payload) => {
     try {
         const id = uuidv4();
         const dir = getDir(id);
-        const project = { ...payload, id }
+
+        const project = { ...payload, id, images: [] }
 
         await fs.mkdir(dir);
         await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
@@ -34,22 +57,73 @@ const create = async (payload) => {
     }
 }
 
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
 const edit = async (payload) => {
     try {
-        const { id, title, description } = payload;
-        const dir = getDir(id);
+        let project = await getProject(payload.id);
 
-        await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify({ id, title, description }));
+        project = {
+            ...project,
+            ...payload
+        };
+
+        await setProject(project);
 
         return {
-            id,
-            title,
-            description,
+            ...project,
+            success: true,
+        }
+
+    } catch (error) {
+        console.error(error);
+
+        return {
+            success: false,
+            error: error.message
+        }
+    }
+}
+
+const getSingle = async (payload) => {
+    try {
+        let project = await getProject(payload.id);
+
+        return {
+            ...project,
+            success: true,
+        }
+
+    } catch (error) {
+        console.error(error);
+
+        return {
+            success: false,
+            error: error.message
+        }
+    }
+}
+
+const addImages = async ({ id, images = [] }) => {
+    try {
+        if (!images.length) {
+            throw new Error("please provide images");
+        }
+
+        let project = await getProject(id);
+        const currentImages = project.images || [];
+
+        images = images.filter(image => {
+            return currentImages.findIndex(i => i.fileName === image.fileName) === -1
+        })
+
+        project = {
+            ...project,
+            images: [...currentImages, ...images]
+        };
+
+        await setProject(project);
+
+        return {
+            ...project,
             success: true,
         }
 
@@ -135,8 +209,11 @@ const remove = async (payload) => {
 }
 
 module.exports = {
+    getSingle,
     create,
     edit,
     list,
-    remove
+    remove,
+    // images
+    addImages
 }

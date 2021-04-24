@@ -5,6 +5,7 @@ const logger = require("morgan");
 const app = express();
 const port = 3000;
 
+app.use(express.static("./projects"));
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -46,6 +47,12 @@ app.get(`${apiUrl}/projects/list`, async (req, res) => {
     res.send(data);
 })
 
+app.get(`${apiUrl}/projects/:id`, async (req, res) => {
+    const data = await projects.getSingle({ id: req.params.id });
+
+    res.send(data);
+})
+
 // configs
 
 app.post(`${apiUrl}/projects/config/save`, async (req, res) => {
@@ -63,9 +70,26 @@ app.get(`${apiUrl}/projects/config/fetch/:id`, async (req, res) => {
 // images
 
 app.post(`${apiUrl}/projects/:id/images/`, async (req, res) => {
-    const data = await images.upload({ id: req.params.id, files: req.files }, req, res)
+    const id = req.params.id;
+    const imagesResult = await images.upload({ id }, req, res)
 
-    res.send(data);
+    const files = imagesResult.files.map(file => {
+        return {
+            fileName: file.filename
+        };
+    });
+
+    const project = await projects.addImages({ id, images: files });
+
+    res.send(project);
+})
+
+app.delete(`${apiUrl}/projects/:id/images/clear`, async (req, res) => {
+    const id = req.params.id;
+
+    const project = await projects.edit({ id, images: [] });
+
+    res.send(project);
 })
 
 app.listen(port, () => {
