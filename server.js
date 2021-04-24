@@ -9,7 +9,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: ["http://192.168.1.10:8080", "http://localhost:8081", "https://nocodevue.gitlab.io", "https://dobfrontend.gitlab.io"],
+    origin: ["http://192.168.1.4:8081", "http://localhost:8081", "https://nocodevue.gitlab.io", "https://dobfrontend.gitlab.io"],
     credentials: false
 })
 );
@@ -63,7 +63,7 @@ app.get(`${apiUrl}/projects/config/fetch/:id`, async (req, res) => {
 // images
 
 app.post(`${apiUrl}/projects/:id/images/`, async (req, res) => {
-    const data = await images.upload({ id: req.params.id, files: req.files })
+    const data = await images.upload({ id: req.params.id, files: req.files }, req, res)
 
     res.send(data);
 })

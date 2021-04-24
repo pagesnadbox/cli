@@ -1,4 +1,8 @@
 const multer = require("multer");
+const fs = require("fs");
+const path = require("path");
+
+const { getProjectDir: getDir } = require("../utils");
 
 /**
  * Check File Type
@@ -24,13 +28,18 @@ function checkFileType(file, cb) {
 // Set The Storage Engine
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        var dir = `./public/uploads/${req.__file_id}/`;
+        try {
+            var dir = `${getDir(req.params.id)}/images`
 
-        if (!fs.existsSync(dir)) {
-            fs.mkdirSync(dir);
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir);
+            }
+    
+            cb(null, dir);
+        } catch (error) {
+            cb(error);
         }
 
-        cb(null, dir);
     },
     filename: function (req, file, cb) {
         console.error(file)
@@ -39,13 +48,29 @@ const storage = multer.diskStorage({
 });
 
 // Init Upload
-const upload = multer({
+const multerUpload = multer({
     storage: storage,
     limits: { fileSize: 1000000 },
     fileFilter: function (req, file, cb) {
         checkFileType(file, cb);
     },
 }).array("files", 10);
+
+const upload = (req, res, next) => {
+    return new Promise((resolve, reject) => {
+        multerUpload(req, res, (err) => {
+            if (err) {
+                reject(err)
+            } else if (!req.files || (req.files && !req.files.length)) {
+                reject(new Error("parameter files is required"))
+            } else {
+                resolve({
+                    files: req.files
+                })
+            }
+        })
+    })
+}
 
 module.exports = {
     upload

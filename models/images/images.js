@@ -8,30 +8,18 @@ const ImageService = require("./multer")
  * @param {*} payload 
  * @returns 
  */
-const upload = async (payload) => {
+const upload = async (payload, req, res, next) => {
     try {
-        const { id, files } = payload;
+        const { id } = payload;
 
         if (!id) {
             throw new Error("parameter id is required")
         }
 
-        if (!files || (files && !files.length)) {
-            throw new Error("parameter files is required and should not be empty")
-        }
-
-        const dir = `projects/${id}/images`
-
-        await ImageService.upload({
-            dir,
-            files
-        }, (error) => {
-            throw new Error(error.message)
-        });
+        const result = await ImageService.upload(req, res);
 
         return {
-            dir,
-            files,
+            ...result,
             success: true,
         }
 

@@ -46,7 +46,6 @@ const save = async (payload) => {
 const fetch = async (payload) => {
     try {
         const { id } = payload;
-
         const dir = getDir(id)
 
         let config = await readFile(`${dir}/appConfig.json`);

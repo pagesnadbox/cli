@@ -13,7 +13,6 @@ const create = async (payload) => {
     try {
         const id = uuidv4();
         const dir = getDir(id);
-
         const project = { ...payload, id }
 
         await fs.mkdir(dir);
@@ -43,7 +42,6 @@ const create = async (payload) => {
 const edit = async (payload) => {
     try {
         const { id, title, description } = payload;
-
         const dir = getDir(id);
 
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify({ id, title, description }));
