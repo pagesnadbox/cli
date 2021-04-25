@@ -178,7 +178,6 @@ module.exports = {
         height: '',
         src: '/assets/office_bg.jpg',
         srcDark: '/assets/office_bg.jpg',
-        color: "",
         heroContainer: {
             dark: true,
             align: 'left',
@@ -283,8 +282,6 @@ module.exports = {
         heading: {
             componentName: "BaseSectionHeading",
             space: "4",
-            outlined: true,
-            color: '#00000000',
             title: 'How it works',
             // subtitle: `Just hold the "E" key (or use the gear on top left)`,
             align: 'center',
@@ -340,14 +337,12 @@ module.exports = {
 
     affiliates: {
         componentName: "BaseSection",
-        color: '#00000000',
         space: '50',
         heading: {
             componentName: "BaseSectionHeading",
             space: "4",
             title: "Who's using Zero?",
             editableProps: false,
-            color: '#00000000',
         },
         list: {
             componentName: "BaseList",
@@ -410,7 +405,6 @@ module.exports = {
             componentName: "BaseSectionHeading",
             space: "4",
             editableProps: false,
-            color: '#00000000',
             align: 'center',
             title: 'Social Media',
             text: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.`,
