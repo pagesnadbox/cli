@@ -79,13 +79,11 @@ module.exports = {
     themeFeatures: {
         id: "themeFeatures",
         componentName: "BaseSection",
-        color: '#00000000',
         space: '100',
         heading: {
             componentName: "BaseHeading",
             id: "themeFeatures-heading",
             space: "0",
-            outlined: true,
             title: 'What it offers',
             subtitle: `Theme Features or`,
             align: 'center',
