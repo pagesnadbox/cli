@@ -98,6 +98,7 @@ module.exports = {
             editable: true,
             items: [
                 {
+                    iconDark: false,
                     title: `It's free`,
                     componentName: 'BaseAvatarCard',
                     outlined: true,
@@ -132,7 +133,6 @@ module.exports = {
                 },
                 {
                     color: 'primary_pagesandbox',
-                    dark: true,
                     title: 'Responsive Web Design',
                     componentName: 'BaseAvatarCard',
                     outlined: true,
