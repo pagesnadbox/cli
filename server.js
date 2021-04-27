@@ -5,6 +5,11 @@ const logger = require("morgan");
 const app = express();
 const port = 3000;
 
+
+app.use('/', express.static(__dirname + '/node_modules/pagesandbox-builder/dist/'));
+app.use('/projects/:id', express.static(__dirname + '/node_modules/pagesandbox-builder/dist/'));
+app.use('/template', express.static(__dirname + '/node_modules/pagesandbox-template/dist/'));
+
 app.use(express.static("./projects"));
 app.use(logger("dev"));
 app.use(express.json());
