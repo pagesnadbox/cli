@@ -15,6 +15,17 @@
             "program": "${workspaceFolder}/index.js"
         },
 
+        
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Build Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/build.js"
+        },
+
         {
             "type": "pwa-node",
             "request": "launch",

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const cors = require('cors');
 const express = require('express');
 const logger = require("morgan");
@@ -93,6 +95,16 @@ app.delete(`${apiUrl}/projects/:id/images/clear`, async (req, res) => {
     const id = req.params.id;
 
     const project = await projects.edit({ id, images: [] });
+
+    res.send(project);
+})
+
+// build
+
+app.post(`${apiUrl}/projects/:id/build`, async (req, res) => {
+    const id = req.params.id;
+
+    const project = await projects.build({ id });
 
     res.send(project);
 })

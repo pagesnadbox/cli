@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require("uuid");
 
 const appConfig = require("../../appConfig");
 const { readFile, getProjectDir: getDir } = require("../utils");
+const { build: buildProject } = require("../../build");
 
 const getProject = async (id) => {
     if (!id) {
@@ -39,6 +40,7 @@ const create = async (payload) => {
         const project = { ...payload, id, images: [] }
 
         await fs.mkdir(dir);
+        await fs.mkdir(`${dir}/images`);
         await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 
@@ -208,6 +210,27 @@ const remove = async (payload) => {
     }
 }
 
+
+const build = async () => {
+    try {
+        const { id } = payload;
+
+        await buildProject({ id });
+
+        return {
+            success: true,
+            id
+        }
+
+    } catch (error) {
+        console.error(error);
+        return {
+            success: false,
+            error: error.message
+        }
+    }
+}
+
 module.exports = {
     getSingle,
     create,
@@ -215,5 +238,7 @@ module.exports = {
     list,
     remove,
     // images
-    addImages
+    addImages,
+    //
+    build
 }

@@ -1,6 +1,6 @@
 {
   "name": "pagesandbox-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "serve": "server.js"
+    "pagesandbox-serve": "server.js",
+    "pagesandbox-build": "build.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,11 +18,12 @@
     "adm-zip": "^0.5.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "fs-extra": "^9.1.0",
     "mime": "^2.5.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
-    "pagesandbox-builder": "^0.0.18",
-    "pagesandbox-template": "^0.0.5",
+    "pagesandbox-builder": "^0.0.19",
+    "pagesandbox-template": "^0.0.7",
     "puppeteer": "^8.0.0",
     "uuid": "^8.3.2"
   }
