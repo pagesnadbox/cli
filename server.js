@@ -7,11 +7,11 @@ const logger = require("morgan");
 const app = express();
 const port = 3000;
 
-console.log(__dirname)
+console.log(process.cwd())
 
-app.use('/', express.static(__dirname + '/node_modules/pagesandbox-builder/dist/'));
-app.use('/project', express.static(__dirname + '/node_modules/pagesandbox-builder/dist/'));
-app.use('/template', express.static(__dirname + '/node_modules/pagesandbox-template/dist/'));
+app.use('/', express.static(process.cwd() + '/node_modules/pagesandbox-builder/dist/'));
+app.use('/project', express.static(process.cwd() + '/node_modules/pagesandbox-builder/dist/'));
+app.use('/template', express.static(process.cwd() + '/node_modules/pagesandbox-template/dist/'));
 
 app.use(express.static("./project"));
 app.use(logger("dev"));
