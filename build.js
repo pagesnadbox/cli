@@ -11,7 +11,7 @@ const path = require('path')
 const { readFile, writeFile, getProjectDir: getDir } = require('./models/utils')
 
 const copyDist = async (dir) => {
-    const templateDir = path.resolve(__dirname, "node_modules/pagesandbox-template/dist");
+    const templateDir = path.resolve(process.cwd(), "node_modules/pagesandbox-template/dist");
     await fse.copy(templateDir, `${dir}/dist`);
 }
 
