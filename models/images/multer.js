@@ -29,7 +29,7 @@ function checkFileType(file, cb) {
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         try {
-            var dir = `${getDir(req.params.id)}/images`
+            var dir = `${getDir()}/images`
 
             if (!fs.existsSync(dir)) {
                 fs.mkdirSync(dir);

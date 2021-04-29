@@ -1,16 +1,11 @@
 const fs = require("fs").promises;
-const { v4: uuidv4 } = require("uuid");
 
 const appConfig = require("../../appConfig");
 const { readFile, getProjectDir: getDir } = require("../utils");
 const { build: buildProject } = require("../../build");
 
-const getProject = async (id) => {
-    if (!id) {
-        throw new Error("parameter id is required")
-    }
-
-    const dir = getDir(id);
+const getProject = async () => {
+    const dir = getDir();
 
     let projectConfig = await readFile(`${dir}/projectConfig.json`);
 
@@ -18,11 +13,7 @@ const getProject = async (id) => {
 }
 
 const setProject = async (project) => {
-    if (!project.id) {
-        throw new Error("parameter id is required")
-    }
-
-    const dir = getDir(project.id);
+    const dir = getDir();
 
     await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 }
@@ -34,12 +25,16 @@ const setProject = async (project) => {
  */
 const create = async (payload) => {
     try {
-        const id = uuidv4();
-        const dir = getDir(id);
+        const dir = getDir();
 
-        const project = { ...payload, id, images: [] }
+        const project = { ...payload, images: [] }
 
-        await fs.mkdir(dir);
+        try {
+            await fs.access(dir)
+        } catch (error) {
+            await fs.mkdir(dir);
+        }
+
         await fs.mkdir(`${dir}/images`);
         await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
         await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
@@ -61,7 +56,7 @@ const create = async (payload) => {
 
 const edit = async (payload) => {
     try {
-        let project = await getProject(payload.id);
+        let project = await getProject();
 
         project = {
             ...project,
@@ -85,9 +80,9 @@ const edit = async (payload) => {
     }
 }
 
-const getSingle = async (payload) => {
+const getSingle = async () => {
     try {
-        let project = await getProject(payload.id);
+        let project = await getProject();
 
         return {
             ...project,
@@ -104,13 +99,13 @@ const getSingle = async (payload) => {
     }
 }
 
-const addImages = async ({ id, images = [] }) => {
+const addImages = async ({ images = [] }) => {
     try {
         if (!images.length) {
             throw new Error("please provide images");
         }
 
-        let project = await getProject(id);
+        let project = await getProject();
         const currentImages = project.images || [];
 
         images = images.filter(image => {
@@ -139,66 +134,13 @@ const addImages = async ({ id, images = [] }) => {
     }
 }
 
-/**
- * 
- * @returns 
- */
-const list = async () => {
+const remove = async () => {
     try {
-        const projects = {};
-
-        const content = await fs.readdir(getDir());
-
-        for (const projectId of content) {
-            const dir = getDir(projectId);
-
-            const pathStats = await fs.lstat(dir)
-
-            if (!pathStats.isDirectory()) {
-                continue;
-            }
-
-            if (!projects[projectId]) {
-                projects[projectId] = {}
-            }
-
-            const projectConfig = await readFile(`${dir}/projectConfig.json`);
-            console.error(dir)
-            projects[projectId].projectConfig = JSON.parse(projectConfig);
-
-            const appConfig = await readFile(`${dir}/appConfig.json`);
-            projects[projectId].appConfig = JSON.parse(appConfig);
-        }
-
-        return {
-            success: true,
-            projects
-        }
-
-    } catch (error) {
-        console.error(error);
-        return {
-            success: false,
-            error: error.message
-        }
-    }
-}
-
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
-const remove = async (payload) => {
-    try {
-        const { id } = payload;
-
-        const dir = getDir(id);
+        const dir = getDir();
         await fs.rmdir(dir, { recursive: true });
 
         return {
             success: true,
-            id
         }
 
     } catch (error) {
@@ -210,16 +152,12 @@ const remove = async (payload) => {
     }
 }
 
-
 const build = async () => {
     try {
-        const { id } = payload;
-
-        await buildProject({ id });
+        await buildProject();
 
         return {
             success: true,
-            id
         }
 
     } catch (error) {
@@ -235,7 +173,6 @@ module.exports = {
     getSingle,
     create,
     edit,
-    list,
     remove,
     // images
     addImages,

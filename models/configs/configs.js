@@ -2,29 +2,19 @@ const fs = require("fs").promises
 
 const { readFile, getProjectDir: getDir } = require("../utils");
 
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
 const save = async (payload) => {
     try {
-        const { id, config } = payload;
-
-        if (!id) {
-            throw new Error("parameter id is required");
-        }
+        const { config } = payload;
 
         if (!config) {
             throw new Error("parameter config is required");
         }
 
-        const dir = getDir(id);
+        const dir = getDir();
 
         await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(config));
 
         return {
-            id,
             config,
             success: true,
         }
@@ -38,21 +28,14 @@ const save = async (payload) => {
     }
 }
 
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
-const fetch = async (payload) => {
+const fetch = async () => {
     try {
-        const { id } = payload;
-        const dir = getDir(id)
+        const dir = getDir()
 
         let config = await readFile(`${dir}/appConfig.json`);
         config = JSON.parse(config);
 
         return {
-            id,
             config,
             success: true,
         }

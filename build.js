@@ -49,8 +49,6 @@ const build = async (projectId) => {
     }
 }
 
-build("63385201-a91c-480d-8847-43f94a557634")
-
 module.exports = {
     build
 }

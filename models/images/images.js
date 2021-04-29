@@ -1,20 +1,9 @@
 
-const { readFile } = require("../utils");
+const { readFile, getProjectDir: getDir } = require("../utils");
 const ImageService = require("./multer")
 
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
-const upload = async (payload, req, res, next) => {
+const upload = async (req, res) => {
     try {
-        const { id } = payload;
-
-        if (!id) {
-            throw new Error("parameter id is required")
-        }
-
         const result = await ImageService.upload(req, res);
 
         return {
@@ -31,20 +20,14 @@ const upload = async (payload, req, res, next) => {
     }
 }
 
-/**
- * 
- * @param {*} payload 
- * @returns 
- */
-const fetch = async (payload) => {
+const fetch = async () => {
     try {
-        const { id } = payload;
+        const dir = getDir();
 
-        let config = await readFile(`./projects/${id}/appConfig.json`);
+        let config = await readFile(`${dir}/appConfig.json`);
         config = JSON.parse(config);
 
         return {
-            id,
             config,
             success: true,
         }

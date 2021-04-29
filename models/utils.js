@@ -28,14 +28,9 @@ const writeFile = (path, content) => {
     }
 }
 
-/**
- * 
- * @param {*} id 
- * @returns 
- */
-const getProjectDir = (id = '') => {
+const getProjectDir = () => {
     console.log(process.cwd())
-    return path.resolve(process.cwd(), `projects/${id}`)
+    return path.resolve(process.cwd(), `project`)
 }
 
 module.exports = {
