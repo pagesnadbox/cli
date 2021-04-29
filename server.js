@@ -86,8 +86,6 @@ app.post(`${apiUrl}/project/images/`, async (req, res) => {
 })
 
 app.delete(`${apiUrl}/project/images/clear`, async (req, res) => {
-
-
     const project = await projects.edit({ images: [] });
 
     res.send(project);

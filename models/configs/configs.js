@@ -1,6 +1,4 @@
-const fs = require("fs").promises
-
-const { readFile, getProjectDir: getDir } = require("../utils");
+const { writeFile, readFile, getProjectDir: getDir } = require("../utils");
 
 const save = async (payload) => {
     try {
@@ -12,7 +10,7 @@ const save = async (payload) => {
 
         const dir = getDir();
 
-        await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(config));
+        await writeFile(`${dir}/appConfig.json`, JSON.stringify(config));
 
         return {
             config,

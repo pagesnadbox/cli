@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 
 const appConfig = require("../../appConfig");
-const { readFile, getProjectDir: getDir } = require("../utils");
+const { writeFile, readFile, getProjectDir: getDir } = require("../utils");
 const { build: buildProject } = require("../../build");
 
 const getProject = async () => {
@@ -15,7 +15,7 @@ const getProject = async () => {
 const setProject = async (project) => {
     const dir = getDir();
 
-    await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
+    await writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 }
 
 /**
@@ -36,8 +36,8 @@ const create = async (payload) => {
         }
 
         await fs.mkdir(`${dir}/images`);
-        await fs.writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
-        await fs.writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
+        await writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
+        await writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 
         return {
             success: true,

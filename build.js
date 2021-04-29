@@ -3,7 +3,7 @@
 
 // 1. copy resources to cwd
 // 2. merge with app config
-// 2. write config.js to /projects/:id/dist folder
+// 2. write config.js to /project/dist folder
 
 const fse = require('fs-extra')
 const path = require('path')
@@ -18,7 +18,6 @@ const copyDist = async (dir) => {
 const mergeConfig = async (dir) => {
     const appConfigDir = `${dir}/appConfig.json`;
     const appConfigTargetDir = `${dir}/dist/config.js`;
-
     const config = await readFile(appConfigDir);
     const targetContent = `window.com = window.com || {};window.com.config = ${config};`;
 
@@ -26,27 +25,15 @@ const mergeConfig = async (dir) => {
 }
 
 const copyImages = async (dir) => {
-    try {
-        await fse.copy(`${dir}/images`, `${dir}/dist/assets`);
-    } catch (error) {
-        console.error(error.message)
-    }
+    await fse.copy(`${dir}/images`, `${dir}/dist/assets`);
 }
 
-const build = async (projectId) => {
-    try {
-        const dir = getDir(projectId);
+const build = async () => {
+    const dir = getDir();
 
-        await copyDist(dir)
-        await mergeConfig(dir)
-        await copyImages(dir)
-
-        console.log()
-
-    } catch (error) {
-        console.error(error);
-        throw error;
-    }
+    await copyDist(dir)
+    await mergeConfig(dir)
+    await copyImages(dir)
 }
 
 module.exports = {

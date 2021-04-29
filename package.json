@@ -1,6 +1,6 @@
 {
   "name": "pagesandbox-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "bin": {
     "pagesandbox-serve": "server.js",
-    "pagesandbox-build": "build.js"
+    "pagesandbox-build": "bin/build.js"
   },
   "author": "",
   "license": "ISC",
