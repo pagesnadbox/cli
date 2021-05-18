@@ -1,1 +1,920 @@
-{"app":{"componentName":"BaseApp","id":"app","index":0,"key":"app","slots":[{"componentName":"BaseAppBar","key":"BaseAppBar_0","index":0,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/logo.svg","height":"50","mobileHeight":"40"},{"componentName":"BaseTitle","key":"BaseTitle_0","index":0,"slots":[],"title":"Application","size":"text-h4","mobileSize":"text-h6","weight":"regular","align":"center","hidden":false,"ml":"5","color":"","ma":null,"margin":"0 20px"}],"color":"","height":""},{"componentName":"BaseVuetifyImg","key":"BaseVuetifyImg_0","index":0,"slots":[{"componentName":"BaseContainer","key":"BaseContainer_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseSection","key":"BaseSection_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseSubtitle","key":"BaseSubtitle_0","index":0,"slots":[],"title":"WE LOVE MAKING THINGS SIMPLE AND AMAZING","align":"","size":"text-h5","color":"#B6B6B6FF","mobileSize":"text-h6"}],"cols":"12"},{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseTitle","key":"BaseTitle_0","index":0,"slots":[],"title":"WELCOME TO ZERO ","color":"#FFFFFFFF","align":"","size":"text-h2","mobileSize":"text-h3"}],"cols":"12"},{"componentName":"BaseCol","key":"BaseCol_2","index":2,"slots":[{"componentName":"BaseBody","key":"BaseBody_0","index":0,"slots":[],"text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nobis neque aspernatur in quas iure id aliquid, esse debitis, quibusdam mollitia! Quia ea expedita magnam totam, earum omnis et perspiciatis?","maxWidth":"","color":"#E9E9E9FF","align":""}]},{"componentName":"BaseCol","key":"BaseCol_3","index":3,"slots":[{"componentName":"BaseContainer","key":"BaseContainer_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseBtn","key":"BaseBtn_0","index":0,"slots":[],"text":"Discover More","color":"#42A5F6","dark":true,"size":"x-large","depressed":true,"tile":true},{"componentName":"BaseText","key":"BaseText_0","index":0,"slots":[],"text":"or","color":"#FFFFFFFF","ma":null,"mr":null,"ml":"5","mt":"2","margin":"10px 0 0 25px"},{"componentName":"BaseBtn","key":"BaseBtn_1","index":1,"slots":[],"ml":null,"text":"Get started now","textOnly":true,"size":"x-large"}],"justify":null,"align":null}],"ma":null,"pa":null,"fluid":true}],"cols":"12"}],"align":null,"justify":null,"fillHeight":false}],"color":"#00000000","maxWidth":"","dark":false,"pl":"5","pr":"5","padding":"100px 20px"}],"cols":"12","md":"9","sm":"9","xl":"7","lg":"9"}],"align":"center","justify":"center"}],"fillHeight":true,"fluid":true}],"src":"light.jpg","string":"to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)","gradient":"to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)","mobileHeight":"","height":""},{"componentName":"BaseSection","key":"BaseSection_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseSectionHeading","key":"BaseSectionHeading_0","index":0,"slots":[],"title":"THEME FEATURES","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.","color":"","dark":false,"pb":null,"pa":"5"}],"align":"center","justify":"center","pt":"15"},{"componentName":"BaseRow","key":"BaseRow_1","index":1,"slots":[{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"PIXEL PERFECT DESIGN 1","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-fountain-pen-tip","outlined":true,"horizontal":true}],"cols":"12","sm":"6"},{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"RETINA READY","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-cellphone","outlined":true,"horizontal":true}],"cols":"12","sm":"6"},{"componentName":"BaseCol","key":"BaseCol_2","index":2,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"EASILY CUSTOMIZABLE","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-pencil-box-outline","outlined":true,"horizontal":true,"color":"#42A5F6","iconDark":true}],"cols":"12","sm":"6"},{"componentName":"BaseCol","key":"BaseCol_3","index":3,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"SEO OPTIMIZED","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-cloud-search-outline","outlined":true,"horizontal":true}],"cols":"12","sm":"6"},{"componentName":"BaseCol","key":"BaseCol_4","index":4,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"IMAGE PARALLAX","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-folder-image","outlined":true,"horizontal":true}],"cols":"12","sm":"6"},{"componentName":"BaseCol","key":"BaseCol_5","index":5,"slots":[{"componentName":"BaseAvatarCard","key":"BaseAvatarCard_0","index":0,"slots":[],"title":"24/7 SUPPORT","text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!","icon":"mdi-progress-question","outlined":true,"horizontal":true}],"cols":"12","sm":"6"}]}],"cols":"12","sm":"9","pa":"3","md":"9","lg":"9","xl":"7"}],"align":"center","justify":"center"}],"padding":"120px 20px"},{"componentName":"BaseSection","key":"BaseSection_1","index":1,"slots":[{"componentName":"BaseRow","key":"BaseRow_1","index":1,"slots":[{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseInfoCard","key":"BaseInfoCard_0","index":0,"slots":[],"title":"TRENDY DESIGN","text":"Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.","icon":"mdi-keyboard-outline","align":"center"}],"cols":"12","sm":"12","md":"6","lg":"3"},{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseInfoCard","key":"BaseInfoCard_0","index":0,"slots":[],"title":"TRENDY DESIGN","text":"Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.","icon":"mdi-keyboard-outline","align":"center"}],"cols":"12","sm":"12","md":"6","lg":"3"},{"componentName":"BaseCol","key":"BaseCol_2","index":2,"slots":[{"componentName":"BaseInfoCard","key":"BaseInfoCard_0","index":0,"slots":[],"title":"TRENDY DESIGN","text":"Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.","icon":"mdi-keyboard-outline","align":"center"}],"cols":"12","sm":"12","md":"6","lg":"3"},{"componentName":"BaseCol","key":"BaseCol_3","index":3,"slots":[{"componentName":"BaseInfoCard","key":"BaseInfoCard_0","index":0,"slots":[],"title":"TRENDY DESIGN","text":"Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.","icon":"mdi-keyboard-outline","align":"center"}],"cols":"12","sm":"12","md":"6","lg":"3"}]}],"cols":"12","sm":"6","pa":"3","md":"9","lg":null,"xl":"8"}],"align":"center","justify":"center"}],"color":"#1B1B1B","dark":true,"mt":null,"pb":"15","pt":"15","padding":"100px 20px"},{"componentName":"BaseSection","key":"BaseSection_2","index":2,"slots":[{"componentName":"BaseSectionHeading","key":"BaseSectionHeading_0","index":0,"slots":[],"title":"WHO'S USING ZERO?","padding":"0 0 50px 0"},{"componentName":"BaseRow","key":"BaseRow_1","index":1,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png","hidden":false}]},{"componentName":"BaseCol","key":"BaseCol_1","index":1,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]},{"componentName":"BaseCol","key":"BaseCol_2","index":2,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]},{"componentName":"BaseCol","key":"BaseCol_3","index":3,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]},{"componentName":"BaseCol","key":"BaseCol_4","index":4,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]},{"componentName":"BaseCol","key":"BaseCol_5","index":5,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]},{"componentName":"BaseCol","key":"BaseCol_6","index":6,"slots":[{"componentName":"BaseImg","key":"BaseImg_0","index":0,"slots":[],"src":"/assets/omurtag-logo-light.png"}]}],"preventWrap":true,"padding":"0 40px"}],"xl":"10"}],"align":"center","justify":"center","preventWrap":false}],"padding":"80px 20px"},{"componentName":"BaseSection","key":"BaseSection_4","index":4,"slots":[{"componentName":"BaseContainer","key":"BaseContainer_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseIcon","key":"BaseIcon_0","index":0,"slots":[],"icon":"mdi-twitter","color":""}]}],"justify":"center","align":"center"},{"componentName":"BaseRow","key":"BaseRow_1","index":1,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseBody","key":"BaseBody_0","index":0,"slots":[],"text":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.","maxWidth":"700","color":""}]}],"justify":"center","align":"center"},{"componentName":"BaseRow","key":"BaseRow_2","index":2,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseLink","key":"BaseLink_0","index":0,"slots":[],"href":"ttps://vuetifyjs.com"}]}],"justify":"center","align":"center"},{"componentName":"BaseRow","key":"BaseRow_3","index":3,"slots":[{"componentName":"BaseCol","key":"BaseCol_0","index":0,"slots":[{"componentName":"BaseBtn","key":"BaseBtn_0","index":0,"slots":[],"color":"#42A5F6","text":"Follow us ","iconSrc":"mdi-open-in-new","size":"x-large"}]}],"justify":"center","align":"center"}]}],"color":"#1C3C55","padding":"50px 0","dark":true},{"componentName":"BaseSection","key":"BaseSection_3","index":3,"slots":[{"componentName":"BaseContainer","key":"BaseContainer_0","index":0,"slots":[{"componentName":"BaseRow","key":"BaseRow_0","index":0,"slots":[{"componentName":"BaseBody","key":"BaseBody_0","index":0,"slots":[],"text":"Copyright © 2020 Vuetify, LLC","color":"#FFFFFFFF","align":""}],"justify":"center","align":"center","preventWrap":false,"fillHeight":true}],"fillHeight":true,"fluid":true}],"color":"#1D1B1BFF","height":"50px"}],"dark":false,"primary":"#42A5F6","hidden":false,"pa":null,"padding":"0","margin":"0"}}
+{
+    "d11f28f7-3732-4241-bcfe-6cb983652c33": {
+        "id": "d11f28f7-3732-4241-bcfe-6cb983652c33",
+        "slots": [],
+        "parentId": "7edfd2b3-a23a-430b-8558-cbd14df4a473",
+        "componentName": "BaseImg",
+        "src": "/assets/logo.svg",
+        "height": "50",
+        "mobileHeight": "40"
+    },
+    "7e41b661-33a7-4752-9e2f-6fbaaa39906c": {
+        "id": "7e41b661-33a7-4752-9e2f-6fbaaa39906c",
+        "slots": [],
+        "parentId": "7edfd2b3-a23a-430b-8558-cbd14df4a473",
+        "componentName": "BaseTitle",
+        "title": "Application",
+        "size": "text-h4",
+        "mobileSize": "text-h6",
+        "weight": "regular",
+        "align": "center",
+        "hidden": false,
+        "ml": "5",
+        "color": "",
+        "ma": null,
+        "margin": "0 20px"
+    },
+    "7edfd2b3-a23a-430b-8558-cbd14df4a473": {
+        "id": "7edfd2b3-a23a-430b-8558-cbd14df4a473",
+        "slots": [
+            "d11f28f7-3732-4241-bcfe-6cb983652c33",
+            "7e41b661-33a7-4752-9e2f-6fbaaa39906c"
+        ],
+        "parentId": "app",
+        "componentName": "BaseAppBar",
+        "color": "",
+        "height": ""
+    },
+    "46936196-53fb-4960-86aa-81b73a814ad6": {
+        "id": "46936196-53fb-4960-86aa-81b73a814ad6",
+        "slots": [],
+        "parentId": "44f45ea4-418f-42f6-af25-d01ca6b168dc",
+        "componentName": "BaseSubtitle",
+        "title": "WE LOVE MAKING THINGS SIMPLE AND AMAZING",
+        "align": "",
+        "size": "text-h5",
+        "color": "#B6B6B6FF",
+        "mobileSize": "text-h6"
+    },
+    "44f45ea4-418f-42f6-af25-d01ca6b168dc": {
+        "id": "44f45ea4-418f-42f6-af25-d01ca6b168dc",
+        "slots": [
+            "46936196-53fb-4960-86aa-81b73a814ad6"
+        ],
+        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
+        "componentName": "BaseCol",
+        "cols": "12"
+    },
+    "95e7376e-a8a7-456b-af52-9c7c88a3772f": {
+        "id": "95e7376e-a8a7-456b-af52-9c7c88a3772f",
+        "slots": [],
+        "parentId": "e9dd29bd-b3c7-4812-a8a0-7098d7321c36",
+        "componentName": "BaseTitle",
+        "title": "WELCOME TO ZERO ",
+        "color": "#FFFFFFFF",
+        "align": "",
+        "size": "text-h2",
+        "mobileSize": "text-h3"
+    },
+    "e9dd29bd-b3c7-4812-a8a0-7098d7321c36": {
+        "id": "e9dd29bd-b3c7-4812-a8a0-7098d7321c36",
+        "slots": [
+            "95e7376e-a8a7-456b-af52-9c7c88a3772f"
+        ],
+        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
+        "componentName": "BaseCol",
+        "cols": "12"
+    },
+    "b74bd3d2-1ea8-4323-b9b0-a386a1df660c": {
+        "id": "b74bd3d2-1ea8-4323-b9b0-a386a1df660c",
+        "slots": [],
+        "parentId": "041b39cb-4581-402e-9b53-0ace1cfa6722",
+        "componentName": "BaseBody",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nobis neque aspernatur in quas iure id aliquid, esse debitis, quibusdam mollitia! Quia ea expedita magnam totam, earum omnis et perspiciatis?",
+        "maxWidth": "",
+        "color": "#E9E9E9FF",
+        "align": ""
+    },
+    "041b39cb-4581-402e-9b53-0ace1cfa6722": {
+        "id": "041b39cb-4581-402e-9b53-0ace1cfa6722",
+        "slots": [
+            "b74bd3d2-1ea8-4323-b9b0-a386a1df660c"
+        ],
+        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
+        "componentName": "BaseCol"
+    },
+    "cb407a7a-ac0c-46da-9485-2d7a329fd417": {
+        "id": "cb407a7a-ac0c-46da-9485-2d7a329fd417",
+        "slots": [],
+        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
+        "componentName": "BaseBtn",
+        "text": "Discover More",
+        "color": "#42A5F6",
+        "dark": true,
+        "size": "x-large",
+        "depressed": true,
+        "tile": true
+    },
+    "3932386b-aba4-4437-ba09-c60c5fb33c2c": {
+        "id": "3932386b-aba4-4437-ba09-c60c5fb33c2c",
+        "slots": [],
+        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
+        "componentName": "BaseText",
+        "text": "or",
+        "color": "#FFFFFFFF",
+        "ma": null,
+        "mr": null,
+        "ml": "5",
+        "mt": "2",
+        "margin": "10px 0 0 25px"
+    },
+    "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2": {
+        "id": "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2",
+        "slots": [],
+        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
+        "componentName": "BaseBtn",
+        "ml": null,
+        "text": "Get started now",
+        "textOnly": true,
+        "size": "x-large"
+    },
+    "3db1cdce-b2e0-4de7-8889-04c941b660cb": {
+        "id": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
+        "slots": [
+            "cb407a7a-ac0c-46da-9485-2d7a329fd417",
+            "3932386b-aba4-4437-ba09-c60c5fb33c2c",
+            "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2"
+        ],
+        "parentId": "b546b878-4037-49e4-9568-c09bbbde9a2f",
+        "componentName": "BaseRow",
+        "justify": null,
+        "align": null
+    },
+    "b546b878-4037-49e4-9568-c09bbbde9a2f": {
+        "id": "b546b878-4037-49e4-9568-c09bbbde9a2f",
+        "slots": [
+            "3db1cdce-b2e0-4de7-8889-04c941b660cb"
+        ],
+        "parentId": "0b9dc1cf-4a79-401a-9236-2cf31fbc614b",
+        "componentName": "BaseContainer",
+        "ma": null,
+        "pa": null,
+        "fluid": true
+    },
+    "0b9dc1cf-4a79-401a-9236-2cf31fbc614b": {
+        "id": "0b9dc1cf-4a79-401a-9236-2cf31fbc614b",
+        "slots": [
+            "b546b878-4037-49e4-9568-c09bbbde9a2f"
+        ],
+        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
+        "componentName": "BaseCol",
+        "cols": "12"
+    },
+    "d7009e4e-4651-441b-a63b-7486d06f0d44": {
+        "id": "d7009e4e-4651-441b-a63b-7486d06f0d44",
+        "slots": [
+            "44f45ea4-418f-42f6-af25-d01ca6b168dc",
+            "e9dd29bd-b3c7-4812-a8a0-7098d7321c36",
+            "041b39cb-4581-402e-9b53-0ace1cfa6722",
+            "0b9dc1cf-4a79-401a-9236-2cf31fbc614b"
+        ],
+        "parentId": "40d7b0f6-a2e2-474c-9c5a-bd8f112d6502",
+        "componentName": "BaseRow",
+        "align": null,
+        "justify": null,
+        "fillHeight": false
+    },
+    "40d7b0f6-a2e2-474c-9c5a-bd8f112d6502": {
+        "id": "40d7b0f6-a2e2-474c-9c5a-bd8f112d6502",
+        "slots": [
+            "d7009e4e-4651-441b-a63b-7486d06f0d44"
+        ],
+        "parentId": "b4fabaab-e900-4596-9214-1496c07be039",
+        "componentName": "BaseSection",
+        "color": "#00000000",
+        "maxWidth": "",
+        "dark": false,
+        "pl": "5",
+        "pr": "5",
+        "padding": "100px 20px"
+    },
+    "b4fabaab-e900-4596-9214-1496c07be039": {
+        "id": "b4fabaab-e900-4596-9214-1496c07be039",
+        "slots": [
+            "40d7b0f6-a2e2-474c-9c5a-bd8f112d6502"
+        ],
+        "parentId": "acd941fa-d822-4924-9e2d-379d94daef20",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "md": "9",
+        "sm": "9",
+        "xl": "7",
+        "lg": "9"
+    },
+    "acd941fa-d822-4924-9e2d-379d94daef20": {
+        "id": "acd941fa-d822-4924-9e2d-379d94daef20",
+        "slots": [
+            "b4fabaab-e900-4596-9214-1496c07be039"
+        ],
+        "parentId": "c01cfee4-bcb5-46d3-a9bb-e66b40b6bb4c",
+        "componentName": "BaseRow",
+        "align": "center",
+        "justify": "center"
+    },
+    "c01cfee4-bcb5-46d3-a9bb-e66b40b6bb4c": {
+        "id": "c01cfee4-bcb5-46d3-a9bb-e66b40b6bb4c",
+        "slots": [
+            "acd941fa-d822-4924-9e2d-379d94daef20"
+        ],
+        "parentId": "fc05d99b-ae32-4930-92d1-b4f1ccd8fb27",
+        "componentName": "BaseContainer",
+        "fillHeight": true,
+        "fluid": true
+    },
+    "fc05d99b-ae32-4930-92d1-b4f1ccd8fb27": {
+        "id": "fc05d99b-ae32-4930-92d1-b4f1ccd8fb27",
+        "slots": [
+            "c01cfee4-bcb5-46d3-a9bb-e66b40b6bb4c"
+        ],
+        "parentId": "app",
+        "componentName": "BaseVuetifyImg",
+        "src": "light.jpg",
+        "string": "to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)",
+        "gradient": "to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)",
+        "mobileHeight": "",
+        "height": ""
+    },
+    "169f118a-b697-41b6-aeab-9b3b1756e8ed": {
+        "id": "169f118a-b697-41b6-aeab-9b3b1756e8ed",
+        "slots": [],
+        "parentId": "c9eccb89-81b6-4506-9e41-1605df7f4d11",
+        "componentName": "BaseSectionHeading",
+        "title": "THEME FEATURES",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.",
+        "color": "",
+        "dark": false,
+        "pb": null,
+        "pa": "5"
+    },
+    "c9eccb89-81b6-4506-9e41-1605df7f4d11": {
+        "id": "c9eccb89-81b6-4506-9e41-1605df7f4d11",
+        "slots": [
+            "169f118a-b697-41b6-aeab-9b3b1756e8ed"
+        ],
+        "parentId": "7af9b255-e68b-4773-b287-f511e49f08dc",
+        "componentName": "BaseRow",
+        "align": "center",
+        "justify": "center",
+        "pt": "15"
+    },
+    "8c79759f-027f-44f1-ac8c-55a7da633e02": {
+        "id": "8c79759f-027f-44f1-ac8c-55a7da633e02",
+        "slots": [],
+        "parentId": "d056a788-fcdc-4f15-85ae-b46d56995efb",
+        "componentName": "BaseAvatarCard",
+        "title": "PIXEL PERFECT DESIGN 1",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-fountain-pen-tip",
+        "outlined": true,
+        "horizontal": true
+    },
+    "d056a788-fcdc-4f15-85ae-b46d56995efb": {
+        "id": "d056a788-fcdc-4f15-85ae-b46d56995efb",
+        "slots": [
+            "8c79759f-027f-44f1-ac8c-55a7da633e02"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "f2084498-8a1a-43ea-a663-6af550cadbc0": {
+        "id": "f2084498-8a1a-43ea-a663-6af550cadbc0",
+        "slots": [],
+        "parentId": "0ef7aab3-a88e-4246-8802-2d516919b019",
+        "componentName": "BaseAvatarCard",
+        "title": "RETINA READY",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-cellphone",
+        "outlined": true,
+        "horizontal": true
+    },
+    "0ef7aab3-a88e-4246-8802-2d516919b019": {
+        "id": "0ef7aab3-a88e-4246-8802-2d516919b019",
+        "slots": [
+            "f2084498-8a1a-43ea-a663-6af550cadbc0"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "fe8bae5a-254f-42df-a699-d07ada0aacf4": {
+        "id": "fe8bae5a-254f-42df-a699-d07ada0aacf4",
+        "slots": [],
+        "parentId": "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
+        "componentName": "BaseAvatarCard",
+        "title": "EASILY CUSTOMIZABLE",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-pencil-box-outline",
+        "outlined": true,
+        "horizontal": true,
+        "color": "#42A5F6",
+        "iconDark": true
+    },
+    "69ab9885-b4eb-43cb-b19d-e22b697f9c70": {
+        "id": "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
+        "slots": [
+            "fe8bae5a-254f-42df-a699-d07ada0aacf4"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346": {
+        "id": "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346",
+        "slots": [],
+        "parentId": "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
+        "componentName": "BaseAvatarCard",
+        "title": "SEO OPTIMIZED",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-cloud-search-outline",
+        "outlined": true,
+        "horizontal": true
+    },
+    "eb2a4d8f-c3da-4160-a5bc-aee487a220c4": {
+        "id": "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
+        "slots": [
+            "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "5f75728b-3db2-4887-83a5-836174c8b336": {
+        "id": "5f75728b-3db2-4887-83a5-836174c8b336",
+        "slots": [],
+        "parentId": "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
+        "componentName": "BaseAvatarCard",
+        "title": "IMAGE PARALLAX",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-folder-image",
+        "outlined": true,
+        "horizontal": true
+    },
+    "f6fea1d3-ae18-4da5-84bd-c756e79acd17": {
+        "id": "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
+        "slots": [
+            "5f75728b-3db2-4887-83a5-836174c8b336"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "a93049c6-933c-41c5-b094-870941d5ceb5": {
+        "id": "a93049c6-933c-41c5-b094-870941d5ceb5",
+        "slots": [],
+        "parentId": "9219361f-bd64-41c4-b2b7-e3393a248b96",
+        "componentName": "BaseAvatarCard",
+        "title": "24/7 SUPPORT",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "icon": "mdi-progress-question",
+        "outlined": true,
+        "horizontal": true
+    },
+    "9219361f-bd64-41c4-b2b7-e3393a248b96": {
+        "id": "9219361f-bd64-41c4-b2b7-e3393a248b96",
+        "slots": [
+            "a93049c6-933c-41c5-b094-870941d5ceb5"
+        ],
+        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6"
+    },
+    "44a3d367-8442-40ff-9295-abcfcc60bd06": {
+        "id": "44a3d367-8442-40ff-9295-abcfcc60bd06",
+        "slots": [
+            "d056a788-fcdc-4f15-85ae-b46d56995efb",
+            "0ef7aab3-a88e-4246-8802-2d516919b019",
+            "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
+            "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
+            "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
+            "9219361f-bd64-41c4-b2b7-e3393a248b96"
+        ],
+        "parentId": "33b52285-791b-43be-9ba2-dadec6e73981",
+        "componentName": "BaseRow"
+    },
+    "33b52285-791b-43be-9ba2-dadec6e73981": {
+        "id": "33b52285-791b-43be-9ba2-dadec6e73981",
+        "slots": [
+            "44a3d367-8442-40ff-9295-abcfcc60bd06"
+        ],
+        "parentId": "a986efd5-69c9-41e0-b553-2aac4dfa41ed",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "9",
+        "pa": "3",
+        "md": "9",
+        "lg": "9",
+        "xl": "7"
+    },
+    "a986efd5-69c9-41e0-b553-2aac4dfa41ed": {
+        "id": "a986efd5-69c9-41e0-b553-2aac4dfa41ed",
+        "slots": [
+            "33b52285-791b-43be-9ba2-dadec6e73981"
+        ],
+        "parentId": "7af9b255-e68b-4773-b287-f511e49f08dc",
+        "componentName": "BaseRow",
+        "align": "center",
+        "justify": "center"
+    },
+    "7af9b255-e68b-4773-b287-f511e49f08dc": {
+        "id": "7af9b255-e68b-4773-b287-f511e49f08dc",
+        "slots": [
+            "c9eccb89-81b6-4506-9e41-1605df7f4d11",
+            "a986efd5-69c9-41e0-b553-2aac4dfa41ed"
+        ],
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "padding": "120px 20px"
+    },
+    "449355af-3786-4b04-a4d9-51e494c3d4b8": {
+        "id": "449355af-3786-4b04-a4d9-51e494c3d4b8",
+        "slots": [],
+        "parentId": "de6055fa-d5d2-4b03-b837-06a70de890cd",
+        "componentName": "BaseInfoCard",
+        "title": "TRENDY DESIGN",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "icon": "mdi-keyboard-outline",
+        "align": "center"
+    },
+    "de6055fa-d5d2-4b03-b837-06a70de890cd": {
+        "id": "de6055fa-d5d2-4b03-b837-06a70de890cd",
+        "slots": [
+            "449355af-3786-4b04-a4d9-51e494c3d4b8"
+        ],
+        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "12",
+        "md": "6",
+        "lg": "3"
+    },
+    "38b7b443-edb9-44c5-bb89-10ab0132ecf1": {
+        "id": "38b7b443-edb9-44c5-bb89-10ab0132ecf1",
+        "slots": [],
+        "parentId": "d47eb476-daf1-4bc0-bbae-84f2962c4bac",
+        "componentName": "BaseInfoCard",
+        "title": "TRENDY DESIGN",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "icon": "mdi-keyboard-outline",
+        "align": "center"
+    },
+    "d47eb476-daf1-4bc0-bbae-84f2962c4bac": {
+        "id": "d47eb476-daf1-4bc0-bbae-84f2962c4bac",
+        "slots": [
+            "38b7b443-edb9-44c5-bb89-10ab0132ecf1"
+        ],
+        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "12",
+        "md": "6",
+        "lg": "3"
+    },
+    "3f215484-9b36-46c7-bede-9350b6756d46": {
+        "id": "3f215484-9b36-46c7-bede-9350b6756d46",
+        "slots": [],
+        "parentId": "f98514f9-2f95-4880-90a7-15019d269cb2",
+        "componentName": "BaseInfoCard",
+        "title": "TRENDY DESIGN",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "icon": "mdi-keyboard-outline",
+        "align": "center"
+    },
+    "f98514f9-2f95-4880-90a7-15019d269cb2": {
+        "id": "f98514f9-2f95-4880-90a7-15019d269cb2",
+        "slots": [
+            "3f215484-9b36-46c7-bede-9350b6756d46"
+        ],
+        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "12",
+        "md": "6",
+        "lg": "3"
+    },
+    "df1f55b4-3f38-4dae-abeb-73194626a0c6": {
+        "id": "df1f55b4-3f38-4dae-abeb-73194626a0c6",
+        "slots": [],
+        "parentId": "df2eade4-8f6b-459e-ad3d-226eec1b573d",
+        "componentName": "BaseInfoCard",
+        "title": "TRENDY DESIGN",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "icon": "mdi-keyboard-outline",
+        "align": "center"
+    },
+    "df2eade4-8f6b-459e-ad3d-226eec1b573d": {
+        "id": "df2eade4-8f6b-459e-ad3d-226eec1b573d",
+        "slots": [
+            "df1f55b4-3f38-4dae-abeb-73194626a0c6"
+        ],
+        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "12",
+        "md": "6",
+        "lg": "3"
+    },
+    "7adba285-664a-40d2-8069-6555fd3ca773": {
+        "id": "7adba285-664a-40d2-8069-6555fd3ca773",
+        "slots": [
+            "de6055fa-d5d2-4b03-b837-06a70de890cd",
+            "d47eb476-daf1-4bc0-bbae-84f2962c4bac",
+            "f98514f9-2f95-4880-90a7-15019d269cb2",
+            "df2eade4-8f6b-459e-ad3d-226eec1b573d"
+        ],
+        "parentId": "6e7b5821-12f1-4155-9a4f-58b90929569f",
+        "componentName": "BaseRow"
+    },
+    "6e7b5821-12f1-4155-9a4f-58b90929569f": {
+        "id": "6e7b5821-12f1-4155-9a4f-58b90929569f",
+        "slots": [
+            "7adba285-664a-40d2-8069-6555fd3ca773"
+        ],
+        "parentId": "1d142efe-c36a-4074-9bc6-eaf3dcb38b44",
+        "componentName": "BaseCol",
+        "cols": "12",
+        "sm": "6",
+        "pa": "3",
+        "md": "9",
+        "lg": null,
+        "xl": "8"
+    },
+    "1d142efe-c36a-4074-9bc6-eaf3dcb38b44": {
+        "id": "1d142efe-c36a-4074-9bc6-eaf3dcb38b44",
+        "slots": [
+            "6e7b5821-12f1-4155-9a4f-58b90929569f"
+        ],
+        "parentId": "e3e46220-1270-47e2-bdb7-1882ce46ce9d",
+        "componentName": "BaseRow",
+        "align": "center",
+        "justify": "center"
+    },
+    "e3e46220-1270-47e2-bdb7-1882ce46ce9d": {
+        "id": "e3e46220-1270-47e2-bdb7-1882ce46ce9d",
+        "slots": [
+            "1d142efe-c36a-4074-9bc6-eaf3dcb38b44"
+        ],
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "color": "#1B1B1B",
+        "dark": true,
+        "mt": null,
+        "pb": "15",
+        "pt": "15",
+        "padding": "100px 20px"
+    },
+    "ef320257-77c6-4b18-ab46-c6ea3ad45054": {
+        "id": "ef320257-77c6-4b18-ab46-c6ea3ad45054",
+        "slots": [],
+        "parentId": "0a1a03f5-6154-4fbe-ac4e-a90be4239c30",
+        "componentName": "BaseSectionHeading",
+        "title": "WHO'S USING ZERO?",
+        "padding": "0 0 50px 0"
+    },
+    "96e64c9f-eb07-48c8-ad19-d1f61b890514": {
+        "id": "96e64c9f-eb07-48c8-ad19-d1f61b890514",
+        "slots": [],
+        "parentId": "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png",
+        "hidden": false
+    },
+    "43f34310-ba6a-423c-8e10-c41ec4d19d9a": {
+        "id": "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
+        "slots": [
+            "96e64c9f-eb07-48c8-ad19-d1f61b890514"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "1627a630-a14b-4a82-b3dc-51cebe854b21": {
+        "id": "1627a630-a14b-4a82-b3dc-51cebe854b21",
+        "slots": [],
+        "parentId": "edce23ed-9395-4e7d-8372-ac27157c689e",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "edce23ed-9395-4e7d-8372-ac27157c689e": {
+        "id": "edce23ed-9395-4e7d-8372-ac27157c689e",
+        "slots": [
+            "1627a630-a14b-4a82-b3dc-51cebe854b21"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "0c599b19-0188-4508-b976-74afd995d015": {
+        "id": "0c599b19-0188-4508-b976-74afd995d015",
+        "slots": [],
+        "parentId": "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "ce7dcc4c-92bf-4be0-b225-9c9845682aca": {
+        "id": "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
+        "slots": [
+            "0c599b19-0188-4508-b976-74afd995d015"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "576915bd-74c8-404e-a051-be26f54a589a": {
+        "id": "576915bd-74c8-404e-a051-be26f54a589a",
+        "slots": [],
+        "parentId": "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "4e8236f3-13ca-4c8b-bb40-16e9684a50f4": {
+        "id": "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
+        "slots": [
+            "576915bd-74c8-404e-a051-be26f54a589a"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "4f1a0a06-1635-47ea-878c-1e2853f0544b": {
+        "id": "4f1a0a06-1635-47ea-878c-1e2853f0544b",
+        "slots": [],
+        "parentId": "8e58bdce-90c1-4954-93cd-44609e62bce6",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "8e58bdce-90c1-4954-93cd-44609e62bce6": {
+        "id": "8e58bdce-90c1-4954-93cd-44609e62bce6",
+        "slots": [
+            "4f1a0a06-1635-47ea-878c-1e2853f0544b"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "f49b8836-cf7d-4f79-93c2-3b809ef10dbc": {
+        "id": "f49b8836-cf7d-4f79-93c2-3b809ef10dbc",
+        "slots": [],
+        "parentId": "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "c38d516c-7a86-4cdb-bb08-890fab1c9c7d": {
+        "id": "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
+        "slots": [
+            "f49b8836-cf7d-4f79-93c2-3b809ef10dbc"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "b579031c-18a4-4ac8-8fdf-25961a57a3b5": {
+        "id": "b579031c-18a4-4ac8-8fdf-25961a57a3b5",
+        "slots": [],
+        "parentId": "241b668b-43d2-47d9-bb92-a1833c6c0a04",
+        "componentName": "BaseImg",
+        "src": "/assets/omurtag-logo-light.png"
+    },
+    "241b668b-43d2-47d9-bb92-a1833c6c0a04": {
+        "id": "241b668b-43d2-47d9-bb92-a1833c6c0a04",
+        "slots": [
+            "b579031c-18a4-4ac8-8fdf-25961a57a3b5"
+        ],
+        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "componentName": "BaseCol"
+    },
+    "ce7abef8-7af3-4b0c-bc64-1948bf64eef1": {
+        "id": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
+        "slots": [
+            "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
+            "edce23ed-9395-4e7d-8372-ac27157c689e",
+            "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
+            "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
+            "8e58bdce-90c1-4954-93cd-44609e62bce6",
+            "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
+            "241b668b-43d2-47d9-bb92-a1833c6c0a04"
+        ],
+        "parentId": "6858fcb3-efef-4047-b7bc-4fccba3ca195",
+        "componentName": "BaseRow",
+        "preventWrap": true,
+        "padding": "0 40px"
+    },
+    "6858fcb3-efef-4047-b7bc-4fccba3ca195": {
+        "id": "6858fcb3-efef-4047-b7bc-4fccba3ca195",
+        "slots": [
+            "ce7abef8-7af3-4b0c-bc64-1948bf64eef1"
+        ],
+        "parentId": "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7",
+        "componentName": "BaseCol",
+        "xl": "10"
+    },
+    "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7": {
+        "id": "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7",
+        "slots": [
+            "6858fcb3-efef-4047-b7bc-4fccba3ca195"
+        ],
+        "parentId": "0a1a03f5-6154-4fbe-ac4e-a90be4239c30",
+        "componentName": "BaseRow",
+        "align": "center",
+        "justify": "center",
+        "preventWrap": false
+    },
+    "0a1a03f5-6154-4fbe-ac4e-a90be4239c30": {
+        "id": "0a1a03f5-6154-4fbe-ac4e-a90be4239c30",
+        "slots": [
+            "ef320257-77c6-4b18-ab46-c6ea3ad45054",
+            "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7"
+        ],
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "padding": "80px 20px"
+    },
+    "e45e3c2f-81be-4e7b-a439-8fa1dc24e017": {
+        "id": "e45e3c2f-81be-4e7b-a439-8fa1dc24e017",
+        "slots": [],
+        "parentId": "4a0ec47d-5863-4e41-a945-a597b0a7f903",
+        "componentName": "BaseIcon",
+        "icon": "mdi-twitter",
+        "color": ""
+    },
+    "4a0ec47d-5863-4e41-a945-a597b0a7f903": {
+        "id": "4a0ec47d-5863-4e41-a945-a597b0a7f903",
+        "slots": [
+            "e45e3c2f-81be-4e7b-a439-8fa1dc24e017"
+        ],
+        "parentId": "efaa5426-8a14-475b-a19b-3c6df7cb7569",
+        "componentName": "BaseCol"
+    },
+    "efaa5426-8a14-475b-a19b-3c6df7cb7569": {
+        "id": "efaa5426-8a14-475b-a19b-3c6df7cb7569",
+        "slots": [
+            "4a0ec47d-5863-4e41-a945-a597b0a7f903"
+        ],
+        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
+        "componentName": "BaseRow",
+        "justify": "center",
+        "align": "center"
+    },
+    "171c5dc2-543a-4281-9987-198f5758213b": {
+        "id": "171c5dc2-543a-4281-9987-198f5758213b",
+        "slots": [],
+        "parentId": "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b",
+        "componentName": "BaseBody",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.",
+        "maxWidth": "700",
+        "color": ""
+    },
+    "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b": {
+        "id": "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b",
+        "slots": [
+            "171c5dc2-543a-4281-9987-198f5758213b"
+        ],
+        "parentId": "b46d500c-7492-4dfd-b582-256e4f866b46",
+        "componentName": "BaseCol"
+    },
+    "b46d500c-7492-4dfd-b582-256e4f866b46": {
+        "id": "b46d500c-7492-4dfd-b582-256e4f866b46",
+        "slots": [
+            "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b"
+        ],
+        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
+        "componentName": "BaseRow",
+        "justify": "center",
+        "align": "center"
+    },
+    "273c22de-ea36-44ff-babe-5afdd454e6bf": {
+        "id": "273c22de-ea36-44ff-babe-5afdd454e6bf",
+        "slots": [],
+        "parentId": "d1b262eb-981b-4c0f-8fb0-b61ebb254715",
+        "componentName": "BaseLink",
+        "href": "ttps://vuetifyjs.com"
+    },
+    "d1b262eb-981b-4c0f-8fb0-b61ebb254715": {
+        "id": "d1b262eb-981b-4c0f-8fb0-b61ebb254715",
+        "slots": [
+            "273c22de-ea36-44ff-babe-5afdd454e6bf"
+        ],
+        "parentId": "7e9c6b64-a12f-49dc-8981-040a7c7ead4a",
+        "componentName": "BaseCol"
+    },
+    "7e9c6b64-a12f-49dc-8981-040a7c7ead4a": {
+        "id": "7e9c6b64-a12f-49dc-8981-040a7c7ead4a",
+        "slots": [
+            "d1b262eb-981b-4c0f-8fb0-b61ebb254715"
+        ],
+        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
+        "componentName": "BaseRow",
+        "justify": "center",
+        "align": "center"
+    },
+    "9e212e78-9c18-4c33-b2db-d1f84a17c2df": {
+        "id": "9e212e78-9c18-4c33-b2db-d1f84a17c2df",
+        "slots": [],
+        "parentId": "ce3c1dd0-997f-48ad-b5a3-c68572f21726",
+        "componentName": "BaseBtn",
+        "color": "#42A5F6",
+        "text": "Follow us ",
+        "iconSrc": "mdi-open-in-new",
+        "size": "x-large"
+    },
+    "ce3c1dd0-997f-48ad-b5a3-c68572f21726": {
+        "id": "ce3c1dd0-997f-48ad-b5a3-c68572f21726",
+        "slots": [
+            "9e212e78-9c18-4c33-b2db-d1f84a17c2df"
+        ],
+        "parentId": "00d580be-9517-4be8-be1b-d6e008ce2fb9",
+        "componentName": "BaseCol"
+    },
+    "00d580be-9517-4be8-be1b-d6e008ce2fb9": {
+        "id": "00d580be-9517-4be8-be1b-d6e008ce2fb9",
+        "slots": [
+            "ce3c1dd0-997f-48ad-b5a3-c68572f21726"
+        ],
+        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
+        "componentName": "BaseRow",
+        "justify": "center",
+        "align": "center"
+    },
+    "1f9cd8ed-dd31-4cda-9e87-f7adda39068b": {
+        "id": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
+        "slots": [
+            "efaa5426-8a14-475b-a19b-3c6df7cb7569",
+            "b46d500c-7492-4dfd-b582-256e4f866b46",
+            "7e9c6b64-a12f-49dc-8981-040a7c7ead4a",
+            "00d580be-9517-4be8-be1b-d6e008ce2fb9"
+        ],
+        "parentId": "74a547cf-b369-472e-be87-573b9fba4601",
+        "componentName": "BaseContainer"
+    },
+    "74a547cf-b369-472e-be87-573b9fba4601": {
+        "id": "74a547cf-b369-472e-be87-573b9fba4601",
+        "slots": [
+            "1f9cd8ed-dd31-4cda-9e87-f7adda39068b"
+        ],
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "color": "#1C3C55",
+        "padding": "50px 0",
+        "dark": true
+    },
+    "1b01d08f-ca32-4c7e-b1b6-7ddac0740eef": {
+        "id": "1b01d08f-ca32-4c7e-b1b6-7ddac0740eef",
+        "slots": [],
+        "parentId": "10d12008-0a25-49e7-8484-390b0ad22b99",
+        "componentName": "BaseBody",
+        "text": "Copyright © 2020 Vuetify, LLC",
+        "color": "#FFFFFFFF",
+        "align": ""
+    },
+    "10d12008-0a25-49e7-8484-390b0ad22b99": {
+        "id": "10d12008-0a25-49e7-8484-390b0ad22b99",
+        "slots": [
+            "1b01d08f-ca32-4c7e-b1b6-7ddac0740eef"
+        ],
+        "parentId": "041d0908-d643-4ea1-b694-145611b84b3f",
+        "componentName": "BaseRow",
+        "justify": "center",
+        "align": "center",
+        "preventWrap": false,
+        "fillHeight": true
+    },
+    "041d0908-d643-4ea1-b694-145611b84b3f": {
+        "id": "041d0908-d643-4ea1-b694-145611b84b3f",
+        "slots": [
+            "10d12008-0a25-49e7-8484-390b0ad22b99"
+        ],
+        "parentId": "f8c4ee73-1168-4e5b-9fdd-21f59039f811",
+        "componentName": "BaseContainer",
+        "fillHeight": true,
+        "fluid": true
+    },
+    "f8c4ee73-1168-4e5b-9fdd-21f59039f811": {
+        "id": "f8c4ee73-1168-4e5b-9fdd-21f59039f811",
+        "slots": [
+            "041d0908-d643-4ea1-b694-145611b84b3f"
+        ],
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "color": "#1D1B1BFF",
+        "height": "50px"
+    },
+    "app": {
+        "id": "app",
+        "slots": [
+            "7edfd2b3-a23a-430b-8558-cbd14df4a473",
+            "fc05d99b-ae32-4930-92d1-b4f1ccd8fb27",
+            "7af9b255-e68b-4773-b287-f511e49f08dc",
+            "e3e46220-1270-47e2-bdb7-1882ce46ce9d",
+            "0a1a03f5-6154-4fbe-ac4e-a90be4239c30",
+            "74a547cf-b369-472e-be87-573b9fba4601",
+            "f8c4ee73-1168-4e5b-9fdd-21f59039f811"
+        ],
+        "componentName": "BaseApp",
+        "dark": false,
+        "primary": "#42A5F6",
+        "hidden": false,
+        "pa": null,
+        "padding": "0",
+        "margin": "0"
+    }
+}
