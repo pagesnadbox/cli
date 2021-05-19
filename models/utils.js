@@ -29,7 +29,6 @@ const writeFile = (path, content) => {
 }
 
 const getProjectDir = () => {
-    console.log(process.cwd())
     return path.resolve(process.cwd(), `project`)
 }
 

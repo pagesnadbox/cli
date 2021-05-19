@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
+const fse = require("fs-extra");
 
-const appConfig = require("../../appConfig");
 const { writeFile, readFile, getProjectDir: getDir } = require("../utils");
 const { build: buildProject } = require("../../build");
 
@@ -35,8 +35,7 @@ const create = async (payload) => {
             await fs.mkdir(dir);
         }
 
-        await fs.mkdir(`${dir}/images`);
-        await writeFile(`${dir}/appConfig.json`, JSON.stringify(appConfig));
+        await fse.copy(`${dir}/../templates/${payload.template}`, `${dir}`);
         await writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 
         return {
