@@ -35,7 +35,7 @@ const create = async (payload) => {
             await fs.mkdir(dir);
         }
 
-        await fse.copy(`${dir}/../templates/${payload.template}`, `${dir}`);
+        await fse.copy(`${__dirname}/../../templates/${payload.template}`, `${dir}`);
         await writeFile(`${dir}/projectConfig.json`, JSON.stringify(project));
 
         return {

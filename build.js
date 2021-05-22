@@ -19,7 +19,7 @@ const mergeConfig = async (dir) => {
     const appConfigDir = `${dir}/appConfig.json`;
     const appConfigTargetDir = `${dir}/dist/config.js`;
     const config = await readFile(appConfigDir);
-    const targetContent = `window.com = window.com || {};window.com.config = ${config};`;
+    const targetContent = `window.com = window.com || {};window.com.template.standalone = true;window.com.config = ${config};`;
 
     await writeFile(appConfigTargetDir, targetContent);
 }
