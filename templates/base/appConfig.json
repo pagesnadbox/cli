@@ -1,0 +1,45 @@
+{
+    "app": {
+        "id": "app",
+        "slots": [
+            "071b8cf9-3c4e-4755-82dc-cd3578dc6687",
+            "431e59d3-b73a-4647-977c-5bec04cb258e"
+        ],
+        "componentName": "BaseApp",
+        "dark": false,
+        "primary": "#42A5F6",
+        "hidden": false,
+        "padding": "0",
+        "margin": "0"
+    },
+    "071b8cf9-3c4e-4755-82dc-cd3578dc6687": {
+        "parentId": "app",
+        "componentName": "BaseAppBar",
+        "slots": [
+            "bf412fdc-4a65-42af-9329-c9b2b82c0a25",
+            "240eb9f2-5aec-4d93-800a-628a47fd916b"
+        ],
+        "id": "071b8cf9-3c4e-4755-82dc-cd3578dc6687"
+    },
+    "431e59d3-b73a-4647-977c-5bec04cb258e": {
+        "parentId": "app",
+        "componentName": "BaseDrawer",
+        "slots": [],
+        "id": "431e59d3-b73a-4647-977c-5bec04cb258e"
+    },
+    "bf412fdc-4a65-42af-9329-c9b2b82c0a25": {
+        "parentId": "071b8cf9-3c4e-4755-82dc-cd3578dc6687",
+        "componentName": "BaseDrawerButton",
+        "slots": [],
+        "id": "bf412fdc-4a65-42af-9329-c9b2b82c0a25"
+    },
+    "240eb9f2-5aec-4d93-800a-628a47fd916b": {
+        "parentId": "071b8cf9-3c4e-4755-82dc-cd3578dc6687",
+        "componentName": "BaseTitle",
+        "slots": [],
+        "id": "240eb9f2-5aec-4d93-800a-628a47fd916b",
+        "title": "Application",
+        "size": "text-h6",
+        "weight": "regular"
+    }
+}
