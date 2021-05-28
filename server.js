@@ -1,4 +1,11 @@
 #!/usr/bin/env node
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
+const argv = yargs(hideBin(process.argv)).argv
+
+console.error(argv)
+
+const isReadOnly = argv.policy === "ReadOnly";
 
 const cors = require('cors');
 const express = require('express');
@@ -29,21 +36,33 @@ const images = require("./models/images/images")
 
 const apiUrl = '/pagesandbox/api/v1'
 
+function accessCheck(req, res, next) {
+    if (!isReadOnly) {
+        return next();
+    }
+
+    res.send({
+        success: false,
+        code: 403,
+        message: "Access denied"
+    })
+}
+
 // projects
 
-app.post(`${apiUrl}/project/create`, async (req, res) => {
+app.post(`${apiUrl}/project/create`, accessCheck, async (req, res) => {
     const data = await projects.create(req.body);
 
     res.send(data);
 })
 
-app.post(`${apiUrl}/project/edit`, async (req, res) => {
+app.post(`${apiUrl}/project/edit`, accessCheck, async (req, res) => {
     const data = await projects.edit(req.body);
 
     res.send(data);
 })
 
-app.post(`${apiUrl}/project/remove`, async (req, res) => {
+app.post(`${apiUrl}/project/remove`, accessCheck, async (req, res) => {
     const data = await projects.remove(req.body);
 
     res.send(data);
@@ -57,7 +76,7 @@ app.get(`${apiUrl}/project`, async (req, res) => {
 
 // configs
 
-app.post(`${apiUrl}/project/config/save`, async (req, res) => {
+app.post(`${apiUrl}/project/config/save`, accessCheck, async (req, res) => {
     const data = await configs.save(req.body)
 
     res.send(data);
@@ -71,7 +90,7 @@ app.get(`${apiUrl}/project/config/fetch`, async (req, res) => {
 
 // images
 
-app.post(`${apiUrl}/project/images/`, async (req, res) => {
+app.post(`${apiUrl}/project/images/`, accessCheck, async (req, res) => {
     const imagesResult = await images.upload(req, res)
 
     const files = imagesResult.files.map(file => {
@@ -85,7 +104,7 @@ app.post(`${apiUrl}/project/images/`, async (req, res) => {
     res.send(project);
 })
 
-app.delete(`${apiUrl}/project/images/clear`, async (req, res) => {
+app.delete(`${apiUrl}/project/images/clear`, accessCheck, async (req, res) => {
     const project = await projects.edit({ images: [] });
 
     res.send(project);
@@ -93,7 +112,7 @@ app.delete(`${apiUrl}/project/images/clear`, async (req, res) => {
 
 // build
 
-app.post(`${apiUrl}/project/build`, async (req, res) => {
+app.post(`${apiUrl}/project/build`, accessCheck, async (req, res) => {
     const project = await projects.build();
 
     res.send(project);
