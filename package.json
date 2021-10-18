@@ -1,6 +1,6 @@
 {
   "name": "pagesandbox-cli",
-  "version": "0.0.26",
+  "version": "0.0.28",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "fs-extra": "^9.1.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
-    "pagesandbox-builder": "^0.0.42",
-    "pagesandbox-template": "^0.0.33",
+    "pagesandbox-builder": "^0.0.44",
+    "pagesandbox-template": "^0.0.35",
     "puppeteer": "^8.0.0",
     "uuid": "^8.3.2",
     "yargs": "^17.0.1"
