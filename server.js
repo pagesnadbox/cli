@@ -7,6 +7,8 @@ console.error(argv)
 
 const isReadOnly = argv.policy === "ReadOnly";
 
+console.error(isReadOnly)
+
 const cors = require('cors');
 const express = require('express');
 const logger = require("morgan");
