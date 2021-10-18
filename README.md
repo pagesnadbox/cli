@@ -1,31 +1,38 @@
-## Description
+# PageSandbox
 
-The **pagesnadbox cli** installs the [**builder**](https://www.npmjs.com/package/pagesandbox-builder) and the [**template**](https://www.npmjs.com/package/pagesandbox-template) projects and creates the new project directory and serves the builder.
+PageSandbox is Low-code tool for building a simple landing pages.
 
-![](chrome-capture.gif)
-## Usage
+## Installation
 
-Install the [**pagesnadbox-cli**](https://www.npmjs.com/package/pagesandbox-cli) package with [NPM](https://www.npmjs.org/):
+Add `pagesandbox` to existing project:
 
-```sh
-npm install pagesnadbox-cli -g
+### Install
+
+```bash
+npm install pagesandbox-cli
 ```
-
-Create a project
-
-```sh
-pagesandbox-create projectName
-cd projectName
-```
-
-Start the builder
-
-```sh
+### Run
+```bash
 pagesandbox-serve
 ```
+New directory /project is created.
+The sandbox is now served on localhost:3000.
 
-Build the project
-
-```sh
-pagesandbox-build
+### Build
+```bash
+pagesadnbox-build
 ```
+The page is immediately build at /project/dist.
+
+## Demo
+
+### Create a project
+
+![](https://gitlab.com/ibuild/cli/-/raw/master/project_create.gif)
+
+### Make a change
+
+![](https://gitlab.com/ibuild/cli/-/raw/master/title_change.gif)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

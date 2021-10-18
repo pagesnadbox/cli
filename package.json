@@ -1,10 +1,9 @@
 {
   "name": "pagesandbox-cli",
-  "version": "0.0.28",
+  "version": "0.0.32",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-sandbox": "node index.js",
     "serve": "node server.js",
     "build": "node bin/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +22,6 @@
     "multer": "^1.4.2",
     "pagesandbox-builder": "^0.0.44",
     "pagesandbox-template": "^0.0.35",
-    "puppeteer": "^8.0.0",
     "uuid": "^8.3.2",
     "yargs": "^17.0.1"
   }
