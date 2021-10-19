@@ -1,1833 +1,2190 @@
 {
-    "7e41b661-33a7-4752-9e2f-6fbaaa39906c": {
-        "id": "7e41b661-33a7-4752-9e2f-6fbaaa39906c",
-        "slots": [],
-        "parentId": "7edfd2b3-a23a-430b-8558-cbd14df4a473",
-        "componentName": "BaseTitle",
-        "title": "Application",
-        "size": "text-h4",
-        "mobileSize": "text-h6",
-        "weight": "regular",
-        "align": "center",
-        "hidden": false,
-        "ml": "5",
-        "color": "",
-        "ma": null,
-        "margin": "0 20px"
-    },
-    "95e7376e-a8a7-456b-af52-9c7c88a3772f": {
-        "id": "95e7376e-a8a7-456b-af52-9c7c88a3772f",
-        "slots": [],
-        "parentId": "e9dd29bd-b3c7-4812-a8a0-7098d7321c36",
-        "componentName": "BaseTitle",
-        "title": "WELCOME TO ZERO ",
-        "color": "#FFFFFFFF",
-        "align": "",
-        "size": "text-h2",
-        "mobileSize": "text-h3"
-    },
-    "e9dd29bd-b3c7-4812-a8a0-7098d7321c36": {
-        "id": "e9dd29bd-b3c7-4812-a8a0-7098d7321c36",
-        "slots": [
-            "95e7376e-a8a7-456b-af52-9c7c88a3772f"
-        ],
-        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
-        "componentName": "BaseCol",
-        "cols": "12"
-    },
-    "cb407a7a-ac0c-46da-9485-2d7a329fd417": {
-        "id": "cb407a7a-ac0c-46da-9485-2d7a329fd417",
-        "slots": [],
-        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
-        "componentName": "BaseBtn",
-        "text": "Discover More",
-        "color": "#42A5F6",
-        "dark": true,
-        "size": "x-large",
-        "depressed": true,
-        "tile": true
-    },
-    "3932386b-aba4-4437-ba09-c60c5fb33c2c": {
-        "id": "3932386b-aba4-4437-ba09-c60c5fb33c2c",
-        "slots": [],
-        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
-        "componentName": "BaseText",
-        "text": "or",
-        "color": "#FFFFFFFF",
-        "ma": null,
-        "mr": null,
-        "ml": "5",
-        "mt": "2",
-        "margin": "10px 0 0 25px"
-    },
-    "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2": {
-        "id": "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2",
-        "slots": [],
-        "parentId": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
-        "componentName": "BaseBtn",
-        "ml": null,
-        "text": "Get started now",
-        "textOnly": true,
-        "size": "x-large"
-    },
-    "3db1cdce-b2e0-4de7-8889-04c941b660cb": {
-        "id": "3db1cdce-b2e0-4de7-8889-04c941b660cb",
-        "slots": [
-            "cb407a7a-ac0c-46da-9485-2d7a329fd417",
-            "3932386b-aba4-4437-ba09-c60c5fb33c2c",
-            "57bcd8bd-126d-4e2c-8b3e-66c9b1e3e5e2"
-        ],
-        "parentId": "b546b878-4037-49e4-9568-c09bbbde9a2f",
-        "componentName": "BaseRow",
-        "justify": null,
-        "align": null
-    },
-    "b546b878-4037-49e4-9568-c09bbbde9a2f": {
-        "id": "b546b878-4037-49e4-9568-c09bbbde9a2f",
-        "slots": [
-            "3db1cdce-b2e0-4de7-8889-04c941b660cb"
-        ],
-        "parentId": "0b9dc1cf-4a79-401a-9236-2cf31fbc614b",
-        "componentName": "BaseContainer",
-        "ma": null,
-        "pa": null,
-        "fluid": true
-    },
-    "0b9dc1cf-4a79-401a-9236-2cf31fbc614b": {
-        "id": "0b9dc1cf-4a79-401a-9236-2cf31fbc614b",
-        "slots": [
-            "b546b878-4037-49e4-9568-c09bbbde9a2f"
-        ],
-        "parentId": "d7009e4e-4651-441b-a63b-7486d06f0d44",
-        "componentName": "BaseCol",
-        "cols": "12"
-    },
-    "8c79759f-027f-44f1-ac8c-55a7da633e02": {
-        "id": "8c79759f-027f-44f1-ac8c-55a7da633e02",
-        "slots": [],
-        "parentId": "d056a788-fcdc-4f15-85ae-b46d56995efb",
-        "componentName": "BaseAvatarCard",
-        "title": "PIXEL PERFECT DESIGN 1",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-fountain-pen-tip",
-        "outlined": true,
-        "horizontal": true
-    },
-    "d056a788-fcdc-4f15-85ae-b46d56995efb": {
-        "id": "d056a788-fcdc-4f15-85ae-b46d56995efb",
-        "slots": [
-            "8c79759f-027f-44f1-ac8c-55a7da633e02"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "f2084498-8a1a-43ea-a663-6af550cadbc0": {
-        "id": "f2084498-8a1a-43ea-a663-6af550cadbc0",
-        "slots": [],
-        "parentId": "0ef7aab3-a88e-4246-8802-2d516919b019",
-        "componentName": "BaseAvatarCard",
-        "title": "RETINA READY",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-cellphone",
-        "outlined": true,
-        "horizontal": true
-    },
-    "0ef7aab3-a88e-4246-8802-2d516919b019": {
-        "id": "0ef7aab3-a88e-4246-8802-2d516919b019",
-        "slots": [
-            "f2084498-8a1a-43ea-a663-6af550cadbc0"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "fe8bae5a-254f-42df-a699-d07ada0aacf4": {
-        "id": "fe8bae5a-254f-42df-a699-d07ada0aacf4",
-        "slots": [],
-        "parentId": "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
-        "componentName": "BaseAvatarCard",
-        "title": "EASILY CUSTOMIZABLE",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-pencil-box-outline",
-        "outlined": true,
-        "horizontal": true,
-        "color": "#42A5F6",
-        "iconDark": true
-    },
-    "69ab9885-b4eb-43cb-b19d-e22b697f9c70": {
-        "id": "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
-        "slots": [
-            "fe8bae5a-254f-42df-a699-d07ada0aacf4"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346": {
-        "id": "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346",
-        "slots": [],
-        "parentId": "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
-        "componentName": "BaseAvatarCard",
-        "title": "SEO OPTIMIZED",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-cloud-search-outline",
-        "outlined": true,
-        "horizontal": true
-    },
-    "eb2a4d8f-c3da-4160-a5bc-aee487a220c4": {
-        "id": "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
-        "slots": [
-            "5b5e6047-1c6a-46ca-83ce-b0d03ecb5346"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "5f75728b-3db2-4887-83a5-836174c8b336": {
-        "id": "5f75728b-3db2-4887-83a5-836174c8b336",
-        "slots": [],
-        "parentId": "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
-        "componentName": "BaseAvatarCard",
-        "title": "IMAGE PARALLAX",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-folder-image",
-        "outlined": true,
-        "horizontal": true
-    },
-    "f6fea1d3-ae18-4da5-84bd-c756e79acd17": {
-        "id": "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
-        "slots": [
-            "5f75728b-3db2-4887-83a5-836174c8b336"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "a93049c6-933c-41c5-b094-870941d5ceb5": {
-        "id": "a93049c6-933c-41c5-b094-870941d5ceb5",
-        "slots": [],
-        "parentId": "9219361f-bd64-41c4-b2b7-e3393a248b96",
-        "componentName": "BaseAvatarCard",
-        "title": "24/7 SUPPORT",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
-        "icon": "mdi-progress-question",
-        "outlined": true,
-        "horizontal": true
-    },
-    "9219361f-bd64-41c4-b2b7-e3393a248b96": {
-        "id": "9219361f-bd64-41c4-b2b7-e3393a248b96",
-        "slots": [
-            "a93049c6-933c-41c5-b094-870941d5ceb5"
-        ],
-        "parentId": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "6"
-    },
-    "44a3d367-8442-40ff-9295-abcfcc60bd06": {
-        "id": "44a3d367-8442-40ff-9295-abcfcc60bd06",
-        "slots": [
-            "d056a788-fcdc-4f15-85ae-b46d56995efb",
-            "0ef7aab3-a88e-4246-8802-2d516919b019",
-            "69ab9885-b4eb-43cb-b19d-e22b697f9c70",
-            "eb2a4d8f-c3da-4160-a5bc-aee487a220c4",
-            "f6fea1d3-ae18-4da5-84bd-c756e79acd17",
-            "9219361f-bd64-41c4-b2b7-e3393a248b96"
-        ],
-        "parentId": "33b52285-791b-43be-9ba2-dadec6e73981",
-        "componentName": "BaseRow"
-    },
-    "33b52285-791b-43be-9ba2-dadec6e73981": {
-        "id": "33b52285-791b-43be-9ba2-dadec6e73981",
-        "slots": [
-            "44a3d367-8442-40ff-9295-abcfcc60bd06"
-        ],
-        "parentId": "a986efd5-69c9-41e0-b553-2aac4dfa41ed",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "9",
-        "pa": "3",
-        "md": "9",
-        "lg": "9",
-        "xl": "7"
-    },
-    "a986efd5-69c9-41e0-b553-2aac4dfa41ed": {
-        "id": "a986efd5-69c9-41e0-b553-2aac4dfa41ed",
-        "slots": [
-            "33b52285-791b-43be-9ba2-dadec6e73981"
-        ],
-        "parentId": "7af9b255-e68b-4773-b287-f511e49f08dc",
-        "componentName": "BaseRow",
-        "align": "center",
-        "justify": "center"
-    },
-    "38b7b443-edb9-44c5-bb89-10ab0132ecf1": {
-        "id": "38b7b443-edb9-44c5-bb89-10ab0132ecf1",
-        "slots": [],
-        "parentId": "d47eb476-daf1-4bc0-bbae-84f2962c4bac",
-        "componentName": "BaseInfoCard",
-        "title": "TRENDY DESIGN",
-        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
-        "icon": "mdi-keyboard-outline",
-        "align": "center"
-    },
-    "d47eb476-daf1-4bc0-bbae-84f2962c4bac": {
-        "id": "d47eb476-daf1-4bc0-bbae-84f2962c4bac",
-        "slots": [
-            "38b7b443-edb9-44c5-bb89-10ab0132ecf1"
-        ],
-        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "12",
-        "md": "6",
-        "lg": "3"
-    },
-    "df1f55b4-3f38-4dae-abeb-73194626a0c6": {
-        "id": "df1f55b4-3f38-4dae-abeb-73194626a0c6",
-        "slots": [],
-        "parentId": "df2eade4-8f6b-459e-ad3d-226eec1b573d",
-        "componentName": "BaseInfoCard",
-        "title": "TRENDY DESIGN",
-        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
-        "icon": "mdi-keyboard-outline",
-        "align": "center"
-    },
-    "df2eade4-8f6b-459e-ad3d-226eec1b573d": {
-        "id": "df2eade4-8f6b-459e-ad3d-226eec1b573d",
-        "slots": [
-            "df1f55b4-3f38-4dae-abeb-73194626a0c6"
-        ],
-        "parentId": "7adba285-664a-40d2-8069-6555fd3ca773",
-        "componentName": "BaseCol",
-        "cols": "12",
-        "sm": "12",
-        "md": "6",
-        "lg": "3"
-    },
-    "96e64c9f-eb07-48c8-ad19-d1f61b890514": {
-        "id": "96e64c9f-eb07-48c8-ad19-d1f61b890514",
-        "slots": [],
-        "parentId": "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png",
-        "hidden": false
-    },
-    "43f34310-ba6a-423c-8e10-c41ec4d19d9a": {
-        "id": "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
-        "slots": [
-            "96e64c9f-eb07-48c8-ad19-d1f61b890514"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "1627a630-a14b-4a82-b3dc-51cebe854b21": {
-        "id": "1627a630-a14b-4a82-b3dc-51cebe854b21",
-        "slots": [],
-        "parentId": "edce23ed-9395-4e7d-8372-ac27157c689e",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "edce23ed-9395-4e7d-8372-ac27157c689e": {
-        "id": "edce23ed-9395-4e7d-8372-ac27157c689e",
-        "slots": [
-            "1627a630-a14b-4a82-b3dc-51cebe854b21"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "0c599b19-0188-4508-b976-74afd995d015": {
-        "id": "0c599b19-0188-4508-b976-74afd995d015",
-        "slots": [],
-        "parentId": "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "ce7dcc4c-92bf-4be0-b225-9c9845682aca": {
-        "id": "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
-        "slots": [
-            "0c599b19-0188-4508-b976-74afd995d015"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "576915bd-74c8-404e-a051-be26f54a589a": {
-        "id": "576915bd-74c8-404e-a051-be26f54a589a",
-        "slots": [],
-        "parentId": "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "4e8236f3-13ca-4c8b-bb40-16e9684a50f4": {
-        "id": "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
-        "slots": [
-            "576915bd-74c8-404e-a051-be26f54a589a"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "4f1a0a06-1635-47ea-878c-1e2853f0544b": {
-        "id": "4f1a0a06-1635-47ea-878c-1e2853f0544b",
-        "slots": [],
-        "parentId": "8e58bdce-90c1-4954-93cd-44609e62bce6",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "8e58bdce-90c1-4954-93cd-44609e62bce6": {
-        "id": "8e58bdce-90c1-4954-93cd-44609e62bce6",
-        "slots": [
-            "4f1a0a06-1635-47ea-878c-1e2853f0544b"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "f49b8836-cf7d-4f79-93c2-3b809ef10dbc": {
-        "id": "f49b8836-cf7d-4f79-93c2-3b809ef10dbc",
-        "slots": [],
-        "parentId": "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "c38d516c-7a86-4cdb-bb08-890fab1c9c7d": {
-        "id": "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
-        "slots": [
-            "f49b8836-cf7d-4f79-93c2-3b809ef10dbc"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "b579031c-18a4-4ac8-8fdf-25961a57a3b5": {
-        "id": "b579031c-18a4-4ac8-8fdf-25961a57a3b5",
-        "slots": [],
-        "parentId": "241b668b-43d2-47d9-bb92-a1833c6c0a04",
-        "componentName": "BaseImg",
-        "src": "/assets/omurtag-logo-light.png"
-    },
-    "241b668b-43d2-47d9-bb92-a1833c6c0a04": {
-        "id": "241b668b-43d2-47d9-bb92-a1833c6c0a04",
-        "slots": [
-            "b579031c-18a4-4ac8-8fdf-25961a57a3b5"
-        ],
-        "parentId": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "componentName": "BaseCol"
-    },
-    "ce7abef8-7af3-4b0c-bc64-1948bf64eef1": {
-        "id": "ce7abef8-7af3-4b0c-bc64-1948bf64eef1",
-        "slots": [
-            "43f34310-ba6a-423c-8e10-c41ec4d19d9a",
-            "edce23ed-9395-4e7d-8372-ac27157c689e",
-            "ce7dcc4c-92bf-4be0-b225-9c9845682aca",
-            "4e8236f3-13ca-4c8b-bb40-16e9684a50f4",
-            "8e58bdce-90c1-4954-93cd-44609e62bce6",
-            "c38d516c-7a86-4cdb-bb08-890fab1c9c7d",
-            "241b668b-43d2-47d9-bb92-a1833c6c0a04"
-        ],
-        "parentId": "6858fcb3-efef-4047-b7bc-4fccba3ca195",
-        "componentName": "BaseRow",
-        "preventWrap": true,
-        "padding": "0 40px"
-    },
-    "6858fcb3-efef-4047-b7bc-4fccba3ca195": {
-        "id": "6858fcb3-efef-4047-b7bc-4fccba3ca195",
-        "slots": [
-            "ce7abef8-7af3-4b0c-bc64-1948bf64eef1"
-        ],
-        "parentId": "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7",
-        "componentName": "BaseCol",
-        "xl": "10"
-    },
-    "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7": {
-        "id": "a00cf6e1-77bd-4fd5-8b1b-1ce0319f95a7",
-        "slots": [
-            "6858fcb3-efef-4047-b7bc-4fccba3ca195"
-        ],
-        "parentId": "0a1a03f5-6154-4fbe-ac4e-a90be4239c30",
-        "componentName": "BaseRow",
-        "align": "center",
-        "justify": "center",
-        "preventWrap": false
-    },
-    "171c5dc2-543a-4281-9987-198f5758213b": {
-        "id": "171c5dc2-543a-4281-9987-198f5758213b",
-        "slots": [],
-        "parentId": "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b",
-        "componentName": "BaseBody",
-        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aspernatur recusandae aut repudiandae illo error obcaecati dolores voluptate, tempore.",
-        "maxWidth": "700",
-        "color": ""
-    },
-    "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b": {
-        "id": "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b",
-        "slots": [
-            "171c5dc2-543a-4281-9987-198f5758213b"
-        ],
-        "parentId": "b46d500c-7492-4dfd-b582-256e4f866b46",
-        "componentName": "BaseCol"
-    },
-    "b46d500c-7492-4dfd-b582-256e4f866b46": {
-        "id": "b46d500c-7492-4dfd-b582-256e4f866b46",
-        "slots": [
-            "8bf2145a-4e53-4d3b-8179-25dbd02c5f0b"
-        ],
-        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
-        "componentName": "BaseRow",
-        "justify": "center",
-        "align": "center"
-    },
-    "9e212e78-9c18-4c33-b2db-d1f84a17c2df": {
-        "id": "9e212e78-9c18-4c33-b2db-d1f84a17c2df",
-        "slots": [],
-        "parentId": "ce3c1dd0-997f-48ad-b5a3-c68572f21726",
-        "componentName": "BaseBtn",
-        "color": "#42A5F6",
-        "text": "Follow us ",
-        "iconSrc": "mdi-open-in-new",
-        "size": "x-large"
-    },
-    "ce3c1dd0-997f-48ad-b5a3-c68572f21726": {
-        "id": "ce3c1dd0-997f-48ad-b5a3-c68572f21726",
-        "slots": [
-            "9e212e78-9c18-4c33-b2db-d1f84a17c2df"
-        ],
-        "parentId": "00d580be-9517-4be8-be1b-d6e008ce2fb9",
-        "componentName": "BaseCol"
-    },
-    "00d580be-9517-4be8-be1b-d6e008ce2fb9": {
-        "id": "00d580be-9517-4be8-be1b-d6e008ce2fb9",
-        "slots": [
-            "ce3c1dd0-997f-48ad-b5a3-c68572f21726"
-        ],
-        "parentId": "1f9cd8ed-dd31-4cda-9e87-f7adda39068b",
-        "componentName": "BaseRow",
-        "justify": "center",
-        "align": "center"
-    },
     "app": {
         "id": "app",
         "slots": [
-            "0700baa5-acc5-42c7-8e48-38c689045347",
-            "55de5e24-255e-4294-82be-c4cce630983c",
-            "1479802c-3463-44bc-a7a7-63605c6ddce5",
-            "316ee6dd-b116-484f-a323-cb5d4d50a86b",
-            "c2d0e706-cc21-4f3d-b2b2-56df7276417a"
+            "6a24fe94-e80f-4723-b08b-a909dfa06961",
+            "086fea2d-9a5c-4ab6-9419-afd3f129c13a",
+            "4d4ea8a4-1389-486d-a8fe-532fbb78ca0d",
+            "90d9a6db-d651-4d3e-a59f-4d0147729ed4",
+            "979e1ab6-e853-4a48-8714-0ecd11486c99",
+            "e88cfe5c-6a4f-4069-9985-eca1ef5f016f"
         ],
         "componentName": "BaseApp",
-        "dark": true,
-        "primary": "#03A9F4",
-        "hidden": false,
-        "pa": null,
-        "padding": "0",
-        "margin": "0"
-    },
-    "521984b6-2f25-479c-8101-dda1cf427d48": {
-        "parentId": "0700baa5-acc5-42c7-8e48-38c689045347",
-        "componentName": "BaseSection",
-        "slots": [
-            "38bc4aba-0b7b-4b48-9a0f-baa5eddc9124"
-        ],
-        "id": "521984b6-2f25-479c-8101-dda1cf427d48",
-        "height": "100%",
-        "dark": true,
-        "padding": "150px 0",
-        "color": "#1B1B1B00",
-        "hidden": false
-    },
-    "1380cad9-73f9-4533-8758-9b5e195dbccf": {
-        "parentId": "16d266c0-9ff3-4e3e-a203-c7cbf9263168",
-        "componentName": "BaseImg",
-        "slots": [],
-        "id": "1380cad9-73f9-4533-8758-9b5e195dbccf",
-        "src": "/assets/logo.svg",
-        "margin": null,
-        "height": "600"
-    },
-    "38bc4aba-0b7b-4b48-9a0f-baa5eddc9124": {
-        "parentId": "521984b6-2f25-479c-8101-dda1cf427d48",
-        "componentName": "BaseContainer",
-        "slots": [
-            "3106ee97-32d0-4ab4-9c07-7e3f78579b1e"
-        ],
-        "id": "38bc4aba-0b7b-4b48-9a0f-baa5eddc9124",
-        "fillHeight": true
-    },
-    "3106ee97-32d0-4ab4-9c07-7e3f78579b1e": {
-        "parentId": "38bc4aba-0b7b-4b48-9a0f-baa5eddc9124",
-        "componentName": "BaseRow",
-        "slots": [
-            "682bdf67-4367-4802-b8ca-445b249f5370",
-            "3518e219-7b5c-41cb-bded-8e95bb86ffaa",
-            "433a53d3-43e6-4bc7-9dfb-d636ffd55b26"
-        ],
-        "id": "3106ee97-32d0-4ab4-9c07-7e3f78579b1e",
-        "fillHeight": false,
-        "justify": null,
-        "align": "start"
-    },
-    "80bb831c-25d9-436d-a200-ec121561365e": {
-        "parentId": "3518e219-7b5c-41cb-bded-8e95bb86ffaa",
-        "componentName": "BaseTitle",
-        "slots": [],
-        "id": "80bb831c-25d9-436d-a200-ec121561365e",
-        "title": "Welcome to PageSandbox",
-        "size": "text-h2",
-        "weight": "regular",
-        "mobileSize": "text-h4",
-        "padding": "10px 0"
-    },
-    "433a53d3-43e6-4bc7-9dfb-d636ffd55b26": {
-        "parentId": "3106ee97-32d0-4ab4-9c07-7e3f78579b1e",
-        "componentName": "BaseCol",
-        "slots": [
-            "f437aee6-403f-44ca-946a-d93e606684f9",
-            "fb40220b-9903-471d-8f6e-1ade0b08e8b8"
-        ],
-        "id": "433a53d3-43e6-4bc7-9dfb-d636ffd55b26",
-        "cols": "12"
-    },
-    "3518e219-7b5c-41cb-bded-8e95bb86ffaa": {
-        "parentId": "3106ee97-32d0-4ab4-9c07-7e3f78579b1e",
-        "componentName": "BaseCol",
-        "slots": [
-            "80bb831c-25d9-436d-a200-ec121561365e"
-        ],
-        "id": "3518e219-7b5c-41cb-bded-8e95bb86ffaa",
-        "cols": "12"
-    },
-    "242169d1-826b-4a5e-901a-4101733ddb12": {
-        "parentId": "27f237ba-a340-4840-9e69-7a7bfa965978",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "242169d1-826b-4a5e-901a-4101733ddb12",
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st",
-        "padding": "",
-        "hidden": false
-    },
-    "682bdf67-4367-4802-b8ca-445b249f5370": {
-        "parentId": "3106ee97-32d0-4ab4-9c07-7e3f78579b1e",
-        "componentName": "BaseCol",
-        "slots": [
-            "b73c3cfd-2f85-4018-8b7f-9d1a14eb6130"
-        ],
-        "id": "682bdf67-4367-4802-b8ca-445b249f5370",
-        "cols": "12"
-    },
-    "fb40220b-9903-471d-8f6e-1ade0b08e8b8": {
-        "parentId": "433a53d3-43e6-4bc7-9dfb-d636ffd55b26",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "fb40220b-9903-471d-8f6e-1ade0b08e8b8",
-        "margin": "10px 0 0 0",
-        "textOnly": false,
-        "color": null,
-        "text": "github project",
-        "outlined": true,
-        "size": "large"
-    },
-    "f437aee6-403f-44ca-946a-d93e606684f9": {
-        "parentId": "433a53d3-43e6-4bc7-9dfb-d636ffd55b26",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "f437aee6-403f-44ca-946a-d93e606684f9",
-        "color": "primary",
-        "text": "Get started",
         "dark": false,
-        "textOnly": false,
-        "size": "large",
-        "margin": "10px 10px 0 0"
-    },
-    "55de5e24-255e-4294-82be-c4cce630983c": {
-        "parentId": "app",
-        "componentName": "BaseSection",
-        "slots": [
-            "bb1cfae9-4e26-4d6c-8f34-1abde4460743"
-        ],
-        "id": "55de5e24-255e-4294-82be-c4cce630983c",
-        "height": "",
-        "padding": "90px 0",
-        "color": null
-    },
-    "bb1cfae9-4e26-4d6c-8f34-1abde4460743": {
-        "parentId": "55de5e24-255e-4294-82be-c4cce630983c",
-        "componentName": "BaseContainer",
-        "slots": [
-            "0943d98d-2204-48bf-9d2b-54dda936e6ac"
-        ],
-        "id": "bb1cfae9-4e26-4d6c-8f34-1abde4460743",
-        "fillHeight": true
-    },
-    "0943d98d-2204-48bf-9d2b-54dda936e6ac": {
-        "parentId": "bb1cfae9-4e26-4d6c-8f34-1abde4460743",
-        "componentName": "BaseRow",
-        "slots": [
-            "95bdb599-09b3-44ed-86a9-f5e33e80f681",
-            "bb94c353-297b-4440-9b35-db806eb86560",
-            "d8a31258-b320-46ef-942c-216a76dca85a"
-        ],
-        "id": "0943d98d-2204-48bf-9d2b-54dda936e6ac",
-        "justify": null,
-        "align": null
-    },
-    "d8a31258-b320-46ef-942c-216a76dca85a": {
-        "parentId": "0943d98d-2204-48bf-9d2b-54dda936e6ac",
-        "componentName": "BaseCol",
-        "slots": [
-            "9ed42683-9ecf-4b51-92d3-57b649d7460e"
-        ],
-        "id": "d8a31258-b320-46ef-942c-216a76dca85a",
-        "cols": "12",
-        "md": "4"
-    },
-    "9ed42683-9ecf-4b51-92d3-57b649d7460e": {
-        "parentId": "d8a31258-b320-46ef-942c-216a76dca85a",
-        "componentName": "BaseInfoCard",
-        "slots": [],
-        "id": "9ed42683-9ecf-4b51-92d3-57b649d7460e",
-        "icon": "mdi-car-child-seat",
-        "title": "Easy to use",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stLorem Ipsum is ",
-        "align": "center",
-        "color": "primary"
-    },
-    "9b014ab9-cc5b-4d7d-8160-d8c59f902acd": {
-        "parentId": "bb94c353-297b-4440-9b35-db806eb86560",
-        "componentName": "BaseInfoCard",
-        "slots": [],
-        "id": "9b014ab9-cc5b-4d7d-8160-d8c59f902acd",
-        "icon": "mdi-office-building-marker",
-        "title": "Enterprise Ready",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stLorem Ipsum is ",
-        "align": "center",
-        "color": "primary"
-    },
-    "bb94c353-297b-4440-9b35-db806eb86560": {
-        "parentId": "0943d98d-2204-48bf-9d2b-54dda936e6ac",
-        "componentName": "BaseCol",
-        "slots": [
-            "9b014ab9-cc5b-4d7d-8160-d8c59f902acd"
-        ],
-        "id": "bb94c353-297b-4440-9b35-db806eb86560",
-        "cols": "12",
-        "md": "4"
-    },
-    "67b1849a-127d-4276-a352-9d95da55f9c2": {
-        "parentId": "95bdb599-09b3-44ed-86a9-f5e33e80f681",
-        "componentName": "BaseInfoCard",
-        "slots": [],
-        "id": "67b1849a-127d-4276-a352-9d95da55f9c2",
-        "icon": "mdi-responsive",
-        "title": "Responsive Design",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stLorem Ipsum is ",
-        "align": "center",
-        "color": "primary"
-    },
-    "95bdb599-09b3-44ed-86a9-f5e33e80f681": {
-        "parentId": "0943d98d-2204-48bf-9d2b-54dda936e6ac",
-        "componentName": "BaseCol",
-        "slots": [
-            "67b1849a-127d-4276-a352-9d95da55f9c2"
-        ],
-        "id": "95bdb599-09b3-44ed-86a9-f5e33e80f681",
-        "cols": "12",
-        "md": "4"
-    },
-    "1479802c-3463-44bc-a7a7-63605c6ddce5": {
-        "parentId": "app",
-        "componentName": "BaseSection",
-        "slots": [
-            "e20b59f1-c35f-42da-ad94-622414ca00df"
-        ],
-        "id": "1479802c-3463-44bc-a7a7-63605c6ddce5",
-        "color": "primary",
-        "height": "",
-        "dark": true,
-        "padding": "150px 0",
-        "absolute": false
-    },
-    "e20b59f1-c35f-42da-ad94-622414ca00df": {
-        "parentId": "1479802c-3463-44bc-a7a7-63605c6ddce5",
-        "componentName": "BaseContainer",
-        "slots": [
-            "f531ae34-a881-4589-b707-a0446450c961",
-            "14b8c535-5498-4bfa-b73b-ab3121f117e4"
-        ],
-        "id": "e20b59f1-c35f-42da-ad94-622414ca00df",
-        "fluid": false
-    },
-    "14b8c535-5498-4bfa-b73b-ab3121f117e4": {
-        "parentId": "e20b59f1-c35f-42da-ad94-622414ca00df",
-        "componentName": "BaseRow",
-        "slots": [
-            "ff2b3496-3180-4f49-9d6f-a7b1dc1f8d6d"
-        ],
-        "id": "14b8c535-5498-4bfa-b73b-ab3121f117e4",
-        "align": "center",
-        "justify": "center"
-    },
-    "6a94fc3f-d074-4bf5-8ea1-eb182cad243a": {
-        "parentId": "f531ae34-a881-4589-b707-a0446450c961",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "6a94fc3f-d074-4bf5-8ea1-eb182cad243a",
-        "title": "What is Lorem Ipsum?",
-        "size": "text-h4",
-        "weight": "regular",
-        "mobileSize": "text-h5"
-    },
-    "f531ae34-a881-4589-b707-a0446450c961": {
-        "parentId": "e20b59f1-c35f-42da-ad94-622414ca00df",
-        "componentName": "BaseRow",
-        "slots": [
-            "6a94fc3f-d074-4bf5-8ea1-eb182cad243a"
-        ],
-        "id": "f531ae34-a881-4589-b707-a0446450c961",
-        "align": "center",
-        "justify": "center"
-    },
-    "ff2b3496-3180-4f49-9d6f-a7b1dc1f8d6d": {
-        "parentId": "14b8c535-5498-4bfa-b73b-ab3121f117e4",
-        "componentName": "BaseCol",
-        "slots": [
-            "117ad50f-8bea-45bb-9f7f-b546114864ee"
-        ],
-        "id": "ff2b3496-3180-4f49-9d6f-a7b1dc1f8d6d",
-        "cols": "12"
-    },
-    "117ad50f-8bea-45bb-9f7f-b546114864ee": {
-        "parentId": "ff2b3496-3180-4f49-9d6f-a7b1dc1f8d6d",
-        "componentName": "BaseContainer",
-        "slots": [
-            "0a72731c-5349-4a00-a479-25ab07ff051b",
-            "0a0dc26f-9ffa-4e99-92af-73e9af905013"
-        ],
-        "id": "117ad50f-8bea-45bb-9f7f-b546114864ee",
-        "fillHeight": true,
-        "padding": "50px 25px",
-        "fluid": true
-    },
-    "25a5f475-aecb-45f1-8f35-f69a636b16b8": {
-        "parentId": "27b389a0-16fb-4c6d-ae01-040a00dad7ad",
-        "componentName": "BaseCol",
-        "slots": [
-            "83fa6d90-26dc-4881-9cc5-4b0a75604b22"
-        ],
-        "id": "25a5f475-aecb-45f1-8f35-f69a636b16b8"
-    },
-    "83fa6d90-26dc-4881-9cc5-4b0a75604b22": {
-        "parentId": "25a5f475-aecb-45f1-8f35-f69a636b16b8",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "83fa6d90-26dc-4881-9cc5-4b0a75604b22",
-        "size": "x-large",
-        "text": "Subscribe",
-        "outlined": true,
-        "color": null,
-        "block": true
-    },
-    "c777d6db-3b61-4b90-b6a4-79987d09dc54": {
-        "parentId": "c0ea93f7-0ff6-4ef4-8a09-2f2670091c01",
-        "componentName": "BaseImg",
-        "slots": [],
-        "id": "c777d6db-3b61-4b90-b6a4-79987d09dc54",
-        "src": "/assets/logo.svg",
-        "margin": null,
-        "height": "600"
-    },
-    "4f69a506-b464-4073-8a40-f3cf09fa13c2": {
-        "parentId": "2a9c18d1-95ef-429f-a83e-70dd7954a2a3",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "4f69a506-b464-4073-8a40-f3cf09fa13c2",
-        "margin": "0 10px",
-        "textOnly": false,
-        "color": null,
-        "text": "open github project",
-        "outlined": true,
-        "size": "large"
-    },
-    "d7c2b49f-4c92-4157-abfd-e5ee627fb971": {
-        "parentId": "ef9b9679-3465-456b-87e9-592c746fc42f",
-        "componentName": "BaseInput",
-        "slots": [],
-        "id": "d7c2b49f-4c92-4157-abfd-e5ee627fb971",
-        "solo": true,
-        "outlined": false,
-        "color": "#FFFFFFFF",
-        "filled": false,
-        "shaped": false,
-        "dark": false,
-        "placeholder": "example@mail.com",
-        "soloInverted": false
-    },
-    "ef9b9679-3465-456b-87e9-592c746fc42f": {
-        "parentId": "cdaab372-1c61-4c89-92dc-247c0ce855db",
-        "componentName": "BaseCol",
-        "slots": [
-            "d7c2b49f-4c92-4157-abfd-e5ee627fb971"
-        ],
-        "id": "ef9b9679-3465-456b-87e9-592c746fc42f",
-        "cols": "12",
-        "md": "9"
-    },
-    "650210bc-204a-4bd0-8463-f1a7614d51ca": {
-        "parentId": "528875f5-21e8-4857-b41d-f30851e3f94e",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "650210bc-204a-4bd0-8463-f1a7614d51ca",
-        "size": "x-large",
-        "text": "Subscribe",
-        "outlined": true,
-        "color": "#FFFFFFFF",
-        "block": true,
-        "depressed": true,
-        "tile": false,
-        "dark": false
-    },
-    "528875f5-21e8-4857-b41d-f30851e3f94e": {
-        "parentId": "cdaab372-1c61-4c89-92dc-247c0ce855db",
-        "componentName": "BaseCol",
-        "slots": [
-            "650210bc-204a-4bd0-8463-f1a7614d51ca"
-        ],
-        "id": "528875f5-21e8-4857-b41d-f30851e3f94e",
-        "cols": "12",
-        "md": "3"
-    },
-    "cdaab372-1c61-4c89-92dc-247c0ce855db": {
-        "parentId": "a3f33c48-4d9e-4722-acb6-a30100d7d386",
-        "componentName": "BaseRow",
-        "slots": [
-            "ef9b9679-3465-456b-87e9-592c746fc42f",
-            "528875f5-21e8-4857-b41d-f30851e3f94e"
-        ],
-        "id": "cdaab372-1c61-4c89-92dc-247c0ce855db"
-    },
-    "a3f33c48-4d9e-4722-acb6-a30100d7d386": {
-        "parentId": "0a0dc26f-9ffa-4e99-92af-73e9af905013",
-        "componentName": "BaseCol",
-        "slots": [
-            "cdaab372-1c61-4c89-92dc-247c0ce855db"
-        ],
-        "id": "a3f33c48-4d9e-4722-acb6-a30100d7d386",
-        "cols": "12",
-        "md": "9",
-        "lg": "6"
-    },
-    "0a0dc26f-9ffa-4e99-92af-73e9af905013": {
-        "parentId": "117ad50f-8bea-45bb-9f7f-b546114864ee",
-        "componentName": "BaseRow",
-        "slots": [
-            "a3f33c48-4d9e-4722-acb6-a30100d7d386"
-        ],
-        "id": "0a0dc26f-9ffa-4e99-92af-73e9af905013",
-        "fillHeight": false,
-        "justify": "center",
-        "align": "center",
-        "padding": ""
-    },
-    "05281ac5-d126-4283-873d-2a73344dba0b": {
-        "parentId": "64e672fa-376b-40c2-a3d8-9f7fa9e49352",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "05281ac5-d126-4283-873d-2a73344dba0b",
-        "size": "x-large",
-        "text": "Subscribe",
-        "outlined": true,
-        "color": null,
-        "block": true
-    },
-    "64e672fa-376b-40c2-a3d8-9f7fa9e49352": {
-        "parentId": "a28d63a8-6710-4975-b412-44550ed2318f",
-        "componentName": "BaseCol",
-        "slots": [
-            "05281ac5-d126-4283-873d-2a73344dba0b"
-        ],
-        "id": "64e672fa-376b-40c2-a3d8-9f7fa9e49352"
-    },
-    "27f237ba-a340-4840-9e69-7a7bfa965978": {
-        "parentId": "0a72731c-5349-4a00-a479-25ab07ff051b",
-        "componentName": "BaseCol",
-        "slots": [
-            "242169d1-826b-4a5e-901a-4101733ddb12"
-        ],
-        "id": "27f237ba-a340-4840-9e69-7a7bfa965978",
-        "cols": "12"
-    },
-    "0a72731c-5349-4a00-a479-25ab07ff051b": {
-        "parentId": "117ad50f-8bea-45bb-9f7f-b546114864ee",
-        "componentName": "BaseRow",
-        "slots": [
-            "27f237ba-a340-4840-9e69-7a7bfa965978"
-        ],
-        "id": "0a72731c-5349-4a00-a479-25ab07ff051b",
-        "fillHeight": false,
-        "justify": "center",
-        "align": "center",
-        "padding": ""
-    },
-    "b73c3cfd-2f85-4018-8b7f-9d1a14eb6130": {
-        "parentId": "682bdf67-4367-4802-b8ca-445b249f5370",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "b73c3cfd-2f85-4018-8b7f-9d1a14eb6130",
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st",
-        "padding": "",
+        "primary": "#42A5F6",
         "hidden": false
     },
-    "316ee6dd-b116-484f-a323-cb5d4d50a86b": {
-        "parentId": "app",
-        "componentName": "BaseSection",
-        "slots": [
-            "387ffe9a-1afc-4b14-a6af-6a983d670c1b"
-        ],
-        "id": "316ee6dd-b116-484f-a323-cb5d4d50a86b",
-        "padding": "50px 0"
-    },
-    "387ffe9a-1afc-4b14-a6af-6a983d670c1b": {
-        "parentId": "316ee6dd-b116-484f-a323-cb5d4d50a86b",
-        "componentName": "BaseContainer",
-        "slots": [
-            "69e95534-658b-4d55-8970-20f5a776bcf5",
-            "cd091b0c-e27e-4bd0-bea6-065559ba968a"
-        ],
-        "id": "387ffe9a-1afc-4b14-a6af-6a983d670c1b"
-    },
-    "cd091b0c-e27e-4bd0-bea6-065559ba968a": {
-        "parentId": "387ffe9a-1afc-4b14-a6af-6a983d670c1b",
-        "componentName": "BaseRow",
-        "slots": [
-            "79ea0bee-7a82-4dd9-b316-2cf7e1d47fbe",
-            "9e2b6edb-0bdc-4fa0-b101-37b00ecaf5e6",
-            "602b6d0b-0436-4e23-8621-d43bd614d805"
-        ],
-        "id": "cd091b0c-e27e-4bd0-bea6-065559ba968a",
-        "justify": null,
-        "fillHeight": false,
-        "preventWrap": false,
-        "align": null
-    },
-    "dc047dc7-69d4-48a5-bc82-5fa5a5cc5493": {
-        "parentId": "69e95534-658b-4d55-8970-20f5a776bcf5",
-        "componentName": "BaseHeading",
-        "tag": "h2",
+    "e920b33a-b2de-4e39-8773-6e8053213fb1": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseSpacer",
         "slots": [],
-        "id": "dc047dc7-69d4-48a5-bc82-5fa5a5cc5493",
-        "tag": "",
-        "title": "How to use Lorem Ipsum ",
-        "align": "left",
-        "size": "text-h5",
-        "mobileSize": "text-h6",
-        "margin": "0 0 50px 0",
-        "weight": "regular"
+        "id": "e920b33a-b2de-4e39-8773-6e8053213fb1"
     },
-    "69e95534-658b-4d55-8970-20f5a776bcf5": {
-        "parentId": "387ffe9a-1afc-4b14-a6af-6a983d670c1b",
-        "componentName": "BaseRow",
+    "416c0ed7-78e0-4462-87d7-a96b8099033b": {
+        "parentId": "071b8cf9-3c4e-4755-82dc-cd3578dc6687",
+        "componentName": "BaseTabs",
         "slots": [
-            "dc047dc7-69d4-48a5-bc82-5fa5a5cc5493"
+            "e920b33a-b2de-4e39-8773-6e8053213fb1",
+            "55571f9b-da92-4d69-9054-9c048acce52a",
+            "37a05453-bb8b-408e-8ba2-a564e0c5a780",
+            "1d5c488f-fda0-4153-8403-c7c8800d3b91",
+            "17f0b0d9-5a0d-4b28-ba05-e0d3cae0f239",
+            "09b0429b-e089-45ef-bd0a-5a163e8c966a"
         ],
-        "id": "69e95534-658b-4d55-8970-20f5a776bcf5",
-        "justify": "center"
+        "id": "416c0ed7-78e0-4462-87d7-a96b8099033b"
     },
-    "26fae807-c116-4257-983a-760318b24982": {
-        "parentId": "602b6d0b-0436-4e23-8621-d43bd614d805",
-        "componentName": "BaseSection",
-        "slots": [
-            "bff705fa-60b0-42a8-87bf-9b419757e96a"
-        ],
-        "id": "26fae807-c116-4257-983a-760318b24982",
-        "height": null,
-        "color": null,
-        "rounded": "lg"
-    },
-    "602b6d0b-0436-4e23-8621-d43bd614d805": {
-        "parentId": "cd091b0c-e27e-4bd0-bea6-065559ba968a",
-        "componentName": "BaseCol",
-        "slots": [
-            "26fae807-c116-4257-983a-760318b24982"
-        ],
-        "id": "602b6d0b-0436-4e23-8621-d43bd614d805",
-        "hidden": false,
-        "md": "4",
-        "cols": "12"
-    },
-    "bff705fa-60b0-42a8-87bf-9b419757e96a": {
-        "parentId": "26fae807-c116-4257-983a-760318b24982",
-        "componentName": "BaseContainer",
-        "slots": [
-            "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436"
-        ],
-        "id": "bff705fa-60b0-42a8-87bf-9b419757e96a"
-    },
-    "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436": {
-        "parentId": "bff705fa-60b0-42a8-87bf-9b419757e96a",
-        "componentName": "BaseRow",
-        "slots": [
-            "09f7bd67-f068-4e13-8294-37ee0a7f7173",
-            "2bf4e446-9ad7-44a6-8a05-63214e8b26c6",
-            "9b9cb8e5-32e5-48a0-b5a9-1b52e4029e38",
-            "7e652676-3491-4e10-b65a-df884a51e11a"
-        ],
-        "id": "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436",
-        "align": "center"
-    },
-    "7e652676-3491-4e10-b65a-df884a51e11a": {
-        "parentId": "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436",
-        "componentName": "BaseCol",
-        "slots": [
-            "8cfee2be-40b0-4c91-a368-fbc972da4b46"
-        ],
-        "id": "7e652676-3491-4e10-b65a-df884a51e11a",
-        "cols": "12"
-    },
-    "eb58d45b-fdf4-491d-98a7-179b6674c66a": {
-        "parentId": "09f7bd67-f068-4e13-8294-37ee0a7f7173",
-        "componentName": "BaseImg",
+    "37a05453-bb8b-408e-8ba2-a564e0c5a780": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseTab",
+        "text": "Features",
         "slots": [],
-        "id": "eb58d45b-fdf4-491d-98a7-179b6674c66a",
-        "src": "/assets/pagesandbox_logo.png",
-        "height": "60",
-        "mobileHeight": "60"
+        "id": "37a05453-bb8b-408e-8ba2-a564e0c5a780",
+        "goTo": "2ad284e5-0d49-4671-930f-3e00a44d70a3"
     },
-    "09f7bd67-f068-4e13-8294-37ee0a7f7173": {
-        "parentId": "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436",
-        "componentName": "BaseCol",
-        "slots": [
-            "eb58d45b-fdf4-491d-98a7-179b6674c66a"
-        ],
-        "id": "09f7bd67-f068-4e13-8294-37ee0a7f7173",
-        "cols": "12"
-    },
-    "76e5fe54-7811-429d-914c-74021d602881": {
-        "parentId": "2bf4e446-9ad7-44a6-8a05-63214e8b26c6",
-        "componentName": "BaseTitle",
+    "09b0429b-e089-45ef-bd0a-5a163e8c966a": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseTab",
+        "text": "Pro",
         "slots": [],
-        "id": "76e5fe54-7811-429d-914c-74021d602881",
-        "title": "Lorem Ipsum is simply dumm",
-        "align": "center"
+        "id": "09b0429b-e089-45ef-bd0a-5a163e8c966a",
+        "goTo": "f6ee804a-379c-46fd-8a22-e4294fe6e143"
     },
-    "2bf4e446-9ad7-44a6-8a05-63214e8b26c6": {
-        "parentId": "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436",
-        "componentName": "BaseCol",
-        "slots": [
-            "76e5fe54-7811-429d-914c-74021d602881"
-        ],
-        "id": "2bf4e446-9ad7-44a6-8a05-63214e8b26c6",
-        "cols": "12"
-    },
-    "9b9cb8e5-32e5-48a0-b5a9-1b52e4029e38": {
-        "parentId": "32fb20d1-9b9f-4b90-a5b8-6c9d5d412436",
-        "componentName": "BaseCol",
-        "slots": [
-            "d3615889-51cc-4202-a195-f7638d7106cb"
-        ],
-        "id": "9b9cb8e5-32e5-48a0-b5a9-1b52e4029e38",
-        "cols": "12"
-    },
-    "d3615889-51cc-4202-a195-f7638d7106cb": {
-        "parentId": "9b9cb8e5-32e5-48a0-b5a9-1b52e4029e38",
-        "componentName": "BaseLink",
+    "17f0b0d9-5a0d-4b28-ba05-e0d3cae0f239": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseTab",
+        "text": "Social",
         "slots": [],
-        "id": "d3615889-51cc-4202-a195-f7638d7106cb",
-        "href": "https://reactjs.org/",
-        "color": null
+        "id": "17f0b0d9-5a0d-4b28-ba05-e0d3cae0f239",
+        "goTo": "31092fcb-2d12-487a-94ce-d617d7b7d189"
     },
-    "8cfee2be-40b0-4c91-a368-fbc972da4b46": {
-        "parentId": "7e652676-3491-4e10-b65a-df884a51e11a",
-        "componentName": "BaseBtn",
+    "1d5c488f-fda0-4153-8403-c7c8800d3b91": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseTab",
+        "text": "Who is using us",
         "slots": [],
-        "id": "8cfee2be-40b0-4c91-a368-fbc972da4b46",
-        "text": "Get started"
+        "id": "1d5c488f-fda0-4153-8403-c7c8800d3b91",
+        "goTo": "7d5ba338-18da-42cd-af4e-4e165f2777f6"
     },
-    "32dce741-985f-434d-b090-e3ab5aa7855c": {
-        "parentId": "c3db90e4-e5d7-46ff-a957-b58237a1acab",
-        "componentName": "BaseImg",
-        "slots": [],
-        "id": "32dce741-985f-434d-b090-e3ab5aa7855c",
-        "src": "/assets/pagesandbox_logo.png",
-        "height": "60",
-        "mobileHeight": "60"
-    },
-    "c3db90e4-e5d7-46ff-a957-b58237a1acab": {
-        "parentId": "6d06e41c-be06-41ff-a220-ae338a29f797",
-        "componentName": "BaseCol",
-        "slots": [
-            "32dce741-985f-434d-b090-e3ab5aa7855c"
-        ],
-        "id": "c3db90e4-e5d7-46ff-a957-b58237a1acab",
-        "cols": "12"
-    },
-    "c3d0b97a-4317-4568-b4ac-1d4b75cdb2cf": {
-        "parentId": "f002e7be-da0c-4ef3-9e30-f78fe1e87deb",
-        "componentName": "BaseTitle",
-        "slots": [],
-        "id": "c3d0b97a-4317-4568-b4ac-1d4b75cdb2cf",
-        "title": "Lorem Ipsum is simply dumm",
-        "align": "center"
-    },
-    "f002e7be-da0c-4ef3-9e30-f78fe1e87deb": {
-        "parentId": "6d06e41c-be06-41ff-a220-ae338a29f797",
-        "componentName": "BaseCol",
-        "slots": [
-            "c3d0b97a-4317-4568-b4ac-1d4b75cdb2cf"
-        ],
-        "id": "f002e7be-da0c-4ef3-9e30-f78fe1e87deb",
-        "cols": "12"
-    },
-    "624bfc08-544f-4bcf-b395-0ab2725e2a81": {
-        "parentId": "87038ae4-4ad1-4007-9212-0ec32500475a",
-        "componentName": "BaseLink",
-        "slots": [],
-        "id": "624bfc08-544f-4bcf-b395-0ab2725e2a81",
-        "href": "https://reactjs.org/",
-        "color": null
-    },
-    "87038ae4-4ad1-4007-9212-0ec32500475a": {
-        "parentId": "6d06e41c-be06-41ff-a220-ae338a29f797",
-        "componentName": "BaseCol",
-        "slots": [
-            "624bfc08-544f-4bcf-b395-0ab2725e2a81"
-        ],
-        "id": "87038ae4-4ad1-4007-9212-0ec32500475a",
-        "cols": "12"
-    },
-    "3b46a1be-9fff-4ec0-afbc-26c31049b71f": {
-        "parentId": "35490ec3-cd98-4550-a3f6-ecb267b81f31",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "3b46a1be-9fff-4ec0-afbc-26c31049b71f",
-        "text": "Get started"
-    },
-    "35490ec3-cd98-4550-a3f6-ecb267b81f31": {
-        "parentId": "6d06e41c-be06-41ff-a220-ae338a29f797",
-        "componentName": "BaseCol",
-        "slots": [
-            "3b46a1be-9fff-4ec0-afbc-26c31049b71f"
-        ],
-        "id": "35490ec3-cd98-4550-a3f6-ecb267b81f31",
-        "cols": "12"
-    },
-    "6d06e41c-be06-41ff-a220-ae338a29f797": {
-        "parentId": "30152084-063c-4f28-b704-c9e51f3d2f8a",
-        "componentName": "BaseRow",
-        "slots": [
-            "c3db90e4-e5d7-46ff-a957-b58237a1acab",
-            "f002e7be-da0c-4ef3-9e30-f78fe1e87deb",
-            "87038ae4-4ad1-4007-9212-0ec32500475a",
-            "35490ec3-cd98-4550-a3f6-ecb267b81f31"
-        ],
-        "id": "6d06e41c-be06-41ff-a220-ae338a29f797",
-        "align": "center"
-    },
-    "30152084-063c-4f28-b704-c9e51f3d2f8a": {
-        "parentId": "51492bde-a148-46c6-b555-3f561640befd",
-        "componentName": "BaseContainer",
-        "slots": [
-            "6d06e41c-be06-41ff-a220-ae338a29f797"
-        ],
-        "id": "30152084-063c-4f28-b704-c9e51f3d2f8a"
-    },
-    "51492bde-a148-46c6-b555-3f561640befd": {
-        "parentId": "79ea0bee-7a82-4dd9-b316-2cf7e1d47fbe",
-        "componentName": "BaseSection",
-        "slots": [
-            "30152084-063c-4f28-b704-c9e51f3d2f8a"
-        ],
-        "id": "51492bde-a148-46c6-b555-3f561640befd",
-        "height": null,
-        "color": null,
-        "rounded": "lg"
-    },
-    "79ea0bee-7a82-4dd9-b316-2cf7e1d47fbe": {
-        "parentId": "cd091b0c-e27e-4bd0-bea6-065559ba968a",
-        "componentName": "BaseCol",
-        "slots": [
-            "51492bde-a148-46c6-b555-3f561640befd"
-        ],
-        "id": "79ea0bee-7a82-4dd9-b316-2cf7e1d47fbe",
-        "hidden": false,
-        "md": "4",
-        "cols": "12"
-    },
-    "2072905a-203b-4361-b8d5-b0ad9f2ac0e8": {
-        "parentId": "68c9e930-e9f7-4c9b-91af-445b1b959581",
-        "componentName": "BaseImg",
-        "slots": [],
-        "id": "2072905a-203b-4361-b8d5-b0ad9f2ac0e8",
-        "src": "/assets/pagesandbox_logo.png",
-        "height": "60",
-        "mobileHeight": "60"
-    },
-    "68c9e930-e9f7-4c9b-91af-445b1b959581": {
-        "parentId": "5205aea6-57f8-41db-bb22-485b7d4699c8",
-        "componentName": "BaseCol",
-        "slots": [
-            "2072905a-203b-4361-b8d5-b0ad9f2ac0e8"
-        ],
-        "id": "68c9e930-e9f7-4c9b-91af-445b1b959581",
-        "cols": "12"
-    },
-    "d2a82fb1-e474-4a48-988d-a82ba20f564e": {
-        "parentId": "c911aace-f108-4d7b-a428-ed0299caac7d",
-        "componentName": "BaseTitle",
-        "slots": [],
-        "id": "d2a82fb1-e474-4a48-988d-a82ba20f564e",
-        "title": "Lorem Ipsum is simply dumm",
-        "align": "center"
-    },
-    "c911aace-f108-4d7b-a428-ed0299caac7d": {
-        "parentId": "5205aea6-57f8-41db-bb22-485b7d4699c8",
-        "componentName": "BaseCol",
-        "slots": [
-            "d2a82fb1-e474-4a48-988d-a82ba20f564e"
-        ],
-        "id": "c911aace-f108-4d7b-a428-ed0299caac7d",
-        "cols": "12"
-    },
-    "3a4920ac-37a2-42cd-963d-e1590b63e27f": {
-        "parentId": "458a654b-8f5d-4305-bdd6-d3fa14e0b11f",
-        "componentName": "BaseLink",
-        "slots": [],
-        "id": "3a4920ac-37a2-42cd-963d-e1590b63e27f",
-        "href": "https://reactjs.org/",
-        "color": null
-    },
-    "458a654b-8f5d-4305-bdd6-d3fa14e0b11f": {
-        "parentId": "5205aea6-57f8-41db-bb22-485b7d4699c8",
-        "componentName": "BaseCol",
-        "slots": [
-            "3a4920ac-37a2-42cd-963d-e1590b63e27f"
-        ],
-        "id": "458a654b-8f5d-4305-bdd6-d3fa14e0b11f",
-        "cols": "12"
-    },
-    "171c02cc-9eeb-43fc-87e2-4d1d70312273": {
-        "parentId": "fc7aea59-8e74-41e5-93ca-608564bb0e39",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "171c02cc-9eeb-43fc-87e2-4d1d70312273",
-        "text": "Get started"
-    },
-    "fc7aea59-8e74-41e5-93ca-608564bb0e39": {
-        "parentId": "5205aea6-57f8-41db-bb22-485b7d4699c8",
-        "componentName": "BaseCol",
-        "slots": [
-            "171c02cc-9eeb-43fc-87e2-4d1d70312273"
-        ],
-        "id": "fc7aea59-8e74-41e5-93ca-608564bb0e39",
-        "cols": "12"
-    },
-    "5205aea6-57f8-41db-bb22-485b7d4699c8": {
-        "parentId": "55a277ab-74ad-408f-8ff9-f6351b7ee0e9",
-        "componentName": "BaseRow",
-        "slots": [
-            "68c9e930-e9f7-4c9b-91af-445b1b959581",
-            "c911aace-f108-4d7b-a428-ed0299caac7d",
-            "458a654b-8f5d-4305-bdd6-d3fa14e0b11f",
-            "fc7aea59-8e74-41e5-93ca-608564bb0e39"
-        ],
-        "id": "5205aea6-57f8-41db-bb22-485b7d4699c8",
-        "align": "center"
-    },
-    "55a277ab-74ad-408f-8ff9-f6351b7ee0e9": {
-        "parentId": "792f73b4-40f6-495a-b4b6-cf527911d177",
-        "componentName": "BaseContainer",
-        "slots": [
-            "5205aea6-57f8-41db-bb22-485b7d4699c8"
-        ],
-        "id": "55a277ab-74ad-408f-8ff9-f6351b7ee0e9"
-    },
-    "792f73b4-40f6-495a-b4b6-cf527911d177": {
-        "parentId": "9e2b6edb-0bdc-4fa0-b101-37b00ecaf5e6",
-        "componentName": "BaseSection",
-        "slots": [
-            "55a277ab-74ad-408f-8ff9-f6351b7ee0e9"
-        ],
-        "id": "792f73b4-40f6-495a-b4b6-cf527911d177",
-        "height": null,
-        "color": null,
-        "rounded": "lg"
-    },
-    "9e2b6edb-0bdc-4fa0-b101-37b00ecaf5e6": {
-        "parentId": "cd091b0c-e27e-4bd0-bea6-065559ba968a",
-        "componentName": "BaseCol",
-        "slots": [
-            "792f73b4-40f6-495a-b4b6-cf527911d177"
-        ],
-        "id": "9e2b6edb-0bdc-4fa0-b101-37b00ecaf5e6",
-        "hidden": false,
-        "md": "4",
-        "cols": "12"
-    },
-    "c2d0e706-cc21-4f3d-b2b2-56df7276417a": {
-        "parentId": "app",
-        "componentName": "BaseSection",
-        "slots": [
-            "de431106-54a5-476c-8bf8-16c74e4752a0"
-        ],
-        "id": "c2d0e706-cc21-4f3d-b2b2-56df7276417a",
-        "height": "",
-        "dark": true,
-        "padding": "50px",
-        "color": "#1B1B1BFF"
-    },
-    "de431106-54a5-476c-8bf8-16c74e4752a0": {
-        "parentId": "c2d0e706-cc21-4f3d-b2b2-56df7276417a",
-        "componentName": "BaseContainer",
-        "slots": [
-            "b13932dd-88e4-4aa4-999f-98b65a3fa668"
-        ],
-        "id": "de431106-54a5-476c-8bf8-16c74e4752a0"
-    },
-    "b13932dd-88e4-4aa4-999f-98b65a3fa668": {
-        "parentId": "de431106-54a5-476c-8bf8-16c74e4752a0",
-        "componentName": "BaseRow",
-        "slots": [
-            "77bb0521-92aa-4db4-a8e7-86cb9af06a00",
-            "064bacdc-8699-4aa5-b8c3-22ddf951da1b",
-            "e6c0b66c-3797-44f0-9ee6-3aa61ec6bab2",
-            "625e553a-f4ea-43c3-b94f-9f49ca1bdd9d",
-            "768f146a-461b-4516-8acd-c6837666e49e"
-        ],
-        "id": "b13932dd-88e4-4aa4-999f-98b65a3fa668"
-    },
-    "77bb0521-92aa-4db4-a8e7-86cb9af06a00": {
-        "parentId": "b13932dd-88e4-4aa4-999f-98b65a3fa668",
-        "componentName": "BaseCol",
-        "slots": [
-            "424d71ad-388c-488c-8f35-2b4eab096045"
-        ],
-        "id": "77bb0521-92aa-4db4-a8e7-86cb9af06a00",
-        "cols": "2"
-    },
-    "768f146a-461b-4516-8acd-c6837666e49e": {
-        "parentId": "b13932dd-88e4-4aa4-999f-98b65a3fa668",
-        "componentName": "BaseCol",
-        "slots": [
-            "c9584fc2-c98e-4889-9e95-38302e2919e6"
-        ],
-        "id": "768f146a-461b-4516-8acd-c6837666e49e"
-    },
-    "fb6c9062-1f2e-408e-a5d7-0fc394021247": {
-        "parentId": "c9584fc2-c98e-4889-9e95-38302e2919e6",
-        "componentName": "BaseCol",
-        "slots": [
-            "813764f2-4e56-4721-8aa0-af7f8f6d0d0a"
-        ],
-        "id": "fb6c9062-1f2e-408e-a5d7-0fc394021247",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "424d71ad-388c-488c-8f35-2b4eab096045": {
-        "parentId": "77bb0521-92aa-4db4-a8e7-86cb9af06a00",
-        "componentName": "BaseImg",
-        "slots": [],
-        "id": "424d71ad-388c-488c-8f35-2b4eab096045",
-        "src": "/assets/pagesandbox_logo.png",
-        "height": "60",
-        "mobileHeight": "60"
-    },
-    "c9584fc2-c98e-4889-9e95-38302e2919e6": {
-        "parentId": "768f146a-461b-4516-8acd-c6837666e49e",
-        "componentName": "BaseRow",
-        "slots": [
-            "b13d102d-521b-4cba-8a7e-79f4e3648c1d",
-            "9e408a72-91f2-4c42-8e2c-068f5afdd9d9",
-            "fb6c9062-1f2e-408e-a5d7-0fc394021247"
-        ],
-        "id": "c9584fc2-c98e-4889-9e95-38302e2919e6"
-    },
-    "11e7167d-73ad-4764-bbfc-7b398833f3f3": {
-        "parentId": "b13d102d-521b-4cba-8a7e-79f4e3648c1d",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "11e7167d-73ad-4764-bbfc-7b398833f3f3",
-        "title": "Legal & Privacy",
-        "size": "text-h6",
-        "mobileSize": "text-h6",
-        "weight": "regular"
-    },
-    "b13d102d-521b-4cba-8a7e-79f4e3648c1d": {
-        "parentId": "c9584fc2-c98e-4889-9e95-38302e2919e6",
-        "componentName": "BaseCol",
-        "slots": [
-            "11e7167d-73ad-4764-bbfc-7b398833f3f3"
-        ],
-        "id": "b13d102d-521b-4cba-8a7e-79f4e3648c1d",
-        "cols": "12",
-        "padding": "10px 0"
-    },
-    "813764f2-4e56-4721-8aa0-af7f8f6d0d0a": {
-        "parentId": "fb6c9062-1f2e-408e-a5d7-0fc394021247",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "813764f2-4e56-4721-8aa0-af7f8f6d0d0a",
-        "textOnly": true,
-        "text": "Terms of Use",
-        "color": null,
-        "padding": "0",
-        "href": "http://vuetifyjs.com/",
-        "size": "small"
-    },
-    "346e44f4-9d63-4597-a558-90f1ddc1753c": {
-        "parentId": "9e408a72-91f2-4c42-8e2c-068f5afdd9d9",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "346e44f4-9d63-4597-a558-90f1ddc1753c",
-        "textOnly": true,
-        "text": "Legal Disclosure",
-        "color": null,
-        "padding": "0",
-        "href": "https://vuejs.org/",
-        "size": "small"
-    },
-    "9e408a72-91f2-4c42-8e2c-068f5afdd9d9": {
-        "parentId": "c9584fc2-c98e-4889-9e95-38302e2919e6",
-        "componentName": "BaseCol",
-        "slots": [
-            "346e44f4-9d63-4597-a558-90f1ddc1753c"
-        ],
-        "id": "9e408a72-91f2-4c42-8e2c-068f5afdd9d9",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "3a74547d-ab06-4cb4-a66a-af2ce9c83e2b": {
-        "parentId": "d68cbae1-50cc-49b6-9bfd-d596f9abd58a",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "3a74547d-ab06-4cb4-a66a-af2ce9c83e2b",
-        "title": "Community",
-        "size": "text-h6",
-        "mobileSize": "text-h6",
-        "weight": "regular"
-    },
-    "d68cbae1-50cc-49b6-9bfd-d596f9abd58a": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "3a74547d-ab06-4cb4-a66a-af2ce9c83e2b"
-        ],
-        "id": "d68cbae1-50cc-49b6-9bfd-d596f9abd58a",
-        "cols": "12",
-        "padding": "10px 0"
-    },
-    "2307f403-5a27-4e63-90fd-76d56e83a1ea": {
-        "parentId": "98e77c97-4784-437d-9d24-8f01d6b44d86",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "2307f403-5a27-4e63-90fd-76d56e83a1ea",
-        "textOnly": true,
-        "text": "Twitter",
-        "color": null,
-        "padding": "0",
-        "href": "https://twitter.com/",
-        "size": "small"
-    },
-    "98e77c97-4784-437d-9d24-8f01d6b44d86": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "2307f403-5a27-4e63-90fd-76d56e83a1ea"
-        ],
-        "id": "98e77c97-4784-437d-9d24-8f01d6b44d86",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "1dcbfdca-8b46-44f4-80a5-a3e307797822": {
-        "parentId": "7f08af5e-aaa3-4f6a-8b40-1b64df95c639",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "1dcbfdca-8b46-44f4-80a5-a3e307797822",
-        "textOnly": true,
-        "text": "YouTube",
-        "color": null,
-        "padding": "0",
-        "href": "https://youtube.com/",
-        "size": "small"
-    },
-    "7f08af5e-aaa3-4f6a-8b40-1b64df95c639": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "1dcbfdca-8b46-44f4-80a5-a3e307797822"
-        ],
-        "id": "7f08af5e-aaa3-4f6a-8b40-1b64df95c639",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "2dff8908-26c5-4974-8394-ab136da70183": {
-        "parentId": "410d45e0-58d4-4ccb-9c58-f8c2f0ff7473",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "2dff8908-26c5-4974-8394-ab136da70183",
-        "textOnly": true,
-        "text": "Facebook",
-        "color": null,
-        "padding": "0",
-        "href": "https://facebook.com/",
-        "size": "small"
-    },
-    "410d45e0-58d4-4ccb-9c58-f8c2f0ff7473": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "2dff8908-26c5-4974-8394-ab136da70183"
-        ],
-        "id": "410d45e0-58d4-4ccb-9c58-f8c2f0ff7473",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "22509462-94bc-4e66-b93a-4b5d2dcc9dbc": {
-        "parentId": "b981435c-759f-4951-9715-0f0eec502c62",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "22509462-94bc-4e66-b93a-4b5d2dcc9dbc",
-        "textOnly": true,
-        "text": "Twitter",
-        "color": null,
-        "padding": "0",
-        "href": "https://twitter.com/",
-        "size": "small"
-    },
-    "b981435c-759f-4951-9715-0f0eec502c62": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "22509462-94bc-4e66-b93a-4b5d2dcc9dbc"
-        ],
-        "id": "b981435c-759f-4951-9715-0f0eec502c62",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "c9429db5-0505-4c2d-843b-5a1d93e7b9f0": {
-        "parentId": "161859b0-27fb-4ba2-b6ae-664c292de995",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "c9429db5-0505-4c2d-843b-5a1d93e7b9f0",
-        "textOnly": true,
-        "text": "GitHub",
-        "color": null,
-        "padding": "0",
-        "href": "https://github.com/",
-        "size": "small"
-    },
-    "161859b0-27fb-4ba2-b6ae-664c292de995": {
-        "parentId": "8a594ee5-8bc7-428a-8746-9566cd39e39c",
-        "componentName": "BaseCol",
-        "slots": [
-            "c9429db5-0505-4c2d-843b-5a1d93e7b9f0"
-        ],
-        "id": "161859b0-27fb-4ba2-b6ae-664c292de995",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "8a594ee5-8bc7-428a-8746-9566cd39e39c": {
-        "parentId": "064bacdc-8699-4aa5-b8c3-22ddf951da1b",
-        "componentName": "BaseRow",
-        "slots": [
-            "d68cbae1-50cc-49b6-9bfd-d596f9abd58a",
-            "98e77c97-4784-437d-9d24-8f01d6b44d86",
-            "7f08af5e-aaa3-4f6a-8b40-1b64df95c639",
-            "410d45e0-58d4-4ccb-9c58-f8c2f0ff7473",
-            "b981435c-759f-4951-9715-0f0eec502c62",
-            "161859b0-27fb-4ba2-b6ae-664c292de995"
-        ],
-        "id": "8a594ee5-8bc7-428a-8746-9566cd39e39c"
-    },
-    "064bacdc-8699-4aa5-b8c3-22ddf951da1b": {
-        "parentId": "b13932dd-88e4-4aa4-999f-98b65a3fa668",
-        "componentName": "BaseCol",
-        "slots": [
-            "8a594ee5-8bc7-428a-8746-9566cd39e39c"
-        ],
-        "id": "064bacdc-8699-4aa5-b8c3-22ddf951da1b"
-    },
-    "2bd469a3-2f91-4ce2-acf4-509845a15a26": {
-        "parentId": "00488a8b-c926-44f2-8299-7b851988b8bc",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "2bd469a3-2f91-4ce2-acf4-509845a15a26",
-        "title": "Docs",
-        "size": "text-h6",
-        "mobileSize": "text-h6",
-        "weight": "regular"
-    },
-    "00488a8b-c926-44f2-8299-7b851988b8bc": {
-        "parentId": "f15ce34a-2adb-4b79-b6aa-9549df9974d1",
-        "componentName": "BaseCol",
-        "slots": [
-            "2bd469a3-2f91-4ce2-acf4-509845a15a26"
-        ],
-        "id": "00488a8b-c926-44f2-8299-7b851988b8bc",
-        "cols": "12",
-        "padding": "10px 0"
-    },
-    "f9a2db32-bcfd-4dfb-a5cb-a5a49889db4f": {
-        "parentId": "da325a48-2367-4a88-a5ce-46d6b249865c",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "f9a2db32-bcfd-4dfb-a5cb-a5a49889db4f",
-        "textOnly": true,
-        "text": "vuejs",
-        "color": null,
-        "padding": "0",
-        "href": "https://vuejs.org/",
-        "size": "small",
-        "minWidth": "0"
-    },
-    "da325a48-2367-4a88-a5ce-46d6b249865c": {
-        "parentId": "f15ce34a-2adb-4b79-b6aa-9549df9974d1",
-        "componentName": "BaseCol",
-        "slots": [
-            "f9a2db32-bcfd-4dfb-a5cb-a5a49889db4f"
-        ],
-        "id": "da325a48-2367-4a88-a5ce-46d6b249865c",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "014fe65e-e4f0-4eff-a214-6b20ce9b0382": {
-        "parentId": "b16439b3-4edb-44ef-8560-a7f36db622ea",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "014fe65e-e4f0-4eff-a214-6b20ce9b0382",
-        "textOnly": true,
-        "text": "vuetifyjs",
-        "color": null,
-        "padding": "0",
-        "href": "http://vuetifyjs.com/",
-        "size": "small"
-    },
-    "b16439b3-4edb-44ef-8560-a7f36db622ea": {
-        "parentId": "f15ce34a-2adb-4b79-b6aa-9549df9974d1",
-        "componentName": "BaseCol",
-        "slots": [
-            "014fe65e-e4f0-4eff-a214-6b20ce9b0382"
-        ],
-        "id": "b16439b3-4edb-44ef-8560-a7f36db622ea",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "f15ce34a-2adb-4b79-b6aa-9549df9974d1": {
-        "parentId": "e6c0b66c-3797-44f0-9ee6-3aa61ec6bab2",
-        "componentName": "BaseRow",
-        "slots": [
-            "00488a8b-c926-44f2-8299-7b851988b8bc",
-            "da325a48-2367-4a88-a5ce-46d6b249865c",
-            "b16439b3-4edb-44ef-8560-a7f36db622ea"
-        ],
-        "id": "f15ce34a-2adb-4b79-b6aa-9549df9974d1"
-    },
-    "e6c0b66c-3797-44f0-9ee6-3aa61ec6bab2": {
-        "parentId": "b13932dd-88e4-4aa4-999f-98b65a3fa668",
-        "componentName": "BaseCol",
-        "slots": [
-            "f15ce34a-2adb-4b79-b6aa-9549df9974d1"
-        ],
-        "id": "e6c0b66c-3797-44f0-9ee6-3aa61ec6bab2"
-    },
-    "8f92d0b3-35a4-43ed-88ec-0029d532f264": {
-        "parentId": "78b9c10b-1c0f-4864-a7c6-2f2bc3d30fd4",
-        "componentName": "BaseHeading",
-        "tag": "h2",
-        "slots": [],
-        "id": "8f92d0b3-35a4-43ed-88ec-0029d532f264",
-        "title": "Legal & Privacy",
-        "size": "text-h6",
-        "mobileSize": "text-h6",
-        "weight": "regular"
-    },
-    "78b9c10b-1c0f-4864-a7c6-2f2bc3d30fd4": {
-        "parentId": "fadd5439-219b-4585-a6d1-434cfdbc997e",
-        "componentName": "BaseCol",
-        "slots": [
-            "8f92d0b3-35a4-43ed-88ec-0029d532f264"
-        ],
-        "id": "78b9c10b-1c0f-4864-a7c6-2f2bc3d30fd4",
-        "cols": "12",
-        "padding": "10px 0"
-    },
-    "2c4eb894-4e24-4ebd-a76f-77130d2a9eeb": {
-        "parentId": "695d1d99-e35e-445d-a537-445600719a52",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "2c4eb894-4e24-4ebd-a76f-77130d2a9eeb",
-        "textOnly": true,
-        "text": "Legal Disclosure",
-        "color": null,
-        "padding": "0",
-        "href": "https://vuejs.org/",
-        "size": "small"
-    },
-    "695d1d99-e35e-445d-a537-445600719a52": {
-        "parentId": "fadd5439-219b-4585-a6d1-434cfdbc997e",
-        "componentName": "BaseCol",
-        "slots": [
-            "2c4eb894-4e24-4ebd-a76f-77130d2a9eeb"
-        ],
-        "id": "695d1d99-e35e-445d-a537-445600719a52",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "94a14f0d-cc74-496e-8f07-f81970482e03": {
-        "parentId": "5ab1b36b-38c1-4748-b287-2ab0ef694afa",
-        "componentName": "BaseBtn",
-        "slots": [],
-        "id": "94a14f0d-cc74-496e-8f07-f81970482e03",
-        "textOnly": true,
-        "text": "Terms of Use",
-        "color": null,
-        "padding": "0",
-        "href": "http://vuetifyjs.com/",
-        "size": "small"
-    },
-    "5ab1b36b-38c1-4748-b287-2ab0ef694afa": {
-        "parentId": "fadd5439-219b-4585-a6d1-434cfdbc997e",
-        "componentName": "BaseCol",
-        "slots": [
-            "94a14f0d-cc74-496e-8f07-f81970482e03"
-        ],
-        "id": "5ab1b36b-38c1-4748-b287-2ab0ef694afa",
-        "cols": "12",
-        "padding": "5px 0"
-    },
-    "fadd5439-219b-4585-a6d1-434cfdbc997e": {
-        "parentId": "625e553a-f4ea-43c3-b94f-9f49ca1bdd9d",
-        "componentName": "BaseRow",
-        "slots": [
-            "78b9c10b-1c0f-4864-a7c6-2f2bc3d30fd4",
-            "695d1d99-e35e-445d-a537-445600719a52",
-            "5ab1b36b-38c1-4748-b287-2ab0ef694afa"
-        ],
-        "id": "fadd5439-219b-4585-a6d1-434cfdbc997e"
-    },
-    "625e553a-f4ea-43c3-b94f-9f49ca1bdd9d": {
-        "parentId": "b13932dd-88e4-4aa4-999f-98b65a3fa668",
-        "componentName": "BaseCol",
-        "slots": [
-            "fadd5439-219b-4585-a6d1-434cfdbc997e"
-        ],
-        "id": "625e553a-f4ea-43c3-b94f-9f49ca1bdd9d"
-    },
-    "0700baa5-acc5-42c7-8e48-38c689045347": {
+    "90d9a6db-d651-4d3e-a59f-4d0147729ed4": {
         "parentId": "app",
         "componentName": "BaseVuetifyImage",
+        "gradient": "to bottom, #00000046, #000000DA",
         "slots": [
-            "521984b6-2f25-479c-8101-dda1cf427d48"
+            "15fa1a93-fa29-46bb-97aa-0c98d332bee8"
         ],
-        "id": "0700baa5-acc5-42c7-8e48-38c689045347",
+        "id": "90d9a6db-d651-4d3e-a59f-4d0147729ed4",
+        "height": "400",
         "src": "/assets/office_bg.jpg",
-        "height": "900",
-        "gradient": "to top, #00000046, #000000A2"
+        "mobileHeight": null,
+        "paddingTop": "100",
+        "paddingBottom": "100",
+        "paddingRight": "20",
+        "paddingLeft": "20",
+        "hidden": false
+    },
+    "15fa1a93-fa29-46bb-97aa-0c98d332bee8": {
+        "parentId": "90d9a6db-d651-4d3e-a59f-4d0147729ed4",
+        "componentName": "BaseContainer",
+        "slots": [
+            "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b"
+        ],
+        "id": "15fa1a93-fa29-46bb-97aa-0c98d332bee8",
+        "fillHeight": true,
+        "fluid": false
+    },
+    "85a12494-6549-4e1e-b849-848a7e347bf1": {
+        "parentId": "ac1aa989-f44b-486f-ab76-38167de485c7",
+        "componentName": "BaseCol",
+        "slots": [
+            "41cf2d93-7efc-41cf-bbbc-9e71f2e8fb78"
+        ],
+        "id": "85a12494-6549-4e1e-b849-848a7e347bf1",
+        "cols": "12",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0"
+    },
+    "5cbcd434-8452-46cd-9b56-26075e16ed11": {
+        "parentId": "04356632-619a-42db-b010-ee07941f3604",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "FEATURE COMPARISON",
+        "size": "text-h5",
+        "slots": [],
+        "id": "5cbcd434-8452-46cd-9b56-26075e16ed11",
+        "align": "center",
+        "mobileSize": "text-h5",
+        "weight": "bold",
+        "paddingTop": null,
+        "paddingBottom": "",
+        "marginTop": "40",
+        "marginBottom": "40"
+    },
+    "0d321e5d-b8ba-451b-a37e-3d86e7dd7821": {
+        "parentId": "9705df32-d04d-4218-b693-3da0977e79f1",
+        "componentName": "BaseRow",
+        "slots": [
+            "8b121f9b-8bde-4fcd-ae11-e59fbc92fb4a",
+            "09d39a39-d7ef-43b2-97fe-4959eee554ed"
+        ],
+        "id": "0d321e5d-b8ba-451b-a37e-3d86e7dd7821",
+        "preventWrap": false,
+        "justify": "end",
+        "align": "center"
+    },
+    "ff089b0f-8c2b-41ca-ae75-f319a3b9c088": {
+        "parentId": "6920f1f9-35b2-4eb9-bf9f-31446d8a0e61",
+        "componentName": "BaseBody",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has",
+        "slots": [],
+        "id": "ff089b0f-8c2b-41ca-ae75-f319a3b9c088",
+        "align": "center",
+        "maxWidth": "1000",
+        "marginTop": null,
+        "marginBottom": null,
+        "paddingTop": "20",
+        "paddingBottom": "20"
+    },
+    "9de0390f-4a2b-49bd-ad0b-c225b278406d": {
+        "parentId": "7362228d-116a-4f67-858e-5f968a0dc461",
+        "componentName": "BaseAvatarCard",
+        "title": "PIXEL PERFECT DESIGN",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "9de0390f-4a2b-49bd-ad0b-c225b278406d",
+        "icon": "mdi-fountain-pen-tip",
+        "horizontal": true,
+        "outlined": true,
+        "hidden": false
+    },
+    "7362228d-116a-4f67-858e-5f968a0dc461": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "9de0390f-4a2b-49bd-ad0b-c225b278406d"
+        ],
+        "id": "7362228d-116a-4f67-858e-5f968a0dc461",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "df310f9a-bba2-4f7f-b811-3c0bfc76a2d9": {
+        "parentId": "811edaa1-6d00-497c-a627-bff93f26e2d5",
+        "componentName": "BaseAvatarCard",
+        "title": "RETINA READY",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "df310f9a-bba2-4f7f-b811-3c0bfc76a2d9",
+        "icon": "mdi-cellphone",
+        "horizontal": true,
+        "align": "left",
+        "iconDark": false
+    },
+    "811edaa1-6d00-497c-a627-bff93f26e2d5": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "df310f9a-bba2-4f7f-b811-3c0bfc76a2d9"
+        ],
+        "id": "811edaa1-6d00-497c-a627-bff93f26e2d5",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "eee4b14a-9bf8-4008-ae5e-789e2e124611": {
+        "parentId": "a5f74d6e-d7d4-488f-8773-cfb3fa129893",
+        "componentName": "BaseAvatarCard",
+        "title": "EASILY CUSTOMIZABLE",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "eee4b14a-9bf8-4008-ae5e-789e2e124611",
+        "icon": "mdi-pencil-box-outline",
+        "horizontal": true,
+        "color": "primary",
+        "outlined": true,
+        "iconDark": true
+    },
+    "a5f74d6e-d7d4-488f-8773-cfb3fa129893": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "eee4b14a-9bf8-4008-ae5e-789e2e124611"
+        ],
+        "id": "a5f74d6e-d7d4-488f-8773-cfb3fa129893",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "91b87a67-9846-44dc-b289-9dcd17b1758f": {
+        "parentId": "0d31170d-26db-4aac-ae89-a49b89286d1d",
+        "componentName": "BaseAvatarCard",
+        "title": "IMAGE PARALLAX",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "91b87a67-9846-44dc-b289-9dcd17b1758f",
+        "icon": "mdi-image",
+        "horizontal": true
+    },
+    "0d31170d-26db-4aac-ae89-a49b89286d1d": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "91b87a67-9846-44dc-b289-9dcd17b1758f"
+        ],
+        "id": "0d31170d-26db-4aac-ae89-a49b89286d1d",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "64d54a47-ec2f-41f2-a01f-e8520f47ec62": {
+        "parentId": "dd530563-d427-4cc5-a5b2-1b82cdfca029",
+        "componentName": "BaseAvatarCard",
+        "title": "SEO OPTIMIZED",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "64d54a47-ec2f-41f2-a01f-e8520f47ec62",
+        "icon": "mdi-calendar-search",
+        "horizontal": true
+    },
+    "dd530563-d427-4cc5-a5b2-1b82cdfca029": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "64d54a47-ec2f-41f2-a01f-e8520f47ec62"
+        ],
+        "id": "dd530563-d427-4cc5-a5b2-1b82cdfca029",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "b6164587-c0b9-425c-b86b-edde9a67a300": {
+        "parentId": "4a47f56a-d946-4694-ae7e-6615f833f0aa",
+        "componentName": "BaseAvatarCard",
+        "title": "24/7 SUPPORT",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!",
+        "slots": [],
+        "id": "b6164587-c0b9-425c-b86b-edde9a67a300",
+        "icon": "mdi-progress-question",
+        "horizontal": true
+    },
+    "4a47f56a-d946-4694-ae7e-6615f833f0aa": {
+        "parentId": "93358ff5-c11b-44cc-a0b1-022d26488529",
+        "componentName": "BaseCol",
+        "slots": [
+            "b6164587-c0b9-425c-b86b-edde9a67a300"
+        ],
+        "id": "4a47f56a-d946-4694-ae7e-6615f833f0aa",
+        "cols": "12",
+        "md": "6",
+        "xl": null
+    },
+    "93358ff5-c11b-44cc-a0b1-022d26488529": {
+        "parentId": "c7d335b0-5ff7-4292-9525-7e18a9aaa4e3",
+        "componentName": "BaseRow",
+        "slots": [
+            "7362228d-116a-4f67-858e-5f968a0dc461",
+            "811edaa1-6d00-497c-a627-bff93f26e2d5",
+            "a5f74d6e-d7d4-488f-8773-cfb3fa129893",
+            "0d31170d-26db-4aac-ae89-a49b89286d1d",
+            "dd530563-d427-4cc5-a5b2-1b82cdfca029",
+            "4a47f56a-d946-4694-ae7e-6615f833f0aa"
+        ],
+        "id": "93358ff5-c11b-44cc-a0b1-022d26488529"
+    },
+    "09d39a39-d7ef-43b2-97fe-4959eee554ed": {
+        "parentId": "0d321e5d-b8ba-451b-a37e-3d86e7dd7821",
+        "componentName": "BaseCol",
+        "slots": [
+            "f4a7318e-a8df-498b-9aba-4712f22757d6",
+            "01095732-1212-4369-b9fe-81df61ae70c3"
+        ],
+        "id": "09d39a39-d7ef-43b2-97fe-4959eee554ed",
+        "cols": "12",
+        "md": "6"
+    },
+    "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b": {
+        "parentId": "15fa1a93-fa29-46bb-97aa-0c98d332bee8",
+        "componentName": "BaseRow",
+        "slots": [
+            "b7bc23bb-587d-47d3-9833-488fbbde7423",
+            "8f3ac4db-7cef-4528-9c15-2587bb3d1b53",
+            "8775e248-b593-45b7-be57-453de9edbd06",
+            "5c00e60a-d6ed-4e09-a954-0808a87c8532"
+        ],
+        "id": "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b",
+        "align": null,
+        "justify": "center"
+    },
+    "f0ee3a2d-e40a-458d-92dd-daa6485fb7c5": {
+        "parentId": "a1f2eacf-adef-4cf1-af79-4a2c0ccdae04",
+        "componentName": "BaseInfoCard",
+        "title": "PHOTOGRAPHY",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "slots": [],
+        "id": "f0ee3a2d-e40a-458d-92dd-daa6485fb7c5",
+        "dark": true,
+        "icon": "mdi-camera-outline",
+        "align": "center"
+    },
+    "a1f2eacf-adef-4cf1-af79-4a2c0ccdae04": {
+        "parentId": "0d910ce8-d9c2-40bd-af0f-996d209b29e4",
+        "componentName": "BaseCol",
+        "slots": [
+            "f0ee3a2d-e40a-458d-92dd-daa6485fb7c5"
+        ],
+        "id": "a1f2eacf-adef-4cf1-af79-4a2c0ccdae04",
+        "cols": "12",
+        "md": "3",
+        "xl": "3"
+    },
+    "28a6b912-c5d9-4c67-9821-230fadaef1a8": {
+        "parentId": "8f0c9d4d-5400-4fc3-9ee2-162bfeb534a0",
+        "componentName": "BaseInfoCard",
+        "title": "24/7 SUPPORT",
+        "text": "Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.",
+        "slots": [],
+        "id": "28a6b912-c5d9-4c67-9821-230fadaef1a8",
+        "dark": true,
+        "icon": "mdi-puzzle-outline",
+        "align": "center"
+    },
+    "8f0c9d4d-5400-4fc3-9ee2-162bfeb534a0": {
+        "parentId": "0d910ce8-d9c2-40bd-af0f-996d209b29e4",
+        "componentName": "BaseCol",
+        "slots": [
+            "28a6b912-c5d9-4c67-9821-230fadaef1a8"
+        ],
+        "id": "8f0c9d4d-5400-4fc3-9ee2-162bfeb534a0",
+        "cols": "12",
+        "md": "3",
+        "xl": "3"
+    },
+    "fe1161d3-8872-4c53-a2ee-8714462fdf74": {
+        "parentId": "6e9212d6-a6c2-4252-90ea-ad08fb8c5c06",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "SOCIAL MEDIA",
+        "size": "text-h5",
+        "slots": [],
+        "id": "fe1161d3-8872-4c53-a2ee-8714462fdf74",
+        "align": "center",
+        "color": "#FFFFFF",
+        "mobileSize": "text-h5",
+        "weight": "bold",
+        "paddingTop": "",
+        "paddingBottom": "",
+        "marginTop": "40",
+        "marginBottom": "40"
+    },
+    "b0d8d911-ca02-4ded-9410-c220ed219b1e": {
+        "parentId": "6e9212d6-a6c2-4252-90ea-ad08fb8c5c06",
+        "componentName": "BaseLink",
+        "slots": [],
+        "id": "b0d8d911-ca02-4ded-9410-c220ed219b1e",
+        "href": "https://vuetifyjs.com",
+        "color": null,
+        "paddingTop": "",
+        "paddingBottom": "",
+        "marginTop": "40",
+        "marginBottom": "40"
+    },
+    "6c4a57fc-5320-45c3-90da-e975a4a358c7": {
+        "parentId": "454f6544-44a3-4d3f-a06f-f29823312f5a",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "6c4a57fc-5320-45c3-90da-e975a4a358c7",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "454f6544-44a3-4d3f-a06f-f29823312f5a": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "6c4a57fc-5320-45c3-90da-e975a4a358c7"
+        ],
+        "id": "454f6544-44a3-4d3f-a06f-f29823312f5a"
+    },
+    "358eb171-9b43-4731-9580-08bf1b17fb83": {
+        "parentId": "7265b1cc-06a8-419f-92d0-e7f98b7445b8",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "358eb171-9b43-4731-9580-08bf1b17fb83",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "7265b1cc-06a8-419f-92d0-e7f98b7445b8": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "358eb171-9b43-4731-9580-08bf1b17fb83"
+        ],
+        "id": "7265b1cc-06a8-419f-92d0-e7f98b7445b8"
+    },
+    "ab661a9a-484a-4833-b526-096c73e3139e": {
+        "parentId": "61b6ff4b-0227-4154-b5c9-a1fa6534a49d",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "ab661a9a-484a-4833-b526-096c73e3139e",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "61b6ff4b-0227-4154-b5c9-a1fa6534a49d": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "ab661a9a-484a-4833-b526-096c73e3139e"
+        ],
+        "id": "61b6ff4b-0227-4154-b5c9-a1fa6534a49d"
+    },
+    "c1e31ccf-b585-4918-ad03-709e66fff8d3": {
+        "parentId": "13f0e045-f5be-4dcf-9577-88be8df3247e",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "c1e31ccf-b585-4918-ad03-709e66fff8d3",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "13f0e045-f5be-4dcf-9577-88be8df3247e": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "c1e31ccf-b585-4918-ad03-709e66fff8d3"
+        ],
+        "id": "13f0e045-f5be-4dcf-9577-88be8df3247e"
+    },
+    "f87fac64-efca-429e-a96a-53d850a4bf5c": {
+        "parentId": "d1de329c-13bd-4c12-bf07-c72441009280",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "f87fac64-efca-429e-a96a-53d850a4bf5c",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "d1de329c-13bd-4c12-bf07-c72441009280": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "f87fac64-efca-429e-a96a-53d850a4bf5c"
+        ],
+        "id": "d1de329c-13bd-4c12-bf07-c72441009280"
+    },
+    "ac30931d-043b-4b20-a961-21a0d573c45a": {
+        "parentId": "5efb5b96-9d37-4d76-95b3-3a6409529848",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "ac30931d-043b-4b20-a961-21a0d573c45a",
+        "src": "/assets/omurtag-logo-light.png",
+        "maxWidth": "200"
+    },
+    "5efb5b96-9d37-4d76-95b3-3a6409529848": {
+        "parentId": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "componentName": "BaseCol",
+        "slots": [
+            "ac30931d-043b-4b20-a961-21a0d573c45a"
+        ],
+        "id": "5efb5b96-9d37-4d76-95b3-3a6409529848"
+    },
+    "ec6b2bb9-4922-4995-b9b0-2031bc64af40": {
+        "parentId": "7c0d6bc8-33bb-46f3-bfd0-4e980a588ced",
+        "componentName": "BaseRow",
+        "slots": [
+            "454f6544-44a3-4d3f-a06f-f29823312f5a",
+            "7265b1cc-06a8-419f-92d0-e7f98b7445b8",
+            "61b6ff4b-0227-4154-b5c9-a1fa6534a49d",
+            "13f0e045-f5be-4dcf-9577-88be8df3247e",
+            "d1de329c-13bd-4c12-bf07-c72441009280",
+            "5efb5b96-9d37-4d76-95b3-3a6409529848"
+        ],
+        "id": "ec6b2bb9-4922-4995-b9b0-2031bc64af40",
+        "preventWrap": true,
+        "justify": null,
+        "align": null
+    },
+    "8b121f9b-8bde-4fcd-ae11-e59fbc92fb4a": {
+        "parentId": "0d321e5d-b8ba-451b-a37e-3d86e7dd7821",
+        "componentName": "BaseCol",
+        "slots": [
+            "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2"
+        ],
+        "id": "8b121f9b-8bde-4fcd-ae11-e59fbc92fb4a",
+        "cols": "12",
+        "md": "6"
+    },
+    "3d3a7cac-6cc8-47a5-8c77-4222f4daa4d5": {
+        "parentId": "f4a7318e-a8df-498b-9aba-4712f22757d6",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "3d3a7cac-6cc8-47a5-8c77-4222f4daa4d5",
+        "src": "/assets/office_bg.jpg",
+        "maxWidth": "",
+        "marginBottom": ""
+    },
+    "f4a7318e-a8df-498b-9aba-4712f22757d6": {
+        "parentId": "09d39a39-d7ef-43b2-97fe-4959eee554ed",
+        "componentName": "BaseSection",
+        "slots": [
+            "3d3a7cac-6cc8-47a5-8c77-4222f4daa4d5"
+        ],
+        "id": "f4a7318e-a8df-498b-9aba-4712f22757d6",
+        "rounded": "xl",
+        "elevation": "15",
+        "maxWidth": "400",
+        "height": ""
+    },
+    "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2": {
+        "parentId": "8b121f9b-8bde-4fcd-ae11-e59fbc92fb4a",
+        "componentName": "BaseContainer",
+        "slots": [
+            "01903e91-fa16-4444-a1f7-9fd131532ed0",
+            "9330bd96-a054-49a9-94b3-6c7d80e39fcc",
+            "29bf0d48-8421-4fb1-96b1-83069c3dcc64",
+            "1882102e-3fd3-49df-8f4c-d0d04253ea32",
+            "2d60b221-a67f-4623-8d7e-174d5b8ec0f9",
+            "3b98dcc4-d850-44e6-a0a9-b1325c0f0849",
+            "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349",
+            "0c2819d5-2415-4aac-a38c-356aff6eb9ba"
+        ],
+        "id": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "fluid": true,
+        "fillHeight": false
+    },
+    "0c2819d5-2415-4aac-a38c-356aff6eb9ba": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "7dd18b5c-a788-4e73-9297-c706b69602ef",
+            "63eda09b-20e0-4bee-af32-22da65f938aa",
+            "2214b255-6979-40d6-91d7-78432475ba40"
+        ],
+        "id": "0c2819d5-2415-4aac-a38c-356aff6eb9ba",
+        "fillHeight": false
+    },
+    "2214b255-6979-40d6-91d7-78432475ba40": {
+        "parentId": "0c2819d5-2415-4aac-a38c-356aff6eb9ba",
+        "componentName": "BaseCol",
+        "slots": [
+            "f8740eea-23a2-4acc-9c00-dfa0e9477b3a"
+        ],
+        "id": "2214b255-6979-40d6-91d7-78432475ba40",
+        "cols": null
+    },
+    "f8740eea-23a2-4acc-9c00-dfa0e9477b3a": {
+        "parentId": "2214b255-6979-40d6-91d7-78432475ba40",
+        "componentName": "BaseBody",
+        "text": "$59",
+        "slots": [],
+        "id": "f8740eea-23a2-4acc-9c00-dfa0e9477b3a"
+    },
+    "7dd18b5c-a788-4e73-9297-c706b69602ef": {
+        "parentId": "0c2819d5-2415-4aac-a38c-356aff6eb9ba",
+        "componentName": "BaseCol",
+        "slots": [
+            "b66ce1c2-d1f7-4c4f-9818-e6252f673a5f"
+        ],
+        "id": "7dd18b5c-a788-4e73-9297-c706b69602ef",
+        "cols": null
+    },
+    "de629dbd-2265-4936-8afd-539a29590600": {
+        "parentId": "63eda09b-20e0-4bee-af32-22da65f938aa",
+        "componentName": "BaseBody",
+        "text": "Free",
+        "slots": [],
+        "id": "de629dbd-2265-4936-8afd-539a29590600"
+    },
+    "63eda09b-20e0-4bee-af32-22da65f938aa": {
+        "parentId": "0c2819d5-2415-4aac-a38c-356aff6eb9ba",
+        "componentName": "BaseCol",
+        "slots": [
+            "de629dbd-2265-4936-8afd-539a29590600"
+        ],
+        "id": "63eda09b-20e0-4bee-af32-22da65f938aa",
+        "cols": null
+    },
+    "2f60a939-f7d8-41fe-b2d7-221cc7481ec9": {
+        "parentId": "13f1b7d8-ec45-4420-bfaa-9a9d7bdcad04",
+        "componentName": "BaseBody",
+        "text": "Sample Text",
+        "slots": [],
+        "id": "2f60a939-f7d8-41fe-b2d7-221cc7481ec9"
+    },
+    "13f1b7d8-ec45-4420-bfaa-9a9d7bdcad04": {
+        "parentId": "d072589b-abd1-4ced-9356-bb14330f9d90",
+        "componentName": "BaseCol",
+        "slots": [
+            "2f60a939-f7d8-41fe-b2d7-221cc7481ec9"
+        ],
+        "id": "13f1b7d8-ec45-4420-bfaa-9a9d7bdcad04",
+        "cols": null
+    },
+    "7f6849a7-fbfc-4558-a399-069ffb07b6d2": {
+        "parentId": "b9e44ffa-a502-41f9-a8fc-991fe747e087",
+        "componentName": "BaseBody",
+        "text": "Sample Text",
+        "slots": [],
+        "id": "7f6849a7-fbfc-4558-a399-069ffb07b6d2"
+    },
+    "b9e44ffa-a502-41f9-a8fc-991fe747e087": {
+        "parentId": "48c12f2a-d66e-41a2-9dd2-c9132b18d5ee",
+        "componentName": "BaseCol",
+        "slots": [
+            "7f6849a7-fbfc-4558-a399-069ffb07b6d2"
+        ],
+        "id": "b9e44ffa-a502-41f9-a8fc-991fe747e087",
+        "cols": null
+    },
+    "17d795c3-c46b-4950-86b4-021294088cd8": {
+        "parentId": "9b84695e-751b-4287-8813-4356c5c95d22",
+        "componentName": "BaseBody",
+        "text": "Sample Text",
+        "slots": [],
+        "id": "17d795c3-c46b-4950-86b4-021294088cd8"
+    },
+    "9b84695e-751b-4287-8813-4356c5c95d22": {
+        "parentId": "3f57a0c0-d96e-4f48-9be3-c07fefc60f03",
+        "componentName": "BaseCol",
+        "slots": [
+            "17d795c3-c46b-4950-86b4-021294088cd8"
+        ],
+        "id": "9b84695e-751b-4287-8813-4356c5c95d22",
+        "cols": null
+    },
+    "b065803a-78ee-4645-96e7-bbb72413233f": {
+        "parentId": "e32d2c2f-7a8f-4ad2-abf3-22b72d815254",
+        "componentName": "BaseCol",
+        "slots": [],
+        "id": "b065803a-78ee-4645-96e7-bbb72413233f"
+    },
+    "67235503-087d-4d47-9e6f-348b4f37da4c": {
+        "parentId": "55d34b36-bc12-4da9-b44c-ba8441e28e22",
+        "componentName": "BaseBody",
+        "text": "Sample Text",
+        "slots": [],
+        "id": "67235503-087d-4d47-9e6f-348b4f37da4c",
+        "hidden": true
+    },
+    "55d34b36-bc12-4da9-b44c-ba8441e28e22": {
+        "parentId": "01903e91-fa16-4444-a1f7-9fd131532ed0",
+        "componentName": "BaseCol",
+        "slots": [
+            "67235503-087d-4d47-9e6f-348b4f37da4c"
+        ],
+        "id": "55d34b36-bc12-4da9-b44c-ba8441e28e22",
+        "cols": null
+    },
+    "dc4c2db1-9f79-42d5-98b0-7eaf266e238c": {
+        "parentId": "01903e91-fa16-4444-a1f7-9fd131532ed0",
+        "componentName": "BaseCol",
+        "slots": [
+            "128c2adb-d626-4b9d-9b1d-6ab91de1fc69"
+        ],
+        "id": "dc4c2db1-9f79-42d5-98b0-7eaf266e238c",
+        "cols": null
+    },
+    "01903e91-fa16-4444-a1f7-9fd131532ed0": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "55d34b36-bc12-4da9-b44c-ba8441e28e22",
+            "2b615c7f-4496-4d44-aefa-e504c7fed7b7",
+            "dc4c2db1-9f79-42d5-98b0-7eaf266e238c"
+        ],
+        "id": "01903e91-fa16-4444-a1f7-9fd131532ed0",
+        "fillHeight": false
+    },
+    "128c2adb-d626-4b9d-9b1d-6ab91de1fc69": {
+        "parentId": "dc4c2db1-9f79-42d5-98b0-7eaf266e238c",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "What is in Pro?",
+        "size": "text-h6",
+        "slots": [],
+        "id": "128c2adb-d626-4b9d-9b1d-6ab91de1fc69",
+        "mobileSize": "text-h6",
+        "weight": "bold",
+        "align": ""
+    },
+    "95ad7ea8-67d0-4a60-b310-146e3e26ecf6": {
+        "parentId": "2b615c7f-4496-4d44-aefa-e504c7fed7b7",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "What is in Demo?",
+        "size": "text-h6",
+        "slots": [],
+        "id": "95ad7ea8-67d0-4a60-b310-146e3e26ecf6",
+        "mobileSize": "text-h6",
+        "weight": "bold",
+        "align": ""
+    },
+    "2b615c7f-4496-4d44-aefa-e504c7fed7b7": {
+        "parentId": "01903e91-fa16-4444-a1f7-9fd131532ed0",
+        "componentName": "BaseCol",
+        "slots": [
+            "95ad7ea8-67d0-4a60-b310-146e3e26ecf6"
+        ],
+        "id": "2b615c7f-4496-4d44-aefa-e504c7fed7b7",
+        "cols": null
+    },
+    "b66ce1c2-d1f7-4c4f-9818-e6252f673a5f": {
+        "parentId": "7dd18b5c-a788-4e73-9297-c706b69602ef",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Price\t",
+        "size": "text-h6",
+        "slots": [],
+        "id": "b66ce1c2-d1f7-4c4f-9818-e6252f673a5f",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "c4c706fb-da1a-4fe3-b2dd-72c7f81b1303": {
+        "parentId": "3d714538-e027-4331-a241-ddb6a4acb465",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Components",
+        "size": "text-h6",
+        "slots": [],
+        "id": "c4c706fb-da1a-4fe3-b2dd-72c7f81b1303",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "3d714538-e027-4331-a241-ddb6a4acb465": {
+        "parentId": "9330bd96-a054-49a9-94b3-6c7d80e39fcc",
+        "componentName": "BaseCol",
+        "slots": [
+            "c4c706fb-da1a-4fe3-b2dd-72c7f81b1303"
+        ],
+        "id": "3d714538-e027-4331-a241-ddb6a4acb465",
+        "cols": null
+    },
+    "8c763ca7-53c7-40f4-95eb-dfef1c1ec2cf": {
+        "parentId": "628b9208-4ad2-489a-9dbf-432359f3bb35",
+        "componentName": "BaseBody",
+        "text": "5",
+        "slots": [],
+        "id": "8c763ca7-53c7-40f4-95eb-dfef1c1ec2cf"
+    },
+    "628b9208-4ad2-489a-9dbf-432359f3bb35": {
+        "parentId": "9330bd96-a054-49a9-94b3-6c7d80e39fcc",
+        "componentName": "BaseCol",
+        "slots": [
+            "8c763ca7-53c7-40f4-95eb-dfef1c1ec2cf"
+        ],
+        "id": "628b9208-4ad2-489a-9dbf-432359f3bb35",
+        "cols": null
+    },
+    "f24f23da-1f43-4f3c-81df-7884e6f7a395": {
+        "parentId": "8a2c9f73-49ce-450e-8db8-0137ddd9a025",
+        "componentName": "BaseBody",
+        "text": "40+",
+        "slots": [],
+        "id": "f24f23da-1f43-4f3c-81df-7884e6f7a395"
+    },
+    "8a2c9f73-49ce-450e-8db8-0137ddd9a025": {
+        "parentId": "9330bd96-a054-49a9-94b3-6c7d80e39fcc",
+        "componentName": "BaseCol",
+        "slots": [
+            "f24f23da-1f43-4f3c-81df-7884e6f7a395"
+        ],
+        "id": "8a2c9f73-49ce-450e-8db8-0137ddd9a025",
+        "cols": null
+    },
+    "9330bd96-a054-49a9-94b3-6c7d80e39fcc": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "3d714538-e027-4331-a241-ddb6a4acb465",
+            "628b9208-4ad2-489a-9dbf-432359f3bb35",
+            "8a2c9f73-49ce-450e-8db8-0137ddd9a025"
+        ],
+        "id": "9330bd96-a054-49a9-94b3-6c7d80e39fcc",
+        "fillHeight": false
+    },
+    "3fc5cd3b-940a-43d7-9837-c6559c6e9240": {
+        "parentId": "b5040870-33ab-4625-920c-cd2d16abc6be",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Example Pages\t",
+        "size": "text-h6",
+        "slots": [],
+        "id": "3fc5cd3b-940a-43d7-9837-c6559c6e9240",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "b5040870-33ab-4625-920c-cd2d16abc6be": {
+        "parentId": "29bf0d48-8421-4fb1-96b1-83069c3dcc64",
+        "componentName": "BaseCol",
+        "slots": [
+            "3fc5cd3b-940a-43d7-9837-c6559c6e9240"
+        ],
+        "id": "b5040870-33ab-4625-920c-cd2d16abc6be",
+        "cols": null
+    },
+    "c3b6fdd8-a6ee-4bf3-aafb-af023ec994e0": {
+        "parentId": "cd1c7bb5-6d72-4339-85b1-d91ae4ffde00",
+        "componentName": "BaseBody",
+        "text": "5",
+        "slots": [],
+        "id": "c3b6fdd8-a6ee-4bf3-aafb-af023ec994e0"
+    },
+    "cd1c7bb5-6d72-4339-85b1-d91ae4ffde00": {
+        "parentId": "29bf0d48-8421-4fb1-96b1-83069c3dcc64",
+        "componentName": "BaseCol",
+        "slots": [
+            "c3b6fdd8-a6ee-4bf3-aafb-af023ec994e0"
+        ],
+        "id": "cd1c7bb5-6d72-4339-85b1-d91ae4ffde00",
+        "cols": null
+    },
+    "2dc2d018-4e05-4dd9-a585-395078b41a85": {
+        "parentId": "0ab2fd9f-ce91-4d23-8dd9-5058c86e8121",
+        "componentName": "BaseBody",
+        "text": "40+",
+        "slots": [],
+        "id": "2dc2d018-4e05-4dd9-a585-395078b41a85"
+    },
+    "0ab2fd9f-ce91-4d23-8dd9-5058c86e8121": {
+        "parentId": "29bf0d48-8421-4fb1-96b1-83069c3dcc64",
+        "componentName": "BaseCol",
+        "slots": [
+            "2dc2d018-4e05-4dd9-a585-395078b41a85"
+        ],
+        "id": "0ab2fd9f-ce91-4d23-8dd9-5058c86e8121",
+        "cols": null
+    },
+    "29bf0d48-8421-4fb1-96b1-83069c3dcc64": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "b5040870-33ab-4625-920c-cd2d16abc6be",
+            "cd1c7bb5-6d72-4339-85b1-d91ae4ffde00",
+            "0ab2fd9f-ce91-4d23-8dd9-5058c86e8121"
+        ],
+        "id": "29bf0d48-8421-4fb1-96b1-83069c3dcc64",
+        "fillHeight": false
+    },
+    "12688271-6155-4c58-9cbc-d2fcc873daf1": {
+        "parentId": "5e4c8a2e-53b7-46fd-b3aa-05c9ed4c8a69",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Supports Vuetify\t\t",
+        "size": "text-h6",
+        "slots": [],
+        "id": "12688271-6155-4c58-9cbc-d2fcc873daf1",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "5e4c8a2e-53b7-46fd-b3aa-05c9ed4c8a69": {
+        "parentId": "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349",
+        "componentName": "BaseCol",
+        "slots": [
+            "12688271-6155-4c58-9cbc-d2fcc873daf1"
+        ],
+        "id": "5e4c8a2e-53b7-46fd-b3aa-05c9ed4c8a69",
+        "cols": null
+    },
+    "e6841f88-4e5e-4b2f-abc0-e0ff7ffb8a4e": {
+        "parentId": "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349",
+        "componentName": "BaseCol",
+        "slots": [
+            "c054303d-7965-4ccc-aa49-270a584ce7c4"
+        ],
+        "id": "e6841f88-4e5e-4b2f-abc0-e0ff7ffb8a4e",
+        "cols": null
+    },
+    "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "5e4c8a2e-53b7-46fd-b3aa-05c9ed4c8a69",
+            "d99074d2-7474-4001-bf28-eeca8e637061",
+            "e6841f88-4e5e-4b2f-abc0-e0ff7ffb8a4e"
+        ],
+        "id": "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349",
+        "fillHeight": false
+    },
+    "c054303d-7965-4ccc-aa49-270a584ce7c4": {
+        "parentId": "e6841f88-4e5e-4b2f-abc0-e0ff7ffb8a4e",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "c054303d-7965-4ccc-aa49-270a584ce7c4",
+        "icon": "mdi-check",
+        "color": "#009688",
+        "size": "20"
+    },
+    "227f1212-86bb-4edb-a2e4-c5bbe2c0a41d": {
+        "parentId": "d99074d2-7474-4001-bf28-eeca8e637061",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "227f1212-86bb-4edb-a2e4-c5bbe2c0a41d",
+        "icon": "mdi-close",
+        "color": "#B71C1C",
+        "size": "20"
+    },
+    "d99074d2-7474-4001-bf28-eeca8e637061": {
+        "parentId": "ba64ad28-ff90-4ec9-8a0a-acb7aa8d6349",
+        "componentName": "BaseCol",
+        "slots": [
+            "227f1212-86bb-4edb-a2e4-c5bbe2c0a41d"
+        ],
+        "id": "d99074d2-7474-4001-bf28-eeca8e637061",
+        "cols": null
+    },
+    "c398e675-b71e-4a06-9fab-b25587c9d658": {
+        "parentId": "f84f9bcd-443e-4d59-bd55-5effff0b808b",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Vue CLI Support\t\t",
+        "size": "text-h6",
+        "slots": [],
+        "id": "c398e675-b71e-4a06-9fab-b25587c9d658",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "f84f9bcd-443e-4d59-bd55-5effff0b808b": {
+        "parentId": "1882102e-3fd3-49df-8f4c-d0d04253ea32",
+        "componentName": "BaseCol",
+        "slots": [
+            "c398e675-b71e-4a06-9fab-b25587c9d658"
+        ],
+        "id": "f84f9bcd-443e-4d59-bd55-5effff0b808b",
+        "cols": null
+    },
+    "03290e65-c13a-4111-8bea-d19b0d28db31": {
+        "parentId": "32bd77ae-fe52-4484-850e-604544ec3a88",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "03290e65-c13a-4111-8bea-d19b0d28db31",
+        "icon": "mdi-check",
+        "color": "#009688",
+        "size": "20"
+    },
+    "32bd77ae-fe52-4484-850e-604544ec3a88": {
+        "parentId": "1882102e-3fd3-49df-8f4c-d0d04253ea32",
+        "componentName": "BaseCol",
+        "slots": [
+            "03290e65-c13a-4111-8bea-d19b0d28db31"
+        ],
+        "id": "32bd77ae-fe52-4484-850e-604544ec3a88",
+        "cols": null
+    },
+    "381c8130-0b59-40c6-9b78-849216ede61f": {
+        "parentId": "28c96128-b4d2-481e-b15e-a18cc9b40fea",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "381c8130-0b59-40c6-9b78-849216ede61f",
+        "icon": "mdi-check",
+        "color": "#009688",
+        "size": "20"
+    },
+    "28c96128-b4d2-481e-b15e-a18cc9b40fea": {
+        "parentId": "1882102e-3fd3-49df-8f4c-d0d04253ea32",
+        "componentName": "BaseCol",
+        "slots": [
+            "381c8130-0b59-40c6-9b78-849216ede61f"
+        ],
+        "id": "28c96128-b4d2-481e-b15e-a18cc9b40fea",
+        "cols": null
+    },
+    "1882102e-3fd3-49df-8f4c-d0d04253ea32": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "f84f9bcd-443e-4d59-bd55-5effff0b808b",
+            "32bd77ae-fe52-4484-850e-604544ec3a88",
+            "28c96128-b4d2-481e-b15e-a18cc9b40fea"
+        ],
+        "id": "1882102e-3fd3-49df-8f4c-d0d04253ea32",
+        "fillHeight": false
+    },
+    "77c4d033-0ed5-45f5-87a5-59159142ef7c": {
+        "parentId": "69731a8e-12a6-4866-8c92-292b36019672",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "Vue CLI Support\t\t",
+        "size": "text-h6",
+        "slots": [],
+        "id": "77c4d033-0ed5-45f5-87a5-59159142ef7c",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "69731a8e-12a6-4866-8c92-292b36019672": {
+        "parentId": "2d60b221-a67f-4623-8d7e-174d5b8ec0f9",
+        "componentName": "BaseCol",
+        "slots": [
+            "77c4d033-0ed5-45f5-87a5-59159142ef7c"
+        ],
+        "id": "69731a8e-12a6-4866-8c92-292b36019672",
+        "cols": null
+    },
+    "1718d367-0b39-456b-8edf-a1f3ce3849f3": {
+        "parentId": "ff5fb4e7-8bee-46fd-976c-9eb34a66805a",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "1718d367-0b39-456b-8edf-a1f3ce3849f3",
+        "icon": "mdi-close",
+        "color": "#B71C1C",
+        "size": "20"
+    },
+    "ff5fb4e7-8bee-46fd-976c-9eb34a66805a": {
+        "parentId": "2d60b221-a67f-4623-8d7e-174d5b8ec0f9",
+        "componentName": "BaseCol",
+        "slots": [
+            "1718d367-0b39-456b-8edf-a1f3ce3849f3"
+        ],
+        "id": "ff5fb4e7-8bee-46fd-976c-9eb34a66805a",
+        "cols": null
+    },
+    "5c2157ae-45dd-49bf-8971-ad9b7a1fe787": {
+        "parentId": "5a104ccd-bbbe-45f2-af27-4e0ee0f2e956",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "5c2157ae-45dd-49bf-8971-ad9b7a1fe787",
+        "icon": "mdi-check",
+        "color": "#009688",
+        "size": "20"
+    },
+    "5a104ccd-bbbe-45f2-af27-4e0ee0f2e956": {
+        "parentId": "2d60b221-a67f-4623-8d7e-174d5b8ec0f9",
+        "componentName": "BaseCol",
+        "slots": [
+            "5c2157ae-45dd-49bf-8971-ad9b7a1fe787"
+        ],
+        "id": "5a104ccd-bbbe-45f2-af27-4e0ee0f2e956",
+        "cols": null
+    },
+    "2d60b221-a67f-4623-8d7e-174d5b8ec0f9": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "69731a8e-12a6-4866-8c92-292b36019672",
+            "ff5fb4e7-8bee-46fd-976c-9eb34a66805a",
+            "5a104ccd-bbbe-45f2-af27-4e0ee0f2e956"
+        ],
+        "id": "2d60b221-a67f-4623-8d7e-174d5b8ec0f9",
+        "fillHeight": false
+    },
+    "6cff9877-209f-446e-bbfd-f0af5201a679": {
+        "parentId": "7f02aed4-5e3c-4871-8be1-42a6f58bb9e3",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "6 Months Free Updates",
+        "size": "text-h6",
+        "slots": [],
+        "id": "6cff9877-209f-446e-bbfd-f0af5201a679",
+        "mobileSize": "text-h6",
+        "weight": "bold"
+    },
+    "7f02aed4-5e3c-4871-8be1-42a6f58bb9e3": {
+        "parentId": "3b98dcc4-d850-44e6-a0a9-b1325c0f0849",
+        "componentName": "BaseCol",
+        "slots": [
+            "6cff9877-209f-446e-bbfd-f0af5201a679"
+        ],
+        "id": "7f02aed4-5e3c-4871-8be1-42a6f58bb9e3",
+        "cols": null
+    },
+    "2f905d48-0a7c-49a0-9b96-16698989a4c8": {
+        "parentId": "c1d1afac-d9cd-47d6-8007-672c681d83f0",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "2f905d48-0a7c-49a0-9b96-16698989a4c8",
+        "icon": "mdi-close",
+        "color": "#B71C1C",
+        "size": "20"
+    },
+    "c1d1afac-d9cd-47d6-8007-672c681d83f0": {
+        "parentId": "3b98dcc4-d850-44e6-a0a9-b1325c0f0849",
+        "componentName": "BaseCol",
+        "slots": [
+            "2f905d48-0a7c-49a0-9b96-16698989a4c8"
+        ],
+        "id": "c1d1afac-d9cd-47d6-8007-672c681d83f0",
+        "cols": null
+    },
+    "8c801f21-c565-4703-b0e8-640e79dc2158": {
+        "parentId": "b07841af-5aa7-43b4-bb11-36e679366a97",
+        "componentName": "BaseIcon",
+        "slots": [],
+        "id": "8c801f21-c565-4703-b0e8-640e79dc2158",
+        "icon": "mdi-check",
+        "color": "#009688",
+        "size": "20"
+    },
+    "b07841af-5aa7-43b4-bb11-36e679366a97": {
+        "parentId": "3b98dcc4-d850-44e6-a0a9-b1325c0f0849",
+        "componentName": "BaseCol",
+        "slots": [
+            "8c801f21-c565-4703-b0e8-640e79dc2158"
+        ],
+        "id": "b07841af-5aa7-43b4-bb11-36e679366a97",
+        "cols": null
+    },
+    "3b98dcc4-d850-44e6-a0a9-b1325c0f0849": {
+        "parentId": "e1cfad22-0a56-47b9-8b5a-d7a8ecd050f2",
+        "componentName": "BaseRow",
+        "slots": [
+            "7f02aed4-5e3c-4871-8be1-42a6f58bb9e3",
+            "c1d1afac-d9cd-47d6-8007-672c681d83f0",
+            "b07841af-5aa7-43b4-bb11-36e679366a97"
+        ],
+        "id": "3b98dcc4-d850-44e6-a0a9-b1325c0f0849",
+        "fillHeight": false
+    },
+    "01095732-1212-4369-b9fe-81df61ae70c3": {
+        "parentId": "09d39a39-d7ef-43b2-97fe-4959eee554ed",
+        "componentName": "BaseBtn",
+        "text": "By pro now",
+        "slots": [],
+        "id": "01095732-1212-4369-b9fe-81df61ae70c3",
+        "block": false,
+        "iconSrc": "mdi-rocket",
+        "size": "x-large",
+        "depressed": false,
+        "tile": false,
+        "blockOnMobile": false,
+        "marginBottom": null,
+        "marginTop": "60"
+    },
+    "e88cfe5c-6a4f-4069-9985-eca1ef5f016f": {
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "slots": [
+            "424532f5-6bc9-4b03-a3d6-d9cb68ff28ef"
+        ],
+        "id": "e88cfe5c-6a4f-4069-9985-eca1ef5f016f",
+        "height": null,
+        "color": "#222222F5",
+        "paddingTop": "30",
+        "paddingBottom": "15",
+        "paddingRight": "20",
+        "paddingLeft": "20",
+        "absolute": true
+    },
+    "f656b3af-0e53-4fe0-a930-2da999496a99": {
+        "parentId": "2cf9f502-5c3a-4281-abf7-8ca49b5621c2",
+        "componentName": "BaseCol",
+        "slots": [],
+        "id": "f656b3af-0e53-4fe0-a930-2da999496a99",
+        "cols": "12",
+        "md": "6"
+    },
+    "e12c0f0b-2484-461e-ad3f-914e265a546c": {
+        "parentId": "df0b8dac-7113-4248-a83e-a058311c056e",
+        "componentName": "BaseBtn",
+        "text": "Twitter",
+        "slots": [],
+        "id": "e12c0f0b-2484-461e-ad3f-914e265a546c",
+        "textOnly": true,
+        "color": null,
+        "dark": true,
+        "size": "small"
+    },
+    "fd2110ff-285d-4a4f-9ab0-312c2f0b5137": {
+        "parentId": "df0b8dac-7113-4248-a83e-a058311c056e",
+        "componentName": "BaseBtn",
+        "text": "Linkedin",
+        "slots": [],
+        "id": "fd2110ff-285d-4a4f-9ab0-312c2f0b5137",
+        "textOnly": true,
+        "color": null,
+        "dark": true,
+        "size": "small"
+    },
+    "424532f5-6bc9-4b03-a3d6-d9cb68ff28ef": {
+        "parentId": "e88cfe5c-6a4f-4069-9985-eca1ef5f016f",
+        "componentName": "BaseBody",
+        "text": "© 2021 — Vuetify, LLC — Made with 💜 by John Leider",
+        "slots": [],
+        "id": "424532f5-6bc9-4b03-a3d6-d9cb68ff28ef",
+        "color": "#FFFFFFFF",
+        "align": "center"
+    },
+    "55571f9b-da92-4d69-9054-9c048acce52a": {
+        "parentId": "416c0ed7-78e0-4462-87d7-a96b8099033b",
+        "componentName": "BaseTab",
+        "text": "Home",
+        "slots": [],
+        "id": "55571f9b-da92-4d69-9054-9c048acce52a",
+        "goTo": "071b8cf9-3c4e-4755-82dc-cd3578dc6687"
+    },
+    "41cf2d93-7efc-41cf-bbbc-9e71f2e8fb78": {
+        "parentId": "85a12494-6549-4e1e-b849-848a7e347bf1",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "VUETIFY",
+        "size": "text-h1",
+        "slots": [],
+        "id": "41cf2d93-7efc-41cf-bbbc-9e71f2e8fb78",
+        "color": "#FFFFFFFF",
+        "align": "center",
+        "weight": "black",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "marginTop": "-10"
+    },
+    "979e1ab6-e853-4a48-8714-0ecd11486c99": {
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "slots": [
+            "739c8567-9811-4912-8bcd-560115b9b7f5",
+            "f430ef85-7e45-4d4f-945f-5e0ed7ba70a4"
+        ],
+        "id": "979e1ab6-e853-4a48-8714-0ecd11486c99",
+        "paddingTop": "100",
+        "paddingBottom": "100",
+        "color": null
+    },
+    "739c8567-9811-4912-8bcd-560115b9b7f5": {
+        "parentId": "979e1ab6-e853-4a48-8714-0ecd11486c99",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "BLOG",
+        "size": "text-h3",
+        "slots": [],
+        "id": "739c8567-9811-4912-8bcd-560115b9b7f5",
+        "align": "center",
+        "weight": "bold",
+        "marginTop": null,
+        "marginBottom": "50",
+        "mobileSize": "text-h3"
+    },
+    "f430ef85-7e45-4d4f-945f-5e0ed7ba70a4": {
+        "parentId": "979e1ab6-e853-4a48-8714-0ecd11486c99",
+        "componentName": "BaseContainer",
+        "slots": [
+            "693577f6-7542-4203-95c5-abf7beb5c502"
+        ],
+        "id": "f430ef85-7e45-4d4f-945f-5e0ed7ba70a4",
+        "hidden": false,
+        "paddingRight": "10",
+        "paddingLeft": "10"
+    },
+    "693577f6-7542-4203-95c5-abf7beb5c502": {
+        "parentId": "f430ef85-7e45-4d4f-945f-5e0ed7ba70a4",
+        "componentName": "BaseRow",
+        "slots": [
+            "666b370e-b3cb-4c54-8afc-21bee6878f73",
+            "9b8ca548-7f22-48e7-9bd7-538bd446341a",
+            "a6910813-33fe-46a6-9a0d-ef79514e7a53"
+        ],
+        "id": "693577f6-7542-4203-95c5-abf7beb5c502",
+        "align": "center"
+    },
+    "ceb7b2ea-ad5a-4fac-87bd-585832e370e9": {
+        "parentId": "086fea2d-9a5c-4ab6-9419-afd3f129c13a",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "ABOUT ME",
+        "size": "text-h3",
+        "slots": [],
+        "id": "ceb7b2ea-ad5a-4fac-87bd-585832e370e9",
+        "align": "center",
+        "weight": "bold",
+        "marginTop": null,
+        "marginBottom": "50",
+        "mobileSize": "text-h3"
+    },
+    "c939b1e8-a4c4-44af-86cf-c4a8d9fe4661": {
+        "parentId": "086fea2d-9a5c-4ab6-9419-afd3f129c13a",
+        "componentName": "BaseBody",
+        "text": "Vuetify is the #1 component library for Vue.js and has been in active development since 2016. The goal of the project is to provide users with everything that is needed to build rich and engaging web applications using the Material Design specification. It accomplishes that with a consistent update cycle, Long-term Support (LTS) for previous versions, responsive community engagement, a vast ecosystem of resources and a dedication to quality components.",
+        "slots": [],
+        "id": "c939b1e8-a4c4-44af-86cf-c4a8d9fe4661",
+        "maxWidth": "600",
+        "align": "center",
+        "marginTop": "20",
+        "marginRight": null,
+        "marginBottom": "20"
+    },
+    "40a4b4d0-5c71-4076-ae57-cb3b44aa1a59": {
+        "parentId": "9edd819e-ceee-4d8d-a251-1e115c16cbe2",
+        "componentName": "BaseCol",
+        "slots": [
+            "5310160b-8ab2-4051-a11d-3422bd4e652a"
+        ],
+        "id": "40a4b4d0-5c71-4076-ae57-cb3b44aa1a59",
+        "cols": "12",
+        "hidden": false,
+        "paddingTop": "50",
+        "marginTop": "",
+        "paddingBottom": null
+    },
+    "c0363398-05cd-46db-826b-e404a9262305": {
+        "parentId": "1d771024-7757-4c10-bd32-6f928d39c29d",
+        "componentName": "BaseBtn",
+        "text": "Vuetify Documentation",
+        "slots": [],
+        "id": "c0363398-05cd-46db-826b-e404a9262305",
+        "outlined": true,
+        "color": "#222121BB",
+        "size": "large",
+        "marginTop": null
+    },
+    "1d771024-7757-4c10-bd32-6f928d39c29d": {
+        "parentId": "9edd819e-ceee-4d8d-a251-1e115c16cbe2",
+        "componentName": "BaseCol",
+        "slots": [
+            "c0363398-05cd-46db-826b-e404a9262305"
+        ],
+        "id": "1d771024-7757-4c10-bd32-6f928d39c29d",
+        "cols": "12"
+    },
+    "9edd819e-ceee-4d8d-a251-1e115c16cbe2": {
+        "parentId": "632be011-ffa4-4901-a163-7d82eaa0fcff",
+        "componentName": "BaseRow",
+        "slots": [
+            "40a4b4d0-5c71-4076-ae57-cb3b44aa1a59",
+            "1d771024-7757-4c10-bd32-6f928d39c29d"
+        ],
+        "id": "9edd819e-ceee-4d8d-a251-1e115c16cbe2",
+        "align": "center"
+    },
+    "632be011-ffa4-4901-a163-7d82eaa0fcff": {
+        "parentId": "086fea2d-9a5c-4ab6-9419-afd3f129c13a",
+        "componentName": "BaseContainer",
+        "slots": [
+            "9edd819e-ceee-4d8d-a251-1e115c16cbe2"
+        ],
+        "id": "632be011-ffa4-4901-a163-7d82eaa0fcff",
+        "hidden": false
+    },
+    "086fea2d-9a5c-4ab6-9419-afd3f129c13a": {
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "slots": [
+            "ceb7b2ea-ad5a-4fac-87bd-585832e370e9",
+            "c939b1e8-a4c4-44af-86cf-c4a8d9fe4661",
+            "632be011-ffa4-4901-a163-7d82eaa0fcff"
+        ],
+        "id": "086fea2d-9a5c-4ab6-9419-afd3f129c13a",
+        "paddingTop": "100",
+        "paddingBottom": "100",
+        "elevation": null
+    },
+    "33d816ba-b841-4913-b86c-d4ad319fa7d6": {
+        "parentId": "95457635-4ec1-43d4-a0b6-30f5aeb13c0c",
+        "componentName": "BaseHeading",
+        "tag": "h1",
+        "title": "WELCOME TO",
+        "size": "text-h3",
+        "slots": [],
+        "id": "33d816ba-b841-4913-b86c-d4ad319fa7d6",
+        "color": "#FFFFFFFF",
+        "align": "center",
+        "hidden": false,
+        "weight": "regular",
+        "marginTop": null,
+        "mobileSize": "text-h4"
+    },
+    "95457635-4ec1-43d4-a0b6-30f5aeb13c0c": {
+        "parentId": "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e",
+        "componentName": "BaseCol",
+        "slots": [
+            "33d816ba-b841-4913-b86c-d4ad319fa7d6"
+        ],
+        "id": "95457635-4ec1-43d4-a0b6-30f5aeb13c0c",
+        "cols": "12",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0"
+    },
+    "05c45e12-11e5-4dc5-b884-0d0924fb036d": {
+        "parentId": "253d88b3-e0e5-4c26-902f-d486d591abb2",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "VUETIFY",
+        "size": "text-h1",
+        "slots": [],
+        "id": "05c45e12-11e5-4dc5-b884-0d0924fb036d",
+        "color": "#FFFFFFFF",
+        "align": "center",
+        "weight": "black",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "marginTop": "-10",
+        "mobileSize": "text-h2"
+    },
+    "253d88b3-e0e5-4c26-902f-d486d591abb2": {
+        "parentId": "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e",
+        "componentName": "BaseCol",
+        "slots": [
+            "05c45e12-11e5-4dc5-b884-0d0924fb036d"
+        ],
+        "id": "253d88b3-e0e5-4c26-902f-d486d591abb2",
+        "cols": "12",
+        "paddingTop": "0",
+        "paddingRight": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0"
+    },
+    "39dcd985-225c-4ad4-b355-d0549737ce02": {
+        "parentId": "8b64be34-a448-4d75-9989-0a991f0b40b3",
+        "componentName": "BaseBtn",
+        "text": null,
+        "slots": [],
+        "id": "39dcd985-225c-4ad4-b355-d0549737ce02",
+        "size": "x-large",
+        "marginRight": "10",
+        "marginBottom": "10",
+        "paddingBottom": "",
+        "outlined": true,
+        "dark": true,
+        "color": null,
+        "iconSrc": "mdi-chevron-double-down",
+        "fab": true,
+        "blockOnMobile": false,
+        "block": false,
+        "textOnly": false
+    },
+    "8b64be34-a448-4d75-9989-0a991f0b40b3": {
+        "parentId": "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e",
+        "componentName": "BaseCol",
+        "slots": [
+            "39dcd985-225c-4ad4-b355-d0549737ce02"
+        ],
+        "id": "8b64be34-a448-4d75-9989-0a991f0b40b3"
+    },
+    "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e": {
+        "parentId": "b94922c5-0719-49d9-a5c2-481548292abe",
+        "componentName": "BaseRow",
+        "slots": [
+            "95457635-4ec1-43d4-a0b6-30f5aeb13c0c",
+            "253d88b3-e0e5-4c26-902f-d486d591abb2",
+            "8b64be34-a448-4d75-9989-0a991f0b40b3"
+        ],
+        "id": "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e",
+        "justify": "center",
+        "align": "center"
+    },
+    "b94922c5-0719-49d9-a5c2-481548292abe": {
+        "parentId": "e89c6623-6d05-4972-af9b-38abd880bd1f",
+        "componentName": "BaseContainer",
+        "slots": [
+            "21d3d1ca-3ac6-456c-ad73-b4b1f2c5ff7e"
+        ],
+        "id": "b94922c5-0719-49d9-a5c2-481548292abe"
+    },
+    "e89c6623-6d05-4972-af9b-38abd880bd1f": {
+        "parentId": "0f802345-c153-4412-97e7-b8232adcca6c",
+        "componentName": "BaseCol",
+        "slots": [
+            "b94922c5-0719-49d9-a5c2-481548292abe"
+        ],
+        "id": "e89c6623-6d05-4972-af9b-38abd880bd1f",
+        "cols": "12",
+        "xl": "5",
+        "md": "6"
+    },
+    "0f802345-c153-4412-97e7-b8232adcca6c": {
+        "parentId": "59bb8071-7cec-454f-809d-e635047f583a",
+        "componentName": "BaseRow",
+        "slots": [
+            "e89c6623-6d05-4972-af9b-38abd880bd1f"
+        ],
+        "id": "0f802345-c153-4412-97e7-b8232adcca6c",
+        "align": null,
+        "justify": "center"
+    },
+    "59bb8071-7cec-454f-809d-e635047f583a": {
+        "parentId": "6a24fe94-e80f-4723-b08b-a909dfa06961",
+        "componentName": "BaseContainer",
+        "slots": [
+            "0f802345-c153-4412-97e7-b8232adcca6c"
+        ],
+        "id": "59bb8071-7cec-454f-809d-e635047f583a",
+        "fillHeight": true,
+        "fluid": false
+    },
+    "6a24fe94-e80f-4723-b08b-a909dfa06961": {
+        "parentId": "app",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "to bottom, #00000046, #000000DA",
+        "slots": [
+            "59bb8071-7cec-454f-809d-e635047f583a"
+        ],
+        "id": "6a24fe94-e80f-4723-b08b-a909dfa06961",
+        "height": null,
+        "src": "/assets/office_bg.jpg",
+        "mobileHeight": "100vh",
+        "paddingTop": "100",
+        "paddingBottom": "100",
+        "paddingRight": "20",
+        "paddingLeft": "20",
+        "hidden": false
+    },
+    "3c0910b4-c6fa-4d6a-9bee-d138cf9d4a3e": {
+        "parentId": "11427871-e273-4fbf-8255-fffa68bed464",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "GITHUB STARS",
+        "size": "text-h6",
+        "slots": [],
+        "id": "3c0910b4-c6fa-4d6a-9bee-d138cf9d4a3e",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "33267008-1b84-46f5-8912-9deb8a7712e2": {
+        "parentId": "5c00e60a-d6ed-4e09-a954-0808a87c8532",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "5m",
+        "size": "text-h2",
+        "slots": [],
+        "id": "33267008-1b84-46f5-8912-9deb8a7712e2",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center",
+        "mobileSize": "text-h4"
+    },
+    "1645f66d-3988-491a-a1ff-f7ac8c3179c6": {
+        "parentId": "5c00e60a-d6ed-4e09-a954-0808a87c8532",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "TOTAL DOWNLOADS",
+        "size": "text-h6",
+        "slots": [],
+        "id": "1645f66d-3988-491a-a1ff-f7ac8c3179c6",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "5c00e60a-d6ed-4e09-a954-0808a87c8532": {
+        "parentId": "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b",
+        "componentName": "BaseCol",
+        "slots": [
+            "33267008-1b84-46f5-8912-9deb8a7712e2",
+            "1645f66d-3988-491a-a1ff-f7ac8c3179c6"
+        ],
+        "id": "5c00e60a-d6ed-4e09-a954-0808a87c8532",
+        "cols": "12",
+        "xl": null,
+        "md": "3",
+        "sm": "6"
+    },
+    "2bff4982-c8bc-4cbe-979e-a14785b1ef01": {
+        "parentId": "201a454e-b3b0-4208-bcf9-6909d33325f1",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "GITHUB STARS",
+        "size": "text-h6",
+        "slots": [],
+        "id": "2bff4982-c8bc-4cbe-979e-a14785b1ef01",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "ebd8dc85-a0df-4380-8c45-a9be6bcc89ec": {
+        "parentId": "6da4ec77-244d-469b-a564-33d65cf5db98",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "GITHUB STARS",
+        "size": "text-h6",
+        "slots": [],
+        "id": "ebd8dc85-a0df-4380-8c45-a9be6bcc89ec",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "b89ec594-427b-4a1d-be53-790c761b5397": {
+        "parentId": "b7bc23bb-587d-47d3-9833-488fbbde7423",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "24k",
+        "size": "text-h2",
+        "slots": [],
+        "id": "b89ec594-427b-4a1d-be53-790c761b5397",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center",
+        "mobileSize": "text-h2"
+    },
+    "f7b1b59e-6a82-49d0-b591-759203793f40": {
+        "parentId": "b7bc23bb-587d-47d3-9833-488fbbde7423",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "GITHUB STARS",
+        "size": "text-h6",
+        "slots": [],
+        "id": "f7b1b59e-6a82-49d0-b591-759203793f40",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "b7bc23bb-587d-47d3-9833-488fbbde7423": {
+        "parentId": "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b",
+        "componentName": "BaseCol",
+        "slots": [
+            "b89ec594-427b-4a1d-be53-790c761b5397",
+            "f7b1b59e-6a82-49d0-b591-759203793f40"
+        ],
+        "id": "b7bc23bb-587d-47d3-9833-488fbbde7423",
+        "cols": "12",
+        "xl": null,
+        "md": "3",
+        "sm": "6"
+    },
+    "29328667-4ed9-45ef-9781-831f181dc81f": {
+        "parentId": "8f3ac4db-7cef-4528-9c15-2587bb3d1b53",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "330+",
+        "size": "text-h2",
+        "slots": [],
+        "id": "29328667-4ed9-45ef-9781-831f181dc81f",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center",
+        "mobileSize": "text-h2"
+    },
+    "5db04c7a-1738-4d52-b36d-4557145e0be2": {
+        "parentId": "8f3ac4db-7cef-4528-9c15-2587bb3d1b53",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "RELEASES",
+        "size": "text-h6",
+        "slots": [],
+        "id": "5db04c7a-1738-4d52-b36d-4557145e0be2",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "8f3ac4db-7cef-4528-9c15-2587bb3d1b53": {
+        "parentId": "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b",
+        "componentName": "BaseCol",
+        "slots": [
+            "29328667-4ed9-45ef-9781-831f181dc81f",
+            "5db04c7a-1738-4d52-b36d-4557145e0be2"
+        ],
+        "id": "8f3ac4db-7cef-4528-9c15-2587bb3d1b53",
+        "cols": "12",
+        "xl": null,
+        "md": "3",
+        "sm": "6"
+    },
+    "2418eb6e-b6fb-4918-b416-72e13dabd43c": {
+        "parentId": "8775e248-b593-45b7-be57-453de9edbd06",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "1m",
+        "size": "text-h2",
+        "slots": [],
+        "id": "2418eb6e-b6fb-4918-b416-72e13dabd43c",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center",
+        "mobileSize": "text-h2"
+    },
+    "bc8f0060-5dda-435d-bed4-4bc1f6b415cc": {
+        "parentId": "8775e248-b593-45b7-be57-453de9edbd06",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "DOWNLOADS/MO",
+        "size": "text-h6",
+        "slots": [],
+        "id": "bc8f0060-5dda-435d-bed4-4bc1f6b415cc",
+        "color": "#FFFFFF",
+        "weight": "black",
+        "align": "center"
+    },
+    "8775e248-b593-45b7-be57-453de9edbd06": {
+        "parentId": "dd79c6ad-ffb1-4868-97e1-8a65d0ff1c5b",
+        "componentName": "BaseCol",
+        "slots": [
+            "2418eb6e-b6fb-4918-b416-72e13dabd43c",
+            "bc8f0060-5dda-435d-bed4-4bc1f6b415cc"
+        ],
+        "id": "8775e248-b593-45b7-be57-453de9edbd06",
+        "cols": "12",
+        "xl": null,
+        "md": "3",
+        "sm": "6"
+    },
+    "5f6839b3-431c-4555-a4f7-ed1ce3887942": {
+        "parentId": "4d4ea8a4-1389-486d-a8fe-532fbb78ca0d",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "VUETIFY FEATURES",
+        "size": "text-h3",
+        "slots": [],
+        "id": "5f6839b3-431c-4555-a4f7-ed1ce3887942",
+        "align": "center",
+        "weight": "bold",
+        "marginTop": null,
+        "marginBottom": "50",
+        "mobileSize": "text-h3"
+    },
+    "562b3e37-2c70-43a7-8bbf-95dd580b71e2": {
+        "parentId": "25a8c5f9-7dd6-4ee0-9061-c69fd319f116",
+        "componentName": "BaseAvatarCard",
+        "title": "VIBRANT COMMUNITY",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam",
+        "slots": [],
+        "id": "562b3e37-2c70-43a7-8bbf-95dd580b71e2",
+        "horizontal": false,
+        "align": "center",
+        "icon": "mdi-account-supervisor",
+        "color": "#42A5F6",
+        "outlined": false,
+        "iconDark": true,
+        "paddingRight": "50",
+        "paddingLeft": "50"
+    },
+    "25a8c5f9-7dd6-4ee0-9061-c69fd319f116": {
+        "parentId": "30d8a2c8-182e-4e17-ab3f-46098d01c96c",
+        "componentName": "BaseSection",
+        "slots": [
+            "562b3e37-2c70-43a7-8bbf-95dd580b71e2"
+        ],
+        "id": "25a8c5f9-7dd6-4ee0-9061-c69fd319f116",
+        "paddingTop": "40",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "height": ""
+    },
+    "30d8a2c8-182e-4e17-ab3f-46098d01c96c": {
+        "parentId": "daf96396-6a87-4182-8780-a7313eaf4d01",
+        "componentName": "BaseCol",
+        "slots": [
+            "25a8c5f9-7dd6-4ee0-9061-c69fd319f116"
+        ],
+        "id": "30d8a2c8-182e-4e17-ab3f-46098d01c96c",
+        "cols": "12",
+        "md": null,
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": "4"
+    },
+    "daf96396-6a87-4182-8780-a7313eaf4d01": {
+        "parentId": "09eb6f40-3cb4-4c02-8ece-bf8828e17975",
+        "componentName": "BaseRow",
+        "slots": [
+            "c675c087-0f83-47d4-8bfc-f12c9e1265b1",
+            "d23a2b93-0dd2-41f2-a360-2c8ea1f5fe2e",
+            "30d8a2c8-182e-4e17-ab3f-46098d01c96c"
+        ],
+        "id": "daf96396-6a87-4182-8780-a7313eaf4d01",
+        "align": "center"
+    },
+    "09eb6f40-3cb4-4c02-8ece-bf8828e17975": {
+        "parentId": "4d4ea8a4-1389-486d-a8fe-532fbb78ca0d",
+        "componentName": "BaseContainer",
+        "slots": [
+            "daf96396-6a87-4182-8780-a7313eaf4d01"
+        ],
+        "id": "09eb6f40-3cb4-4c02-8ece-bf8828e17975",
+        "hidden": false
+    },
+    "4d4ea8a4-1389-486d-a8fe-532fbb78ca0d": {
+        "parentId": "app",
+        "componentName": "BaseSection",
+        "slots": [
+            "5f6839b3-431c-4555-a4f7-ed1ce3887942",
+            "09eb6f40-3cb4-4c02-8ece-bf8828e17975"
+        ],
+        "id": "4d4ea8a4-1389-486d-a8fe-532fbb78ca0d",
+        "paddingTop": "100",
+        "paddingBottom": "100",
+        "color": "#F0F0F0FF"
+    },
+    "c8d3cbf4-9e8d-4f82-b66b-0d0916ef1d69": {
+        "parentId": "b3c2ca50-0538-4e98-894d-1d98553ccd9b",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "MOBILE FIRST & RESPONSIVE",
+        "size": "text-h5",
+        "slots": [],
+        "id": "c8d3cbf4-9e8d-4f82-b66b-0d0916ef1d69",
+        "weight": "bold",
+        "align": "left",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null,
+        "color": null
+    },
+    "78047950-1b36-4f89-abfd-9cd62023803b": {
+        "parentId": "b3c2ca50-0538-4e98-894d-1d98553ccd9b",
+        "componentName": "BaseBtn",
+        "text": "Continue Reading",
+        "slots": [],
+        "id": "78047950-1b36-4f89-abfd-9cd62023803b",
+        "textOnly": true,
+        "color": null,
+        "paddingRight": "0",
+        "paddingLeft": "0"
+    },
+    "c459f207-440e-470e-a749-4dfa5a91abfc": {
+        "parentId": "bb3a8973-f270-4f73-a19a-59572be221bf",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "c459f207-440e-470e-a749-4dfa5a91abfc",
+        "src": "/assets/office_bg.jpg",
+        "maxWidth": ""
+    },
+    "b74c6b37-f64e-4c20-9e3e-b5e8d13e98b8": {
+        "parentId": "bb3a8973-f270-4f73-a19a-59572be221bf",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "MOBILE FIRST & RESPONSIVE",
+        "size": "text-h5",
+        "slots": [],
+        "id": "b74c6b37-f64e-4c20-9e3e-b5e8d13e98b8",
+        "weight": "bold",
+        "align": "left",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null,
+        "color": null
+    },
+    "b6a91979-1615-4189-bbfc-eb87ca47711c": {
+        "parentId": "bb3a8973-f270-4f73-a19a-59572be221bf",
+        "componentName": "BaseBody",
+        "text": "Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.",
+        "slots": [],
+        "id": "b6a91979-1615-4189-bbfc-eb87ca47711c",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null
+    },
+    "6885549e-1bcf-42f4-a79c-e6c83ceb2a4e": {
+        "parentId": "bb3a8973-f270-4f73-a19a-59572be221bf",
+        "componentName": "BaseBtn",
+        "text": "Continue Reading",
+        "slots": [],
+        "id": "6885549e-1bcf-42f4-a79c-e6c83ceb2a4e",
+        "textOnly": true,
+        "color": null,
+        "paddingRight": "0",
+        "paddingLeft": "0"
+    },
+    "bb3a8973-f270-4f73-a19a-59572be221bf": {
+        "parentId": "a6910813-33fe-46a6-9a0d-ef79514e7a53",
+        "componentName": "BaseSection",
+        "slots": [
+            "c459f207-440e-470e-a749-4dfa5a91abfc",
+            "b74c6b37-f64e-4c20-9e3e-b5e8d13e98b8",
+            "b6a91979-1615-4189-bbfc-eb87ca47711c",
+            "6885549e-1bcf-42f4-a79c-e6c83ceb2a4e"
+        ],
+        "id": "bb3a8973-f270-4f73-a19a-59572be221bf",
+        "maxWidth": "500",
+        "paddingRight": null,
+        "paddingLeft": null,
+        "color": "#FF000000"
+    },
+    "a6910813-33fe-46a6-9a0d-ef79514e7a53": {
+        "parentId": "693577f6-7542-4203-95c5-abf7beb5c502",
+        "componentName": "BaseCol",
+        "slots": [
+            "bb3a8973-f270-4f73-a19a-59572be221bf"
+        ],
+        "id": "a6910813-33fe-46a6-9a0d-ef79514e7a53",
+        "cols": "12",
+        "md": "4",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": null
+    },
+    "dc175d82-1f0c-401f-bb84-59cb7e2a4757": {
+        "parentId": "4bc0150a-8f54-4454-b49f-a51805724288",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "MOBILE FIRST & RESPONSIVE",
+        "size": "text-h5",
+        "slots": [],
+        "id": "dc175d82-1f0c-401f-bb84-59cb7e2a4757",
+        "weight": "bold",
+        "align": "left",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null,
+        "color": null
+    },
+    "1aa3ffd3-dff1-4278-b255-4a7e8f6fa9aa": {
+        "parentId": "4bc0150a-8f54-4454-b49f-a51805724288",
+        "componentName": "BaseBtn",
+        "text": "Continue Reading",
+        "slots": [],
+        "id": "1aa3ffd3-dff1-4278-b255-4a7e8f6fa9aa",
+        "textOnly": true,
+        "color": null,
+        "paddingRight": "0",
+        "paddingLeft": "0"
+    },
+    "99a3b7e2-c1df-4c92-900a-175b857a970a": {
+        "parentId": "6137fc52-b503-47f3-8cf0-f33a831512aa",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "99a3b7e2-c1df-4c92-900a-175b857a970a",
+        "src": "/assets/office_bg.jpg",
+        "maxWidth": ""
+    },
+    "bde9c7c2-65ea-4b53-8f43-67acb9e291c7": {
+        "parentId": "6137fc52-b503-47f3-8cf0-f33a831512aa",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "MOBILE FIRST & RESPONSIVE",
+        "size": "text-h5",
+        "slots": [],
+        "id": "bde9c7c2-65ea-4b53-8f43-67acb9e291c7",
+        "weight": "bold",
+        "align": "left",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null,
+        "color": null
+    },
+    "a719dde6-8b70-4beb-9580-858841a08206": {
+        "parentId": "6137fc52-b503-47f3-8cf0-f33a831512aa",
+        "componentName": "BaseBody",
+        "text": "Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.",
+        "slots": [],
+        "id": "a719dde6-8b70-4beb-9580-858841a08206",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null
+    },
+    "48ef9301-d9ed-4dd4-b9a9-101ccfb909a1": {
+        "parentId": "6137fc52-b503-47f3-8cf0-f33a831512aa",
+        "componentName": "BaseBtn",
+        "text": "Continue Reading",
+        "slots": [],
+        "id": "48ef9301-d9ed-4dd4-b9a9-101ccfb909a1",
+        "textOnly": true,
+        "color": null,
+        "paddingRight": "0",
+        "paddingLeft": "0"
+    },
+    "6137fc52-b503-47f3-8cf0-f33a831512aa": {
+        "parentId": "9b8ca548-7f22-48e7-9bd7-538bd446341a",
+        "componentName": "BaseSection",
+        "slots": [
+            "99a3b7e2-c1df-4c92-900a-175b857a970a",
+            "bde9c7c2-65ea-4b53-8f43-67acb9e291c7",
+            "a719dde6-8b70-4beb-9580-858841a08206",
+            "48ef9301-d9ed-4dd4-b9a9-101ccfb909a1"
+        ],
+        "id": "6137fc52-b503-47f3-8cf0-f33a831512aa",
+        "maxWidth": "500",
+        "paddingRight": null,
+        "paddingLeft": null,
+        "color": "#FF000000"
+    },
+    "9b8ca548-7f22-48e7-9bd7-538bd446341a": {
+        "parentId": "693577f6-7542-4203-95c5-abf7beb5c502",
+        "componentName": "BaseCol",
+        "slots": [
+            "6137fc52-b503-47f3-8cf0-f33a831512aa"
+        ],
+        "id": "9b8ca548-7f22-48e7-9bd7-538bd446341a",
+        "cols": "12",
+        "md": "4",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": null
+    },
+    "76d42b12-faa9-4f4d-a207-314bbda2b8e3": {
+        "parentId": "39476137-8d9a-4227-90e9-09b74d6dc339",
+        "componentName": "BaseVuetifyImage",
+        "gradient": "",
+        "slots": [],
+        "id": "76d42b12-faa9-4f4d-a207-314bbda2b8e3",
+        "src": "/assets/office_bg.jpg",
+        "maxWidth": ""
+    },
+    "6e0700a9-f54d-4544-bc68-072089064497": {
+        "parentId": "39476137-8d9a-4227-90e9-09b74d6dc339",
+        "componentName": "BaseHeading",
+        "tag": "h2",
+        "title": "MOBILE FIRST & RESPONSIVE",
+        "size": "text-h5",
+        "slots": [],
+        "id": "6e0700a9-f54d-4544-bc68-072089064497",
+        "weight": "bold",
+        "align": "left",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null,
+        "color": null
+    },
+    "dbea9bcc-0dad-402a-8a1c-e4cbbea1f257": {
+        "parentId": "39476137-8d9a-4227-90e9-09b74d6dc339",
+        "componentName": "BaseBody",
+        "text": "Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor, quis porta tellus dictum.",
+        "slots": [],
+        "id": "dbea9bcc-0dad-402a-8a1c-e4cbbea1f257",
+        "paddingTop": "10",
+        "paddingRight": null,
+        "paddingBottom": "10",
+        "paddingLeft": null
+    },
+    "c320e4dc-955d-4a7e-808c-971a322102cd": {
+        "parentId": "39476137-8d9a-4227-90e9-09b74d6dc339",
+        "componentName": "BaseBtn",
+        "text": "Continue Reading",
+        "slots": [],
+        "id": "c320e4dc-955d-4a7e-808c-971a322102cd",
+        "textOnly": true,
+        "color": null,
+        "paddingRight": "0",
+        "paddingLeft": "0"
+    },
+    "39476137-8d9a-4227-90e9-09b74d6dc339": {
+        "parentId": "666b370e-b3cb-4c54-8afc-21bee6878f73",
+        "componentName": "BaseSection",
+        "slots": [
+            "76d42b12-faa9-4f4d-a207-314bbda2b8e3",
+            "6e0700a9-f54d-4544-bc68-072089064497",
+            "dbea9bcc-0dad-402a-8a1c-e4cbbea1f257",
+            "c320e4dc-955d-4a7e-808c-971a322102cd"
+        ],
+        "id": "39476137-8d9a-4227-90e9-09b74d6dc339",
+        "maxWidth": "500",
+        "paddingRight": null,
+        "paddingLeft": null,
+        "color": "#FF000000"
+    },
+    "666b370e-b3cb-4c54-8afc-21bee6878f73": {
+        "parentId": "693577f6-7542-4203-95c5-abf7beb5c502",
+        "componentName": "BaseCol",
+        "slots": [
+            "39476137-8d9a-4227-90e9-09b74d6dc339"
+        ],
+        "id": "666b370e-b3cb-4c54-8afc-21bee6878f73",
+        "cols": "12",
+        "md": "4",
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": null
+    },
+    "5310160b-8ab2-4051-a11d-3422bd4e652a": {
+        "parentId": "40a4b4d0-5c71-4076-ae57-cb3b44aa1a59",
+        "componentName": "BaseAvatar",
+        "slots": [],
+        "id": "5310160b-8ab2-4051-a11d-3422bd4e652a",
+        "color": "#E8EAF6",
+        "src": "/assets/pagesandbox_logo.png",
+        "size": "200",
+        "outlined": true,
+        "marginTop": "",
+        "paddingTop": ""
+    },
+    "5a5e66ed-ab43-4969-bd17-b4207ece4eb0": {
+        "parentId": "7b5affcc-a13b-4ce6-8bc4-d692763caf59",
+        "componentName": "BaseAvatarCard",
+        "title": "VIBRANT COMMUNITY",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam",
+        "slots": [],
+        "id": "5a5e66ed-ab43-4969-bd17-b4207ece4eb0",
+        "horizontal": false,
+        "align": "center",
+        "icon": "mdi-account-supervisor",
+        "color": "#42A5F6",
+        "outlined": false,
+        "iconDark": true,
+        "paddingRight": "50",
+        "paddingLeft": "50"
+    },
+    "7b5affcc-a13b-4ce6-8bc4-d692763caf59": {
+        "parentId": "c675c087-0f83-47d4-8bfc-f12c9e1265b1",
+        "componentName": "BaseSection",
+        "slots": [
+            "5a5e66ed-ab43-4969-bd17-b4207ece4eb0"
+        ],
+        "id": "7b5affcc-a13b-4ce6-8bc4-d692763caf59",
+        "paddingTop": "40",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "height": ""
+    },
+    "c675c087-0f83-47d4-8bfc-f12c9e1265b1": {
+        "parentId": "daf96396-6a87-4182-8780-a7313eaf4d01",
+        "componentName": "BaseCol",
+        "slots": [
+            "7b5affcc-a13b-4ce6-8bc4-d692763caf59"
+        ],
+        "id": "c675c087-0f83-47d4-8bfc-f12c9e1265b1",
+        "cols": "12",
+        "md": null,
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": "4"
+    },
+    "fc66d0f4-3906-4c37-b3c5-d6e1e5a0c7cb": {
+        "parentId": "0394603f-b3af-4b6f-a761-4e01ecd71c31",
+        "componentName": "BaseAvatarCard",
+        "title": "VIBRANT COMMUNITY",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam",
+        "slots": [],
+        "id": "fc66d0f4-3906-4c37-b3c5-d6e1e5a0c7cb",
+        "horizontal": false,
+        "align": "center",
+        "icon": "mdi-account-supervisor",
+        "color": "#42A5F6",
+        "outlined": false,
+        "iconDark": true,
+        "paddingRight": "50",
+        "paddingLeft": "50"
+    },
+    "0394603f-b3af-4b6f-a761-4e01ecd71c31": {
+        "parentId": "d23a2b93-0dd2-41f2-a360-2c8ea1f5fe2e",
+        "componentName": "BaseSection",
+        "slots": [
+            "fc66d0f4-3906-4c37-b3c5-d6e1e5a0c7cb"
+        ],
+        "id": "0394603f-b3af-4b6f-a761-4e01ecd71c31",
+        "paddingTop": "40",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "height": ""
+    },
+    "d23a2b93-0dd2-41f2-a360-2c8ea1f5fe2e": {
+        "parentId": "daf96396-6a87-4182-8780-a7313eaf4d01",
+        "componentName": "BaseCol",
+        "slots": [
+            "0394603f-b3af-4b6f-a761-4e01ecd71c31"
+        ],
+        "id": "d23a2b93-0dd2-41f2-a360-2c8ea1f5fe2e",
+        "cols": "12",
+        "md": null,
+        "paddingTop": "20",
+        "paddingRight": "20",
+        "paddingBottom": "20",
+        "paddingLeft": "20",
+        "lg": "4"
     }
 }

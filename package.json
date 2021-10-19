@@ -20,8 +20,8 @@
     "fs-extra": "^9.1.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
-    "pagesandbox-builder": "^0.0.44",
-    "pagesandbox-template": "^0.0.35",
+    "pagesandbox-builder": "^0.0.45",
+    "pagesandbox-template": "^0.0.36",
     "uuid": "^8.3.2",
     "yargs": "^17.0.1"
   }
